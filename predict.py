@@ -2,40 +2,18 @@ import logging
 import time
 
 import torch
-from scipy.stats import pearsonr, spearmanr
 from torch import from_numpy
 import pandas as pd
 
 from models.encoders import SbertEncoderClient, LaserEncoderClient, CombinedEncoderClient
 
 from models.classifier import MultilingualSTS
-from models.model_utils import load_model_state
+from models.eval import pearson_corr, spearman_corr
+from models.model_utils import load_model_state, hparamset
 
 glog = logging.getLogger(__name__)
 
 if __name__ == '__main__':
-    def pearson_corr(preds, labels):
-        return pearsonr(preds, labels)[0]
-
-    def spearman_corr(preds, labels):
-        return spearmanr(preds, labels)[0]
-
-    class hparamset():
-        def __init__(self):
-            self.batchsize = 32
-            self.balance_data = False
-            self.output_size = None
-            self.activation = 'relu'
-            self.hidden_layer_size = 512
-            self.num_hidden_layers = 1
-            self.batch_size = 32
-            self.dropout = 0.70
-            self.optimizer = 'sgd'
-            self.learning_rate = 0.7
-            self.lr_decay_pow = 1
-            self.epochs = 10
-            self.eval_each_epoch = True
-
     sbert_model = 'distiluse-base-multilingual-cased'
     sbert_model2 = 'xlm-r-100langs-bert-base-nli-stsb-mean-tokens'
     sbert_model3 = 'distilbert-multilingual-nli-stsb-quora-ranking'
@@ -44,7 +22,6 @@ if __name__ == '__main__':
     sbert_encoder3 = SbertEncoderClient(sbert_model3)
     laser_encoder = LaserEncoderClient()
     encoder_client = CombinedEncoderClient([laser_encoder, sbert_encoder, sbert_encoder2, sbert_encoder3])
-    # encoder_client = CombinedEncoderClient([laser_encoder])
 
     train_df = pd.read_csv('sample-data/STS-B/train.tsv', sep='\t', error_bad_lines=False)
     eval_df = pd.read_csv('sample-data/STS-B/dev.tsv', sep='\t', error_bad_lines=False)
@@ -74,6 +51,7 @@ if __name__ == '__main__':
     text_enc_b = encoder_client.encode_sentences(text_b)
     hparams = hparamset()
     hparams.input_size = text_enc_b.shape[1]
+
     model = MultilingualSTS(hparams)
     load_model_state("model.pt", model)
 
