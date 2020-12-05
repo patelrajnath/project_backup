@@ -1,0 +1,16 @@
+numpy
+flask
+flask_restful
+pandas
+tensorflow
+tqdm
+sklearn
+laserembeddings
+sentence_transformers
+wandb
+
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.0+cpu
+torchvision==0.8.1+cpu
+torchaudio===0.7.0
+# !python -m laserembeddings download-models
