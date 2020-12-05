@@ -78,7 +78,7 @@ class hparamset():
         self.learning_rate = 0.7
         self.lr_decay_pow = 1
         self.epochs = 100
-        self.seed = 0
+        self.seed = 999
         self.max_steps = 5000
         self.patience = 500
         self.eval_each_epoch = True
