@@ -185,9 +185,7 @@ if __name__ == '__main__':
 
             if updates % hparams.max_steps == 0:
                 break
-
-        # save_state("model-sts-wallet.pt", model, criterion, optimizer, num_updates=updates)
-
+        save_state("model-sts-wallet.pt", model, criterion, optimizer, num_updates=updates)
         with torch.no_grad():
             model.eval()
             test_a_tensor = from_numpy(text_enc_a).to(device)

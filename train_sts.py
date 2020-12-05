@@ -2,8 +2,6 @@ import logging
 import time
 
 import torch
-import wandb
-from scipy.stats import pearsonr, spearmanr
 from torch import nn, from_numpy
 import pandas as pd
 

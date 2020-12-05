@@ -1,7 +1,6 @@
 import logging
 
 import torch
-import wandb
 from sklearn.metrics import accuracy_score
 from torch import nn, from_numpy
 import pandas as pd
@@ -114,3 +113,4 @@ if __name__ == '__main__':
                 break
 
         save_state("model_classifier.pt", model, criterion, optimizer, num_updates=updates)
+    train_model()

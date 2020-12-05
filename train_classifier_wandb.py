@@ -151,8 +151,7 @@ if __name__ == '__main__':
 
             if updates % max_steps == 0:
                 break
-
-        # save_state("model_classifier.pt", model, criterion, optimizer, num_updates=updates)
+        save_state("model_classifier.pt", model, criterion, optimizer, num_updates=updates)
 
     # WandB Configurations (optional)
     sweep_config = {
