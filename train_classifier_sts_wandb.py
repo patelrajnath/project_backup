@@ -85,6 +85,33 @@ if __name__ == '__main__':
     hparams.input_size = text_a_encoded.shape[1]
 
     def train_model():
+        # Initialize WandB
+        wandb.init()
+        print('This wandb config', wandb.config)
+        print("HyperParam lr=>>{}".format(wandb.config.learning_rate))
+        print("HyperParam dropouts=>>{}".format(wandb.config.dropouts))
+        print("HyperParam batch size=>>{}".format(wandb.config.batch_size))
+        print("HyperParam num hidden layers=>>{}".format(wandb.config.num_hidden_layers))
+        print("HyperParam hidden_layer_size=>>{}".format(wandb.config.hidden_layer_size))
+
+        # update dropout
+        hparams.learning_rate = wandb.config.learning_rate
+
+        # update dropout
+        hparams.dropout = wandb.config.dropouts
+
+        # Update batch-size
+        hparams.batch_size = wandb.config.batch_size
+
+        # update num_hidden_layers
+        hparams.num_hidden_layers = wandb.config.num_hidden_layers
+
+        # update num_hidden_size
+        hparams.hidden_layer_size = wandb.config.hidden_layer_size
+
+        # update num_hidden_size
+        hparams.seed = wandb.config.seed
+
         set_seed(hparams.seed)
 
         start_time = time.time()
@@ -96,6 +123,9 @@ if __name__ == '__main__':
 
         model = MultilingualSTS(hparams)
         model = model.to(device)
+
+        wandb.watch(model)
+
         # scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, factor=0.5)
         # optimizer = NoamOpt(hparams.input_size, 1, 200,
         #                     torch.optim.Adam(model.parameters(), betas=(0.9, 0.98), eps=1e-9))
@@ -136,6 +166,18 @@ if __name__ == '__main__':
                     valid_acc_spearman = spearman_corr(test_predict.cpu().data, score_tensor.cpu().data)
                     print("Valid Accuracy:{0}, {1}".format(valid_acc_pearson, valid_acc_spearman))
 
+                # Log the loss and accuracy values at the end of each epoch
+                wandb.log({
+                    "Updates": updates,
+                    "Train Loss": total_loss,
+                    "valid_acc_pearson": valid_acc_pearson,
+                    "valid_acc_spearman": valid_acc_spearman,
+                    "lr": wandb.config.learning_rate,
+                    "batch_size": wandb.config.batch_size,
+                    "dropouts": wandb.config.dropouts,
+                    "num_hidden_layers": wandb.config.num_hidden_layers,
+                    "hidden_layer_size": wandb.config.hidden_layer_size
+                })
                 # Reset the loss accumulation
                 total_loss = 0
                 # Change the model to training mode
@@ -143,7 +185,9 @@ if __name__ == '__main__':
 
             if updates % hparams.max_steps == 0:
                 break
-        save_state("model-sts-wallet.pt", model, criterion, optimizer, num_updates=updates)
+
+        # save_state("model-sts-wallet.pt", model, criterion, optimizer, num_updates=updates)
+
         with torch.no_grad():
             model.eval()
             test_a_tensor = from_numpy(text_enc_a).to(device)
@@ -153,4 +197,37 @@ if __name__ == '__main__':
             print(pearson_corr(test_predict.cpu().data, score_tensor.cpu().data))
             print(spearman_corr(test_predict.cpu().data, score_tensor.cpu().data))
         print('Training time:{}'.format(time.time() - start_time))
-    train_model()
+
+    # WandB Configurations (optional)
+    sweep_config = {
+        'method': 'random',  # grid, random
+        'metric': {
+            'name': 'valid_acc_pearson',
+            'goal': 'maximize'
+        },
+        'parameters': {
+            'learning_rate': {
+                'values': [0.7, 0.8, 0.9, 0.95]
+            },
+            'dropouts': {
+                'values': [0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1]
+            },
+            'batch_size': {
+                'values': [64, 32, 16, 8]
+            },
+            'num_hidden_layers': {
+                'values': [1, 2]
+            },
+            'hidden_layer_size': {
+                'values': [128, 256, 512, 1024]
+            },
+            'seed': {
+                'values': [i for i in range(0, 10)]
+            },
+        }
+    }
+
+    sweep_id = wandb.sweep(sweep_config, project="multilingual_sts_adam_with_seed-test")
+    # Call the wandb agent
+    wandb.agent(sweep_id, function=lambda: train_model())
+    # train_model()

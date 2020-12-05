@@ -61,6 +61,30 @@ if __name__ == '__main__':
         x: 1. / len(categories) for x in range(len(categories))}
 
     def train_model():
+        # Initialize WandB
+        wandb.init()
+        print('This wandb config', wandb.config)
+        print("HyperParam lr=>>{}".format(wandb.config.learning_rate))
+        print("HyperParam dropouts=>>{}".format(wandb.config.dropouts))
+        print("HyperParam batch size=>>{}".format(wandb.config.batch_size))
+        print("HyperParam num hidden layers=>>{}".format(wandb.config.num_hidden_layers))
+        print("HyperParam hidden_layer_size=>>{}".format(wandb.config.hidden_layer_size))
+
+        # update dropout
+        hparams.learning_rate = wandb.config.learning_rate
+
+        # update dropout
+        hparams.dropout = wandb.config.dropouts
+
+        # Update batch-size
+        hparams.batch_size = wandb.config.batch_size
+
+        # update num_hidden_layers
+        hparams.num_hidden_layers = wandb.config.num_hidden_layers
+
+        # update num_hidden_size
+        hparams.hidden_layer_size = wandb.config.hidden_layer_size
+
         # Set seed
         set_seed(hparams.seed)
 
@@ -72,6 +96,9 @@ if __name__ == '__main__':
 
         model = MultilingualClassifier(hparams, len(categories))
         model = model.to(device)
+
+        wandb.watch(model)
+
         # optimizer = torch.optim.SGD(model.parameters(), lr=hparams.learning_rate)
         # optimizer = NoamOpt(hparams.input_size, 1, 200,
         #                     torch.optim.Adam(model.parameters(), betas=(0.9, 0.98), eps=1e-9))
@@ -105,6 +132,18 @@ if __name__ == '__main__':
                     predictions = test_predictions.argmax(dim=1)
                     valid_acc = accuracy_score(predictions.cpu().data.numpy(), score_tensor)
                     print("Valid Accuracy:{}".format(valid_acc))
+
+                # Log the loss and accuracy values at the end of each epoch
+                wandb.log({
+                    "Updates": updates,
+                    "Train Loss": total_loss,
+                    "valid_acc": valid_acc,
+                    "lr": wandb.config.learning_rate,
+                    "batch_size": wandb.config.batch_size,
+                    "dropouts": wandb.config.dropouts,
+                    "num_hidden_layers": wandb.config.num_hidden_layers,
+                    "hidden_layer_size": wandb.config.hidden_layer_size
+                })
                 # Reset the loss accumulation
                 total_loss = 0
                 # Change the model to training mode
@@ -113,4 +152,34 @@ if __name__ == '__main__':
             if updates % max_steps == 0:
                 break
 
-        save_state("model_classifier.pt", model, criterion, optimizer, num_updates=updates)
+        # save_state("model_classifier.pt", model, criterion, optimizer, num_updates=updates)
+
+    # WandB Configurations (optional)
+    sweep_config = {
+        'method': 'random',  # grid, random
+        'metric': {
+            'name': 'valid_acc_pearson',
+            'goal': 'maximize'
+        },
+        'parameters': {
+            'learning_rate': {
+                'values': [0.7, 0.8, 0.9, 0.95]
+            },
+            'dropouts': {
+                'values': [0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1]
+            },
+            'batch_size': {
+                'values': [64, 32, 16, 8]
+            },
+            'num_hidden_layers': {
+                'values': [1, 2, 4]
+            },
+            'hidden_layer_size': {
+                'values': [128, 256, 512, 1024, 2048, 3072]
+            },
+        }
+    }
+
+    sweep_id = wandb.sweep(sweep_config, project="multilingual_classifier_adam")
+    # Call the wandb agent
+    wandb.agent(sweep_id, function= lambda: train_model())
