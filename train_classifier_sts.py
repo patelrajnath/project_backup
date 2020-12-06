@@ -32,6 +32,9 @@ if __name__ == '__main__':
     train_df = pd.read_csv('stack-exchange/train-stackexchange_with_sts_synthetic.csv')
     test_df = pd.read_csv('stack-exchange/test-stackexchange_with_sts_synthetic.csv')
 
+    train_df = train_df[['text', 'intent', 'scores']]
+    test_df = test_df[['text', 'intent', 'scores']]
+
     train_df = train_df.rename(columns={'text': 'text_a', 'intent': 'text_b',
                                         'scores': 'labels'}).dropna()
     test_df = test_df.rename(columns={'text': 'text_a', 'intent': 'text_b',

@@ -1,0 +1,1077 @@
+,answerid,scenario,intent,answer_annotation,answer_from_anno,text,sintent,labels
+0,16938.0,qa,currency,what is the most current exchange rate in [place_name : china],what is the most current exchange rate in china,What is the most current exchange rate in China,qa_currency,47
+1,24102.0,qa,currency,if i have five [currency_name : dollars] how many rupies is that,if i have five dollars how many rupies is that,if i have 500 [currency_source : dollars] how many rupies is that,qa_currency,47
+2,21326.0,qa,currency,how much is [currency_name : dollars] american worth in [currency_name : yen],how much is dollars american worth in yen,How much is $100 American worth in yen?,qa_currency,47
+3,19991.0,qa,currency,convert [currency_name : euros] to [currency_name : dollars],convert euros to dollars,Convert Euros to [currency_source : dollars],qa_currency,47
+4,19024.0,qa,currency,how much is ten [currency_name : dollars] in [currency_name : euros],how much is ten dollars in euros,how much is ten [currency_source : dollars] in euros,qa_currency,47
+5,15589.0,qa,currency,how much is [currency_name : b. p.] in [currency_name : u. s. d.],how much is b. p. in u. s. d.,How much is 1gbp in usd?,qa_currency,47
+6,17286.0,qa,currency,what's the value of the [currency_name : euro] relative to [currency_name : nzd],what's the value of the euro relative to nzd,"What's the value of the Euro, relative to NZD",qa_currency,47
+7,23312.0,qa,currency,exchange rate of [currency_name : euro] with [currency_name : dollar],exchange rate of euro with dollar,exchange rate of euro with dollar,qa_currency,47
+8,24641.0,qa,currency,how much money in [currency_name : us] would i need to have a thousand [currency_name : pesos],how much money in us would i need to have a thousand pesos,How much money in US would I need to have a thousand pesos?,qa_currency,47
+9,25132.0,qa,currency,[currency_name : u. s. d.] to [currency_name : g. b. p.],u. s. d. to g. b. p.,USD to GBP,qa_currency,47
+10,21292.0,qa,currency,i have ten [currency_name : us dollars] how many [currency_name : canadian dollars] do i have,i have ten us dollars how many canadian dollars do i have,I have ten U.S. [currency_source : dollars].  How many Canadian [currency_source : dollars] do I have.,qa_currency,47
+11,21798.0,qa,currency,how much is the [currency_name : us dollar] worth in [currency_name : canada],how much is the us dollar worth in canada,how much is the us dollar worth in canada?,qa_currency,47
+12,15703.0,qa,currency,what is the exchange rate between the [currency_name : us] and [currency_name : canada],what is the exchange rate between the us and canada,What is the exchange rate between the US and Canada?,qa_currency,47
+13,23273.0,qa,currency,how much [currency_name : indian rupees] per [currency_name : u. s. d.] [date : today],how much indian rupees per u. s. d. today,How much Indian Rupees per USD today?,qa_currency,47
+14,17768.0,qa,currency,how many [currency_name : g. b. p.] can i get for one [currency_name : dollar],how many g. b. p. can i get for one dollar,How many GBP can I get for one dollar?,qa_currency,47
+15,18948.0,qa,currency,give me the exchange rate for [currency_name : dollar] in [currency_name : euros],give me the exchange rate for dollar in euros,"PDA, give me the exchange rate for dollar in euros.",qa_currency,47
+16,26945.0,qa,currency,how much australian [currency_name : dollars] one can buy for one [currency_name : pound sterling],how much australian dollars one can buy for one pound sterling,how much australian [currency_source : dollars] one can buy for one pound sterling?,qa_currency,47
+17,23240.0,qa,currency,and the [currency_name : pound] is doing how badly against the [currency_name : euro],and the pound is doing how badly against the euro,And the pound is doing how badly against the Euro?,qa_currency,47
+18,17748.0,qa,currency,what is the exchange rate between money i'm [currency_name : the united states] and [currency_name : switzerland],what is the exchange rate between money i'm the united states and switzerland,What is the exchange rate between money I'm the united states and switzerland,qa_currency,47
+0,4200.0,calendar,set,set a reminder for [date : tomorrow] [timeofday : evening],set a reminder for tomorrow evening,Set a reminder for tomorrow evening,calendar_set,8
+1,25853.0,calendar,set,notify me when the event is going to take place,notify me when the event is going to take place,Notify me when the event is going to take place,calendar_set,8
+2,19247.0,calendar,set,add [person : jim] and [person : jerry] to event,add jim and jerry to event,Add ... and ... to event ....,calendar_set,8
+3,10508.0,calendar,set,make a repeating reminder for my [event_name : yoga practice] [general_frequency : every day] at [timeofday : noon],make a repeating reminder for my yoga practice every day at noon,Make a repeating reminder for my yoga practice every day at noon,calendar_set,8
+4,15927.0,calendar,set,i have a meeting with [person : sean] at [time : four pm] on [date : wednesday] can you remind me,i have a meeting with sean at four pm on wednesday can you remind me,"i have a meeting with Sean at 4PM on Wednesday, can you remind me?",calendar_set,8
+5,7310.0,calendar,set,create an event [event_name : gym] day on [date : monday] and set it to [general_frequency : repeat],create an event gym day on monday and set it to repeat,create an event 'gym day' on monday and set it to repeat,calendar_set,8
+6,19490.0,calendar,set,blot me all the [event_name : phone calls] planned for the [timeofday : morning] of [date : twenty three march],blot me all the phone calls planned for the morning of twenty three march,blot me all the phone calls planned for the morning of 23 March,calendar_set,8
+7,18391.0,calendar,set,can you remind me about my [event_name : meeting] [date : tomorrow],can you remind me about my meeting tomorrow,Can you remind me about my meeting tomorrow?,calendar_set,8
+8,7327.0,calendar,set,repeat reminder for my schedule for [event_name : christmas],repeat reminder for my schedule for christmas,Repeat Reminder for my schedule for Christmas,calendar_set,8
+9,1535.0,calendar,set,remind me to [event_name : call my grandma] this [date : Sunday],remind me to call my grandma this Sunday,Remind me to call my grandma this Sunday,calendar_set,8
+10,25436.0,calendar,set,[date : next week] my [event_name : uncle birthday],next week my uncle birthday,NEXT WEEK MY UNCLE BIRTHDAY,calendar_set,8
+11,10197.0,calendar,set,add [event_name : running] to my calendar for [date : thursday],add running to my calendar for thursday,Add running to my calendar for thursday.,calendar_set,8
+12,14116.0,calendar,set,i would like to [event_name : attend church] [date : every sunday] at [time : eleven am],i would like to attend church every sunday at eleven am,I would like to attend church every Sunday at 11am.,calendar_set,8
+13,3240.0,calendar,set,see if [person : john] is available for a [event_name : meeting] on [date : Monday],see if john is available for a meeting on Monday,See if... is available for a meeting on Monday.,calendar_set,8
+14,20020.0,calendar,set,remind me about the [event_name : meeting],remind me about the meeting,remind me about the meeting,calendar_set,8
+15,20632.0,calendar,set,set the alarm in my calendar events [time : before five mins],set the alarm in my calendar events before five mins,set the alarm in my calendar events before 5 mins,calendar_set,8
+16,6385.0,calendar,set,activate a one week notification before my [event_name : anniversary] please,activate a one week notification before my anniversary please,Activate a 1 week notification before my anniversary please.,calendar_set,8
+17,7438.0,calendar,set,could you please schedule a [event_name : meeting] with this person,could you please schedule a meeting with this person,Could you please schedule a meeting with this person,calendar_set,8
+18,19280.0,calendar,set,i have a [event_name : meeting] with [person : al] on [date : march twenty first] at [time : ten],i have a meeting with al on march twenty first at ten,I have a meeting with Al on March 21st at ten,calendar_set,8
+0,14648.0,takeaway,order,please call [business_name : china wok] and order [food_type : number seven],please call china wok and order number seven,Please call China Wok and order number 7.,takeaway_order,57
+1,3542.0,takeaway,order,place order to [food_type : pizza] takeout for [time : seven pm],place order to pizza takeout for seven pm,place order to pizza takeout for 7 p.m.,takeaway_order,57
+2,10129.0,takeaway,order,can i order out,can i order out,Can I order out?,takeaway_order,57
+3,13970.0,takeaway,order,order two large [food_type : pizzas and pieces of hot wings] from [business_name : dominoes],order two large pizzas and pieces of hot wings from dominoes,Order two large pizzas and 2p pieces of hot wings from dominoes.,takeaway_order,57
+4,12069.0,takeaway,order,order me a bowl from [business_name : chipotle] takeout,order me a bowl from chipotle takeout,order me a bowl from chipotle takeout,takeaway_order,57
+5,14429.0,takeaway,order,order a [food_type : pizza] for me,order a pizza for me,order a pizza for me,takeaway_order,57
+6,9764.0,takeaway,order,place order for a [food_type : chicken manchow soup] from [business_name : wangs kitchen] [business_type : restaurant],place order for a chicken manchow soup from wangs kitchen restaurant,Place order for a chicken manchow soup from Wangs Kitchen restaurant.,takeaway_order,57
+7,27018.0,takeaway,order,hey order a [food_type : pizza pie with extra cheese],hey order a pizza pie with extra cheese,"Hey Olly, order a pizza pie with extra cheese.",takeaway_order,57
+8,25869.0,takeaway,order,i want to order food,i want to order food,I want to order food,takeaway_order,57
+9,9957.0,takeaway,order,call for [order_type : takeout],call for takeout,Call for takeout,takeaway_order,57
+10,18037.0,takeaway,order,is there any good [food_type : chinese] [order_type : takeout] that's open late,is there any good chinese takeout that's open late,Is there any good Chinese takeout that's open late?,takeaway_order,57
+11,5834.0,takeaway,order,i would like to [order_type : pickup] a veggie sub with a cookie from subway,i would like to pickup a veggie sub with a cookie from subway,I would like to pickup a veggie sub with a cookie from Subway.,takeaway_order,57
+12,10620.0,takeaway,order,pull up the menu for the closest [food_type : mexican] [business_type : restaurant],pull up the menu for the closest mexican restaurant,Pull up the menu for the closest Mexican restaurant?,takeaway_order,57
+13,14408.0,takeaway,order,what [order_type : takeout] places are near me,what takeout places are near me,What takeout places are near me?,takeaway_order,57
+14,2952.0,takeaway,order,place order of one [food_type : pizza],place order of one pizza,Place order of one pizza.,takeaway_order,57
+15,9443.0,takeaway,order,find me the nearest [food_type : chinese] for [order_type : delivery],find me the nearest chinese for delivery,find me the nearest Chinese for delivery,takeaway_order,57
+16,1918.0,takeaway,order,order a [food_type : pizza] from [business_name : pizza express],order a pizza from pizza express,Order a pizza from Pizza Express,takeaway_order,57
+17,16860.0,takeaway,order,get me a [food_type : turkey jimmy johns sub] and set it to be delivered at [time : five pm] [timeofday : tonight],get me a turkey jimmy johns sub and set it to be delivered at five pm tonight,"get me a turkey jimmy johns sub, and set it to be delivered at 5pm tonight",takeaway_order,57
+18,6015.0,takeaway,order,order a [food_type : smoked meat platter] from [business_name : beanos],order a smoked meat platter from beanos,Order a smoked meat platter from Beanos,takeaway_order,57
+0,25968.0,alarm,query,tell me time of alarm you set,tell me time of alarm you set,Tell me time of alarm you set,alarm_query,0
+1,17726.0,alarm,query,list all of my alarms,list all of my alarms,<List all of my alarms>,alarm_query,0
+2,3602.0,alarm,query,alarm settings,alarm settings,Alarm settings,alarm_query,0
+3,3022.0,alarm,query,what alarms are set for [date : today],what alarms are set for today,what alarms are set for today,alarm_query,0
+4,23504.0,alarm,query,please see see for me the alarms that you have set [date : sunday] [timeofday : morning],please see see for me the alarms that you have set sunday morning,Please see see for me the alarms that you have set Sunday morning.,alarm_query,0
+5,23481.0,alarm,query,tell me when the next alarms are for,tell me when the next alarms are for,Tell me when the next alarms are for.,alarm_query,0
+6,18800.0,alarm,query,please tell me what alarms are on,please tell me what alarms are on,please tell me what alarms are on.,alarm_query,0
+7,18274.0,alarm,query,please list all my alarms,please list all my alarms,Please list all my alarms,alarm_query,0
+8,3568.0,alarm,query,what alarms are set right now,what alarms are set right now,What alarms are set right now?,alarm_query,0
+9,6493.0,alarm,query,check whether i have set any alarms for [date : tomorrow] [timeofday : morning],check whether i have set any alarms for tomorrow morning,Check whether I have set any alarms for tomorrow morning,alarm_query,0
+10,563.0,alarm,query,tell me about my alarms,tell me about my alarms,Tell me about my alarms,alarm_query,0
+11,6817.0,alarm,query,do i have any alarms set,do i have any alarms set,"Do I have any alarms set, Olly?",alarm_query,0
+12,15474.0,alarm,query,is there an alarm at [time : four am],is there an alarm at four am,is there an alarm at 4 am?,alarm_query,0
+13,6763.0,alarm,query,show me my alarms,show me my alarms,Show me my alarms,alarm_query,0
+14,15574.0,alarm,query,what alarm time had you set,what alarm time had you set,What alarm time had you set?,alarm_query,0
+15,2911.0,alarm,query,can you tell me what alarms i have set,can you tell me what alarms i have set,can you tell me what alarms i have set,alarm_query,0
+16,23036.0,alarm,query,please let me know the [timeofday : morning] alarm time kept for [time : weekends],please let me know the morning alarm time kept for weekends,Please let me know the morning alarm time kept for Weekends,alarm_query,0
+17,3386.0,alarm,query,what time is the alarm set for [date : tomorrow],what time is the alarm set for tomorrow,what time is the alarm set for tomorrow?,alarm_query,0
+18,26291.0,alarm,query,may i know the about alarm you set,may i know the about alarm you set,may i know the about alarm you set,alarm_query,0
+0,283.0,general,affirm,fantastic response.,fantastic response.,fantastic response.,general_affirm,16
+1,466.0,general,affirm,yeap you've gotten my instructions perfectly.,yeap you've gotten my instructions perfectly.,yeap you've gotten my instructions perfectly.,general_affirm,16
+2,171.0,general,affirm,yeah wonderful response.,yeah wonderful response.,yeah wonderful response.,general_affirm,16
+3,537.0,general,affirm,yeah exact response to the command.,yeah exact response to the command.,yeah exact response to the command.,general_affirm,16
+4,542.0,general,affirm,yeah perfect response to command.,yeah perfect response to command.,yeah perfect response to command.,general_affirm,16
+5,373.0,general,affirm,yeah excellent.,yeah excellent.,yeah excellent.,general_affirm,16
+6,355.0,general,affirm,yeah exactly.,yeah exactly.,yeah exactly.,general_affirm,16
+7,142.0,general,affirm,perfect response to command.,perfect response to command.,perfect response to command.,general_affirm,16
+8,485.0,general,affirm,yes you have got my instructions perfectly.,yes you have got my instructions perfectly.,yes you have got my instructions perfectly.,general_affirm,16
+9,133.0,general,affirm,yeah you understood command correcly.,yeah you understood command correcly.,yeah you understood command correcly.,general_affirm,16
+10,336.0,general,affirm,yeah wonderful response to command.,yeah wonderful response to command.,yeah wonderful response to command.,general_affirm,16
+11,244.0,general,affirm,strongly agree.,strongly agree.,strongly agree.,general_affirm,16
+12,248.0,general,affirm,yeap it is confirmed.,yeap it is confirmed.,yeap it is confirmed.,general_affirm,16
+13,389.0,general,affirm,you got the command right.,you got the command right.,you got the command right.,general_affirm,16
+14,27.0,general,affirm,yeah strongly agree.,yeah strongly agree.,yeah strongly agree.,general_affirm,16
+15,520.0,general,affirm,yeah fantastic.,yeah fantastic.,yeah fantastic.,general_affirm,16
+16,377.0,general,affirm,yes you've understood my instructions exactly.,yes you've understood my instructions exactly.,yes you've understood my instructions exactly.,general_affirm,16
+17,411.0,general,affirm,yeap your understanding was confirmed.,yeap your understanding was confirmed.,yeap your understanding was confirmed.,general_affirm,16
+18,2.0,general,affirm,yeah that is correct.,yeah that is correct.,yeah that is correct.,general_affirm,16
+0,23702.0,calendar,query,when is the [event_name : school dance junction] marked,when is the school dance junction marked,When is the school dance junction marked,calendar_query,6
+1,20224.0,calendar,query,what is my schedule for [date : tomorrow],what is my schedule for tomorrow,What is my schedule for [date : tomorrow] olly?,calendar_query,6
+2,9877.0,calendar,query,am i available at [time : five pm] on [date : sunday],am i available at five pm on sunday,Am I available at 5pm on Sunday?,calendar_query,6
+3,11951.0,calendar,query,do i have any notifications from social media,do i have any notifications from social media,do I have any notifications from social media,calendar_query,6
+4,6418.0,calendar,query,what do i have scheduled for [date : next week],what do i have scheduled for next week,What do I have scheduled for next week?,calendar_query,6
+5,12374.0,calendar,query,tell me the [event_name : meetings] i have for the [date : week],tell me the meetings i have for the week,Tell me the meetings I have for the week,calendar_query,6
+6,17165.0,calendar,query,do i have any openings on my schedule for [date : tomorrow],do i have any openings on my schedule for tomorrow,do i have any openings on my schedule for tomorrow,calendar_query,6
+7,11541.0,calendar,query,do i need to pick up the kids from anything [date : today],do i need to pick up the kids from anything today,Do I need to pick up the kids from anything today?,calendar_query,6
+8,16266.0,calendar,query,is there anything i need to be aware of,is there anything i need to be aware of,Is there anything I need to be aware of?,calendar_query,6
+9,21431.0,calendar,query,do i have any [event_name : undone] tasks,do i have any undone tasks,Do I have any undone tasks?,calendar_query,6
+10,10774.0,calendar,query,what is left for [date : today],what is left for today,what is left for today,calendar_query,6
+11,9395.0,calendar,query,list out my upcoming events,list out my upcoming events,List out my upcoming events?,calendar_query,6
+12,13524.0,calendar,query,[time : one thousand two hundred and thirty pm] already you will have a [event_name : meeting] in [time : ten mins],one thousand two hundred and thirty pm already you will have a meeting in ten mins,"12.30pm already, you will have a meeting in 10 mins",calendar_query,6
+13,8365.0,calendar,query,is the [event_name : meeting] scheduled for [date : tomorrow],is the meeting scheduled for tomorrow,Is the meeting scheduled for tomorrow?,calendar_query,6
+14,18142.0,calendar,query,when the [event_name : birthday] will be,when the birthday will be,when the birthday will be,calendar_query,6
+15,5445.0,calendar,query,when is my next [event_name : appointment] and who do i contact to reschedule,when is my next appointment and who do i contact to reschedule,When is my next appointment and who do I contact to reschedule?,calendar_query,6
+16,20226.0,calendar,query,what is the plan for [timeofday : tonight],what is the plan for tonight,What is the plan for tonight?,calendar_query,6
+17,4683.0,calendar,query,what day of the week is my [event_name : birthday] this year,what day of the week is my birthday this year,What day of the week is my birthday this year?,calendar_query,6
+18,21562.0,calendar,query,what is my schedule for [date : june fourteenth two thousand and seventeen],what is my schedule for june fourteenth two thousand and seventeen,"PDA, What is my schedule for June 14th 2017?",calendar_query,6
+0,7402.0,calendar,remove,remove the next event on my calendar,remove the next event on my calendar,Remove the next event on my calender,calendar_remove,7
+1,11838.0,calendar,remove,format the calendar,format the calendar,Format the calendar,calendar_remove,7
+2,4331.0,calendar,remove,remove the [event_name : board meeting] and reschedule for next [date : wednesday],remove the board meeting and reschedule for next wednesday,Remove the board meeting and reschedule for next Wednesday,calendar_remove,7
+3,9208.0,calendar,remove,delete event from mine,delete event from mine,Delete event from mine,calendar_remove,7
+4,3285.0,calendar,remove,cancel the event [event_name : valentine's day] from the calendar,cancel the event valentine's day from the calendar,cancel the event 'valentine's day' from the calender,calendar_remove,7
+5,16369.0,calendar,remove,remove my [event_name : meeting] today at [time : one pm],remove my meeting today at one pm,Remove my meeting today at 1:00 P.M.,calendar_remove,7
+6,18555.0,calendar,remove,i no longer need to see the [event_name : doctor] can that event be removed,i no longer need to see the doctor can that event be removed,I no longer need to see the doctor can that event be removed,calendar_remove,7
+7,19963.0,calendar,remove,please remove [date : march nineteenth's] scheduled event,please remove march nineteenth's scheduled event,Please remove march 19ths scheduled event,calendar_remove,7
+8,2916.0,calendar,remove,make sure there is no events on my calendar,make sure there is no events on my calendar,make sure there is no events on my calendar,calendar_remove,7
+9,1543.0,calendar,remove,remove all the events on my calendar,remove all the events on my calendar,Remove all the events on my calendar,calendar_remove,7
+10,16370.0,calendar,remove,delete my [event_name : meeting] event for [date : march nineteen] at [time : one pm],delete my meeting event for march nineteen at one pm,Delete my meeting event for March 19 at 1 P.M.,calendar_remove,7
+11,21437.0,calendar,remove,remove upcoming task,remove upcoming task,Remove upcoming task.,calendar_remove,7
+12,23791.0,calendar,remove,remove [person : emma's] [event_name : birthday] from events,remove emma's birthday from events,Remove Emma's birthday from events,calendar_remove,7
+13,9427.0,calendar,remove,in my calendar delete all of my [event_name : golf events] for the current [date : month],in my calendar delete all of my golf events for the current month,In my calendar delete all of my golf events for the current month.,calendar_remove,7
+14,3938.0,calendar,remove,erase calendar events,erase calendar events,Erase calender events,calendar_remove,7
+15,14871.0,calendar,remove,take [event_name : lunch meeting] off my calendar,take lunch meeting off my calendar,Take lunch meeting off my calendar.,calendar_remove,7
+16,9658.0,calendar,remove,delete all my events for [date : tomorrow],delete all my events for tomorrow,Delete all my events for tomorrow,calendar_remove,7
+17,4324.0,calendar,remove,delete the [event_name : party] on [date : june first] from my calendar,delete the party on june first from my calendar,Delete the party on June 1st from my calendar.,calendar_remove,7
+18,10036.0,calendar,remove,can to please clear my calendar of all events,can to please clear my calendar of all events,Can to please clear my calendar of all events?,calendar_remove,7
+0,11523.0,transport,query,where can i book a [transport_type : train] ticket to [place_name : oregon],where can i book a train ticket to oregon,Where can I book a train ticket to Oregon?,transport_query,59
+1,17200.0,transport,query,navigation search,navigation search,navigation search,transport_query,59
+2,11513.0,transport,query,what time does the [transport_type : train] leave [place_name : philadelphia],what time does the train leave philadelphia,What time does the train leave Philadelphia?,transport_query,59
+3,26479.0,transport,query,please let me know the time of [transport_type : train] [transport_name : northern rail],please let me know the time of train northern rail,please let me know the time of train X,transport_query,59
+4,24031.0,transport,query,directions please,directions please,directions please,transport_query,59
+5,10911.0,transport,query,how far away is the nearest [place_name : rest stop],how far away is the nearest rest stop,How far away is the nearest rest stop?,transport_query,59
+6,18241.0,transport,query,what are the [transport_type : train] times for [date : today],what are the train times for today,What are the train times for today?,transport_query,59
+7,25047.0,transport,query,how much long until [transport_name : northern rail] arrives at [place_name : kings cross station],how much long until northern rail arrives at kings cross station,PDA name: how much long until xxxx arives at xxxxx station,transport_query,59
+8,5605.0,transport,query,show me the [transport_type : train] schedules to the [place_name : metropolitan opera house],show me the train schedules to the metropolitan opera house,Show me the train schedules to the Metropolitan Opera House.,transport_query,59
+9,5078.0,transport,query,get route for [place_name : los angles] from here,get route for los angles from here,get route for LA from here,transport_query,59
+10,14593.0,transport,query,direction to local [place_name : train station],direction to local train station,direction to local train station,transport_query,59
+11,21984.0,transport,query,what is the [transport_type : train] schedule to [place_name : denver],what is the train schedule to denver,what is the train schedule to denver?,transport_query,59
+12,14342.0,transport,query,how long does it take to get from here to [place_name : chicago] by [transport_type : train],how long does it take to get from here to chicago by train,how long does it take to get from here to chicago by train?,transport_query,59
+13,13493.0,transport,query,when i should leave to [place_name : office],when i should leave to office,when I should leave to XXX,transport_query,59
+14,22804.0,transport,query,when is the [transport_type : train] coming,when is the train coming,When is the train coming?,transport_query,59
+15,11978.0,transport,query,how much time is a [transport_type : train] to there,how much time is a train to there,How much time is a train to there,transport_query,59
+16,14594.0,transport,query,find nearest [place_name : train station],find nearest train station,find nearest train station,transport_query,59
+17,18912.0,transport,query,[transport_type : train] leaving,train leaving,train leaving,transport_query,59
+18,14595.0,transport,query,get me to the nearest [place_name : train station],get me to the nearest train station,get me to the nearest train station,transport_query,59
+0,202.0,general,repeat,let's start over please.,let's start over please.,let's start over please.,general_repeat,25
+1,72.0,general,repeat,please say one more time again.,please say one more time again.,please say one more time again.,general_repeat,25
+2,510.0,general,repeat,i would like to hear that information spoken again.,i would like to hear that information spoken again.,i would like to hear that information spoken again.,general_repeat,25
+3,316.0,general,repeat,i would like to hear the last one spoken again.,i would like to hear the last one spoken again.,i would like to hear the last one spoken again.,general_repeat,25
+4,293.0,general,repeat,i'd like to hear the last spoke again.,i'd like to hear the last spoke again.,i'd like to hear the last spoke again.,general_repeat,25
+5,525.0,general,repeat,i need to hear what you've said again.,i need to hear what you've said again.,i need to hear what you've said again.,general_repeat,25
+6,365.0,general,repeat,retry please.,retry please.,retry please.,general_repeat,25
+7,363.0,general,repeat,will you try what i have just said one more time please.,will you try what i have just said one more time please.,will you try what i have just said one more time please.,general_repeat,25
+8,330.0,general,repeat,would you tell me one more again please.,would you tell me one more again please.,would you tell me one more again please.,general_repeat,25
+9,536.0,general,repeat,would you tell me once again.,would you tell me once again.,would you tell me once again.,general_repeat,25
+10,170.0,general,repeat,could you tell me the last one you just said again please.,could you tell me the last one you just said again please.,could you tell me the last one you just said again please.,general_repeat,25
+11,473.0,general,repeat,i want to hear that again.,i want to hear that again.,i want to hear that again.,general_repeat,25
+12,502.0,general,repeat,i want to hear it again.,i want to hear it again.,i want to hear it again.,general_repeat,25
+13,263.0,general,repeat,please could you tell me once more.,please could you tell me once more.,please could you tell me once more.,general_repeat,25
+14,577.0,general,repeat,can you try again please.,can you try again please.,can you try again please.,general_repeat,25
+15,452.0,general,repeat,say one more time again please.,say one more time again please.,say one more time again please.,general_repeat,25
+16,478.0,general,repeat,will you speak once again please.,will you speak once again please.,will you speak once again please.,general_repeat,25
+17,388.0,general,repeat,please say it once again.,please say it once again.,please say it once again.,general_repeat,25
+18,275.0,general,repeat,please tell me it once more.,please tell me it once more.,please tell me it once more.,general_repeat,25
+0,14623.0,qa,factoid,what year what the eiffel tower built,what year what the eiffel tower built,what year what the Eiffel tower built,qa_factoid,49
+1,26220.0,qa,factoid,when does the [event_name : super bowl] officially start,when does the super bowl officially start,When does the super bowl officially start?,qa_factoid,49
+2,14210.0,qa,factoid,how many months in a year,how many months in a year,How many months in a year?,qa_factoid,49
+3,19141.0,qa,factoid,how many pages long is harry potter,how many pages long is harry potter,how many pages long is harry potter,qa_factoid,49
+4,16917.0,qa,factoid,where do cows come from,where do cows come from,"PDA, where do cows come from?",qa_factoid,49
+5,24655.0,qa,factoid,where is [place_name : italy],where is italy,where is contry x,qa_factoid,49
+6,24232.0,qa,factoid,give me the birth date of [person : mahatma gandhi],give me the birth date of mahatma gandhi,Give me the birth date of Mahatma Gandhi,qa_factoid,49
+7,23294.0,qa,factoid,which continent has highest growth of cotton and what is average production,which continent has highest growth of cotton and what is average production,which continent has highest growth of cotton and what is avg. production,qa_factoid,49
+8,9187.0,qa,factoid,when is [artist_name : shakira's] [event_name : birthday],when is shakira's birthday,When is Shakira's birthday?,qa_factoid,49
+9,21020.0,qa,factoid,please tell me about the historic facts about [place_name : india],please tell me about the historic facts about india,PLEAE TELL ME ABOUT THE HISTORIC FACTS ABOUT INDIA,qa_factoid,49
+10,26968.0,qa,factoid,how old is [person : emma watson] newest boyfriend,how old is emma watson newest boyfriend,how old is Emma Watson newest boyfriend?,qa_factoid,49
+11,24146.0,qa,factoid,who assassinated [person : lincoln],who assassinated lincoln,who assassinated lincoln,qa_factoid,49
+12,26389.0,qa,factoid,tell me when will indians economy touch that of americas,tell me when will indians economy touch that of americas,Tell me when will indias economy touch that of Americas.,qa_factoid,49
+13,26988.0,qa,factoid,info on [person : lisa ann] please,info on lisa ann please,info on lisa ann please,qa_factoid,49
+14,8075.0,qa,factoid,calculate distance from [place_name : boston] to [place_name : new york],calculate distance from boston to new york,Calculate distance from Boston to New York,qa_factoid,49
+15,20240.0,qa,factoid,what year did [person : george clooney] start acting,what year did george clooney start acting,What year did George Clooney start acting?,qa_factoid,49
+16,12876.0,qa,factoid,tell me who will win the next presidential election,tell me who will win the next presidential election,Tell me who will win the next presidential election.,qa_factoid,49
+17,19057.0,qa,factoid,what is the capital of new hampshire,what is the capital of new hampshire,what is the capital of new hampshire?,qa_factoid,49
+18,7056.0,qa,factoid,name the capital of [place_name : nigeria],name the capital of nigeria,Name the capital of Nigeria?,qa_factoid,49
+0,12907.0,iot,cleaning,please activate my [device_type : vacuum] to clean the [house_place : living room],please activate my vacuum to clean the living room,Please activate my vacuum to clean the living room?,iot_cleaning,26
+1,14490.0,iot,cleaning,can you wake the [device_type : roomba] for the [house_place : kitchen],can you wake the roomba for the kitchen,can you wake the roomba for the kitchen?,iot_cleaning,26
+2,11115.0,iot,cleaning,please have [device_type : vacuum] go for [time : one hour],please have vacuum go for one hour,please have vacuum go for 1 hoir.,iot_cleaning,26
+3,6269.0,iot,cleaning,activate the [device_type : vacuum],activate the vacuum,Activate the vacuum,iot_cleaning,26
+4,15809.0,iot,cleaning,clean the sofa with the [device_type : vacuum cleaner],clean the sofa with the vacuum cleaner,Clean the sofa with the vacuum cleaner,iot_cleaning,26
+5,12585.0,iot,cleaning,have the [device_type : vacuum cleaner] clean the [house_place : room],have the vacuum cleaner clean the room,Have the 'vacuum cleaner' clean the room,iot_cleaning,26
+6,8235.0,iot,cleaning,hurriedly activates my [device_type : robot vacuum cleaner],hurriedly activates my robot vacuum cleaner,hurrily activates my robot vacuum cleaner.,iot_cleaning,26
+7,2858.0,iot,cleaning,begin [device_type : vacuum],begin vacuum,begin vaccum,iot_cleaning,26
+8,4395.0,iot,cleaning,remove dust with [device_type : vacuum cleaner],remove dust with vacuum cleaner,remove dust with vacuum cleaner,iot_cleaning,26
+9,23464.0,iot,cleaning,start [device_type : vacuum bot],start vacuum bot,Start vacuum bot.,iot_cleaning,26
+10,7093.0,iot,cleaning,start my [device_type : robot vacuum cleaner] by [time : ten] to [time : eleven am] [general_frequency : daily],start my robot vacuum cleaner by ten to eleven am daily,Start my robert vacuum cleaner by 10 to 11 am daily.,iot_cleaning,26
+11,8024.0,iot,cleaning,activate [device_type : vacuum cleaner],activate vacuum cleaner,Activate vacuum cleaner,iot_cleaning,26
+12,14422.0,iot,cleaning,turn on the [device_type : roomba],turn on the roomba,turn on the roomba,iot_cleaning,26
+13,17126.0,iot,cleaning,begin vacuum cleaning,begin vacuum cleaning,Begin vacuum cleaning,iot_cleaning,26
+14,4384.0,iot,cleaning,please turn on my [device_type : vacuum cleaner],please turn on my vacuum cleaner,Please turn on my vacuum cleaner,iot_cleaning,26
+15,4174.0,iot,cleaning,how do you activate the [device_type : robot vacuum cleaner],how do you activate the robot vacuum cleaner,How do you activate the robot vacuum cleaner?,iot_cleaning,26
+0,4576.0,email,query,are there any new emails from name,are there any new emails from name,are there any new emails from NAME,email_query,13
+1,26303.0,email,query,give me recent emails,give me recent emails,Give me recent emails.,email_query,13
+2,23527.0,email,query,refresh email,refresh email,refresh email,email_query,13
+3,17550.0,email,query,i need to know all of the emails from contact pertaining to subject,i need to know all of the emails from contact pertaining to subject,I need to know all of the e-mails from contact pertaining to subject.,email_query,13
+4,4695.0,email,query,open email,open email,open email,email_query,13
+5,19903.0,email,query,who has sent me an email in [date : the past week],who has sent me an email in the past week,Who has sent me an email in the past week?,email_query,13
+6,2781.0,email,query,check emails for unread emails from [relation : mom],check emails for unread emails from mom,Check emails for unread emails from mom.,email_query,13
+7,18111.0,email,query,did any emails come for me in the [time : last five hours],did any emails come for me in the last five hours,Did any emails come for me in the last 5 hours?,email_query,13
+8,12693.0,email,query,report what is new in my email [email_folder : inbox] please,report what is new in my email inbox please,"PDA, report what is new in my email inbox.",email_query,13
+9,12282.0,email,query,what is the subject and who is the sender of my last email,what is the subject and who is the sender of my last email,what is the subject and who is the sender of my last email?,email_query,13
+10,19054.0,email,query,what did i tell [person : susan] in my last email,what did i tell susan in my last email,What did I tell Susan in my last email?,email_query,13
+11,7516.0,email,query,show me all the emails received recently,show me all the emails received recently,Show me all the emails received recently,email_query,13
+12,18197.0,email,query,do i have any emails from [person : jessica],do i have any emails from jessica,Do I have any emails from Jessica?,email_query,13
+13,7895.0,email,query,are there any recent unread emails,are there any recent unread emails,Are there any recent unread emails?,email_query,13
+14,16323.0,email,query,do i have any new email from [person : ryan],do i have any new email from ryan,"Olly, do I have any new email from Ryan?",email_query,13
+15,7241.0,email,query,[person : carlos] linux upgrade email,carlos linux upgrade email,Carlos' Linux upgrade email,email_query,13
+16,18387.0,email,query,my mail,my mail,My mail,email_query,13
+17,22220.0,email,query,have i gotten any mail recently,have i gotten any mail recently,Have I gotten any mail recently?,email_query,13
+18,18385.0,email,query,check emails,check emails,check emails,email_query,13
+0,15679.0,recommendation,events,what events are coming up,what events are coming up,what events are coming up,recommendation_events,52
+1,24554.0,recommendation,events,let me see cultural events for [date : this weekend] in [place_name : palermo neighborhood],let me see cultural events for this weekend in palermo neighborhood,Let me see cultural events for this weekend in Palermo neighborhood,recommendation_events,52
+2,22900.0,recommendation,events,what are the [event_name : concerts] happening nearby,what are the concerts happening nearby,what are the concerts happening nearby?,recommendation_events,52
+3,25693.0,recommendation,events,is there any type of [event_name : festival] going on in [place_name : town] [date : this weekend],is there any type of festival going on in town this weekend,Is there any type of festival going on in town this weekend?,recommendation_events,52
+4,7707.0,recommendation,events,show me [event_name : painting exhibition] in [place_name : bay area],show me painting exhibition in bay area,Show me painting exhibition in bay area,recommendation_events,52
+5,18821.0,recommendation,events,are there any fun things to do in [place_name : seattle] [date : this weekend],are there any fun things to do in seattle this weekend,Are there any fun things to do in Seattle this weekend?,recommendation_events,52
+6,20970.0,recommendation,events,what's going on,what's going on,What's going on,recommendation_events,52
+7,13211.0,recommendation,events,recommend an event happening in my area,recommend an event happening in my area,Olly recommend an event happening in my area.,recommendation_events,52
+8,20963.0,recommendation,events,what events are happening [date : this weekend] in my area,what events are happening this weekend in my area,What events are happening this weekend in my area?,recommendation_events,52
+9,10838.0,recommendation,events,what's happening at the [place_name : library] [date : this month],what's happening at the library this month,What's happening at the library this month?,recommendation_events,52
+10,26658.0,recommendation,events,what is playing at the [place_name : local theater] right now,what is playing at the local theater right now,what is playing at the local theater right now,recommendation_events,52
+11,14526.0,recommendation,events,what do they have going on for [event_name : festivals] [place_name : downtown],what do they have going on for festivals downtown,What do they have going on for festivals downtown?,recommendation_events,52
+12,9128.0,recommendation,events,could you list out the information on [event_name : book fairs] in [place_name : washington dc] for [date : next week],could you list out the information on book fairs in washington dc for next week,Could you list out the information on book fairs in Washington D.C. for next week?,recommendation_events,52
+13,3530.0,recommendation,events,are there any events going on [place_name : downtown] [timeofday : tonight],are there any events going on downtown tonight,Are there any events going on downtown tonight?,recommendation_events,52
+14,7613.0,recommendation,events,when is the yearly cultural event coming up,when is the yearly cultural event coming up,When is the yearly cultural event coming up?,recommendation_events,52
+15,20968.0,recommendation,events,what's happening [place_name : around town],what's happening around town,What's happening around town,recommendation_events,52
+16,19154.0,recommendation,events,What event do you suggest for me [timeofday : tonight],What event do you suggest for me tonight,What event do you suggest for me tonight?,recommendation_events,52
+17,13654.0,recommendation,events,what's happening in [place_name : town] [date : tonight],what's happening in town tonight,What's happening in town tonight?,recommendation_events,52
+18,3356.0,recommendation,events,give me the list of [event_name : circus] shows going on in the [place_name : city] right now,give me the list of circus shows going on in the city right now,give me the list of circus shows going on in the city right now,recommendation_events,52
+0,9496.0,lists,remove,can you remove this item from the list,can you remove this item from the list,Can you remove this item from the list,lists_remove,37
+1,11474.0,lists,remove,delete last entry,delete last entry,PDA delete last entry,lists_remove,37
+2,3610.0,lists,remove,remove books from list,remove books from list,Remove books from list,lists_remove,37
+3,14414.0,lists,remove,please remove my list of [list_name : favorite albums],please remove my list of favorite albums,Please remove my list of favorite albums.,lists_remove,37
+4,15052.0,lists,remove,please delete what i just typed,please delete what i just typed,Please delete what I just typed.,lists_remove,37
+5,1789.0,lists,remove,take bread out from the [list_name : shopping] list,take bread out from the shopping list,take bread out from the shopping list,lists_remove,37
+6,12263.0,lists,remove,change that off the list,change that off the list,Change that off the list,lists_remove,37
+7,8183.0,lists,remove,remove the list of apps which started with letter a,remove the list of apps which started with letter a,Remove the list of apps which started with letter A,lists_remove,37
+8,13622.0,lists,remove,remove this from the list,remove this from the list,Remove this from the list,lists_remove,37
+9,22311.0,lists,remove,get rid of peas,get rid of peas,Get rid of peas,lists_remove,37
+10,13623.0,lists,remove,remove item three from the list,remove item three from the list,Remove item 3 from the list.,lists_remove,37
+11,16894.0,lists,remove,take grocery buying off of the list,take grocery buying off of the list,Take grocery buying off of the list,lists_remove,37
+12,12033.0,lists,remove,i don't have enough money to buy the nintendo switch right now can you please remove it on my amazon wishlist,i don't have enough money to buy the nintendo switch right now can you please remove it on my amazon wishlist,"I don't have enough money to buy the Nintendo Switch right now, can you please remove it on my Amazon Wishlist?",lists_remove,37
+13,22346.0,lists,remove,i want to remove apples from list,i want to remove apples from list,I want to remove @ from list,lists_remove,37
+14,7351.0,lists,remove,please remove this item from the list,please remove this item from the list,Please remove this item from the list,lists_remove,37
+15,793.0,lists,remove,delete item,delete item,Delete item,lists_remove,37
+16,7931.0,lists,remove,remove item four,remove item four,Remove item 4,lists_remove,37
+17,5112.0,lists,remove,get rid of [person : mike stein] from contacts list,get rid of mike stein from contacts list,Get rid of Mike Stein from Contacts list,lists_remove,37
+18,4018.0,lists,remove,delete my [list_name : grocery] list in my notes,delete my grocery list in my notes,Delete my grocery list in my notes.,lists_remove,37
+0,22892.0,lists,createoradd,create a list of [general_frequency : monthly] [list_name : groceries] to be bought,create a list of monthly groceries to be bought,Create a list of monthly groceries to be bought,lists_createoradd,35
+1,22893.0,lists,createoradd,create a list of [list_name : books] to be ordered,create a list of books to be ordered,Create a list of books to be ordered,lists_createoradd,35
+2,16466.0,lists,createoradd,create a blank list,create a blank list,Create a blank list.,lists_createoradd,35
+3,16954.0,lists,createoradd,add to list,add to list,add to list,lists_createoradd,35
+4,7652.0,lists,createoradd,add these documents to the [list_name : things i need to travel] with,add these documents to the things i need to travel with,Add these documents to the things I need to travel with.,lists_createoradd,35
+5,4718.0,lists,createoradd,start a new list,start a new list,start a new list,lists_createoradd,35
+6,786.0,lists,createoradd,create a new [list_name : to do] list,create a new to do list,Creat a new to-do list,lists_createoradd,35
+7,6595.0,lists,createoradd,search the item,search the item,Search the item,lists_createoradd,35
+8,11493.0,lists,createoradd,create a new [list_name : shopping] list,create a new shopping list,Alexa create a new shopping list.,lists_createoradd,35
+9,12370.0,lists,createoradd,start new list,start new list,start new list,lists_createoradd,35
+10,13604.0,lists,createoradd,i need to set up a new list,i need to set up a new list,I need to set up a new list,lists_createoradd,35
+11,14697.0,lists,createoradd,remind me to buy jeans on my [list_name : shopping] list,remind me to buy jeans on my shopping list,Remind me to buy jeans on my shopping list,lists_createoradd,35
+12,10378.0,lists,createoradd,add cereal to my shopping list,add cereal to my shopping list,Add cereal to my shopping list.,lists_createoradd,35
+13,10820.0,lists,createoradd,i need to make a list,i need to make a list,I need to make a list.,lists_createoradd,35
+14,27316.0,lists,createoradd,please add item to list,please add item to list,PDA please add item to list,lists_createoradd,35
+15,7110.0,lists,createoradd,make a new list of [list_name : dog breeds],make a new list of dog breeds,Make a new list of dog breeds.,lists_createoradd,35
+16,8680.0,lists,createoradd,add item,add item,add item,lists_createoradd,35
+17,7958.0,lists,createoradd,make a catalogue,make a catalogue,make a catalogue,lists_createoradd,35
+18,9362.0,lists,createoradd,put this on my list,put this on my list,put this on my list,lists_createoradd,35
+0,20691.0,recommendation,locations,please tell me a [business_type : shop] where i can find books to buy,please tell me a shop where i can find books to buy,PLEASE TELL ME   A SHOP WHERE I CAN FIND BOOKS TO BUY.,recommendation_locations,53
+1,6549.0,recommendation,locations,where is the closest [business_type : restaurant],where is the closest restaurant,Where is the Closest Restaurant,recommendation_locations,53
+2,4225.0,recommendation,locations,is there a [business_type : sports bar] near [place_name : kansas city plaza] area,is there a sports bar near kansas city plaza area,Is there a sports bar near Kansas City Plaza area?,recommendation_locations,53
+3,14883.0,recommendation,locations,where should i go eat [timeofday : tonight],where should i go eat tonight,Where should I go eat tonight?,recommendation_locations,53
+4,11019.0,recommendation,locations,i'm looking for a casual [business_type : restaurant] for a [event_name : dinner date],i'm looking for a casual restaurant for a dinner date,I'm looking for a casual restaurant for a dinner date.,recommendation_locations,53
+5,20599.0,recommendation,locations,where is the [business_type : shopping mall] for shirts,where is the shopping mall for shirts,Where is the shopping mall for shirts?,recommendation_locations,53
+6,22012.0,recommendation,locations,what [business_type : shops] are near me,what shops are near me,What shops are near me?,recommendation_locations,53
+7,16800.0,recommendation,locations,when does the closest [business_type : bar] close,when does the closest bar close,"Olly, when does the closest bar close?",recommendation_locations,53
+8,16429.0,recommendation,locations,where can i find the nearest [business_type : irish pub] in my area,where can i find the nearest irish pub in my area,Where can I find the nearest Irish pub in my area?,recommendation_locations,53
+9,15115.0,recommendation,locations,give me some [business_type : cafes] near [place_name : downtown fort lauderdale],give me some cafes near downtown fort lauderdale,Give me some cafes near downtown Fort Lauderdale.,recommendation_locations,53
+10,9912.0,recommendation,locations,where is the best place to buy [business_type : party supplies] in [place_name : town],where is the best place to buy party supplies in town,Where is the best place to buy party supplies in town?,recommendation_locations,53
+11,20760.0,recommendation,locations,where can i got to grab some [business_type : drinks] in [place_name : west chester],where can i got to grab some drinks in west chester,"Olly, Where can I got to grab some drinks in west chester",recommendation_locations,53
+12,9226.0,recommendation,locations,where is the closer [business_name : starbucks],where is the closer starbucks,Where is the closer Starbucks?,recommendation_locations,53
+13,10677.0,recommendation,locations,what is the best [business_type : hardware store] near me,what is the best hardware store near me,What is the best hardware store near me?,recommendation_locations,53
+14,7468.0,recommendation,locations,where is [place_name : mcdo],where is mcdo,where is mcdo?,recommendation_locations,53
+15,24477.0,recommendation,locations,can you recommend any [business_type : pub] in [place_name : mg road],can you recommend any pub in mg road,can you recommend any pub in m.g road,recommendation_locations,53
+16,9894.0,recommendation,locations,find [business_type : grocery store] with an organic section near me,find grocery store with an organic section near me,Find grocery store with an organic section near me.,recommendation_locations,53
+17,26613.0,recommendation,locations,is there any [food_type : chinese] places in [place_name : benton ar],is there any chinese places in benton ar,is there any Chinese places in Benton AR,recommendation_locations,53
+18,11668.0,recommendation,locations,tell me where the [place_name : local shopping district] is,tell me where the local shopping district is,Olly tell me where the local shopping district is.,recommendation_locations,53
+0,22671.0,lists,query,open [app_name : google keep],open google keep,Open Google Keep,lists_query,36
+1,13530.0,lists,query,what is the list type,what is the list type,what is the xxx,lists_query,36
+2,12736.0,lists,query,what list did i make [date : today],what list did i make today,What list did I make today?,lists_query,36
+3,26670.0,lists,query,did i put toothpaste on my [list_name : pick up] list,did i put toothpaste on my pick up list,DId I put toothpaste on my pick up list?,lists_query,36
+4,3826.0,lists,query,please show me lists,please show me lists,please show me lists,lists_query,36
+5,19656.0,lists,query,[list_name : groceries] list,groceries list,grocerie list,lists_query,36
+6,11586.0,lists,query,tell me my lists,tell me my lists,Tell me my lists.,lists_query,36
+7,13811.0,lists,query,how many items are on my list,how many items are on my list,How many items are on my list ?,lists_query,36
+8,15277.0,lists,query,tell me the names on the list,tell me the names on the list,Tell me the names on the list.,lists_query,36
+9,7509.0,lists,query,show the list that are available with numbers,show the list that are available with numbers,Show the list that are available with numbers,lists_query,36
+10,12139.0,lists,query,please tell me what lists i have made,please tell me what lists i have made,Please tell me what lists I have made.,lists_query,36
+11,13104.0,lists,query,most viewed list,most viewed list,most viewed list,lists_query,36
+12,10163.0,lists,query,what did i put down already on the [list_name : walmart list],what did i put down already on the walmart list,PDA: What did I put down already on the Walmart list?,lists_query,36
+13,20809.0,lists,query,can i see my lists for [date : today],can i see my lists for today,can I see my lists for today,lists_query,36
+14,11627.0,lists,query,is there anything on my list [date : today],is there anything on my list today,Is there anything on my list today?,lists_query,36
+15,14557.0,lists,query,what open lists do i have,what open lists do i have,what open lists do i have?,lists_query,36
+16,14279.0,lists,query,what is on my playlist,what is on my playlist,what is on my playlist?,lists_query,36
+17,6202.0,lists,query,what's on the list,what's on the list,What's on the list?,lists_query,36
+18,10745.0,lists,query,whats the schedule for [date : today],whats the schedule for today,whats the schedule for today,lists_query,36
+0,13956.0,recommendation,movies,play a movie i'll like,play a movie i'll like,play a movie I'll like,recommendation_movies,54
+1,4665.0,recommendation,movies,what time will a movie be shown [date : tomorrow],what time will a movie be shown tomorrow,what time will a movie be shown tomorrow,recommendation_movies,54
+2,7570.0,recommendation,movies,what new movies available [date : today],what new movies available today,what new movies available today?,recommendation_movies,54
+3,13955.0,recommendation,movies,suggest a good genre movie that came out recently,suggest a good genre movie that came out recently,suggest a good genre movie that came out recently,recommendation_movies,54
+4,12568.0,recommendation,movies,please recommend a movie,please recommend a movie,Please recommend a movie,recommendation_movies,54
+5,8960.0,recommendation,movies,what is the highest rated movie [date : this week],what is the highest rated movie this week,What is the highest rated movie this week,recommendation_movies,54
+6,12594.0,recommendation,movies,recommend a movie for me,recommend a movie for me,Recommend a movie for me.,recommendation_movies,54
+7,13053.0,recommendation,movies,do you recommend any movies that are currently playing in me area,do you recommend any movies that are currently playing in me area,Do you recommend any movies that are currently playing in my area?,recommendation_movies,54
+8,12593.0,recommendation,movies,what is the highest rated movie now out,what is the highest rated movie now out,What is the highest rated movie now out?,recommendation_movies,54
+9,2975.0,recommendation,movies,what is the best movie to watch [date : this weekend],what is the best movie to watch this weekend,What is the best movie to watch this weekend.,recommendation_movies,54
+0,14497.0,transport,ticket,book me a [transport_type : train] ticket to [place_name : chicago] for [date : tomorrow] morning before [time : ten],book me a train ticket to chicago for tomorrow morning before ten,Book me a train ticket to Chicago for tomorrow morning before 10.,transport_ticket,61
+1,7583.0,transport,ticket,find out the the [transport_type : train] arrival time and book me,find out the the train arrival time and book me,Find out the the train arrival time and book me.,transport_ticket,61
+2,4066.0,transport,ticket,google [transport_type : train] tickets to [place_name : washington dc],google train tickets to washington dc,google train tickets to washington dc,transport_ticket,61
+3,13226.0,transport,ticket,book ticket for [place_name : paris] by [transport_type : train],book ticket for paris by train,Book ticket for (location) by train,transport_ticket,61
+4,5908.0,transport,ticket,book me a [transport_type : train] ticket,book me a train ticket,book me a train ticket,transport_ticket,61
+5,3252.0,transport,ticket,book a [transport_type : train] ticket to [place_name : canada] this [timeofday : evening],book a train ticket to canada this evening,Book a train ticket to Canada this evening,transport_ticket,61
+6,8553.0,transport,ticket,book me on a [transport_type : train] leaving [place_name : penn station] [date : tomorrow] travelling to [place_name : any city more than two hundred miles away],book me on a train leaving penn station tomorrow travelling to any city more than two hundred miles away,book me on a train leaving Penn station tomorrow travelling to any city more than 200 miles away,transport_ticket,61
+7,8552.0,transport,ticket,get me two [transport_type : train] tickets from where i am now to [place_name : dallas] arriving [time : before dark],get me two train tickets from where i am now to dallas arriving before dark,Get me 2 train tickets from where I am now to Dallas arriving before dark.,transport_ticket,61
+8,9876.0,transport,ticket,book and pay for a [transport_type : train] ticket to [place_name : denver] for [date : saturday],book and pay for a train ticket to denver for saturday,Book and pay for a train ticket to Denver for Saturday.,transport_ticket,61
+9,5239.0,transport,ticket,please book a [transport_type : train] ticket from [place_name : london] to [place_name : manchester],please book a train ticket from london to manchester,Please book a train ticket from London to Manchester,transport_ticket,61
+10,13728.0,transport,ticket,google i need one [transport_type : train] ticket to [place_name : new york] can you book that for me,google i need one train ticket to new york can you book that for me,Google I need one train ticket to New York can you book that for me.,transport_ticket,61
+11,18701.0,transport,ticket,i need to buy a [transport_type : train] ticket,i need to buy a train ticket,I need to buy a train ticket.,transport_ticket,61
+12,23674.0,transport,ticket,book a ticket in irctc website from [place_name : sbc] to [place_name : mdu] on [date : may two] for stored passenger list,book a ticket in irctc website from sbc to mdu on may two for stored passenger list,Book a ticket in irctc website from sbc to mdu on may 2 for stored passenger list,transport_ticket,61
+13,11545.0,transport,ticket,google search booking [transport_type : train] ticket,google search booking train ticket,"Google search, booking train ticket",transport_ticket,61
+14,18882.0,transport,ticket,please purchase a amtrak ticket from [place_name : las vegas nevada] to [place_name : lakeland florida] leaving on the [date : first of april],please purchase a amtrak ticket from las vegas nevada to lakeland florida leaving on the first of april,"Please purchase a Amtrak ticket from Las Vegas, Nevada to Lakeland, Florida leaving on the first of April.",transport_ticket,61
+15,7250.0,transport,ticket,book the the next [transport_type : train] ticket to [place_name : chennai],book the the next train ticket to chennai,book the the next train ticket to Chennai,transport_ticket,61
+16,17908.0,transport,ticket,find me a [transport_type : train] ticket to [place_name : boston],find me a train ticket to boston,find me a train ticket to boston,transport_ticket,61
+17,25572.0,transport,ticket,get me a ride on the commuter [transport_type : train] from [place_name : nj] to [place_name : ny],get me a ride on the commuter train from nj to ny,Get me a ride on the commuter train from NJ to NY.,transport_ticket,61
+18,23675.0,transport,ticket,open [app_name : irctc] application and go to book ticket,open irctc application and go to book ticket,Open irctc application and go to book ticket,transport_ticket,61
+0,26629.0,iot,hue_lighton,please turn on [device_type : all lights],please turn on all lights,Please turn all all lights.,iot_hue_lighton,31
+1,22561.0,iot,hue_lighton,please turn on the lights,please turn on the lights,"Alexa, please turn on the lights.",iot_hue_lighton,31
+2,11037.0,iot,hue_lighton,it's dark in the [house_place : living room],it's dark in the living room,It's dark in the living room.,iot_hue_lighton,31
+0,19929.0,datetime,query,please tell me the date,please tell me the date,Please tell me the date,datetime_query,11
+1,7472.0,datetime,query,date [date : today],date today,date today?,datetime_query,11
+2,10481.0,datetime,query,what is [date : today],what is today,PDA: What is today?,datetime_query,11
+3,21520.0,datetime,query,what is the time in [place_name : geneva],what is the time in geneva,What is the time in Geneva?,datetime_query,11
+4,14088.0,datetime,query,let me know the time,let me know the time,Let me know the time.,datetime_query,11
+5,6528.0,datetime,query,[place_name : new york] time please,new york time please,Newyork time please.,datetime_query,11
+6,12464.0,datetime,query,what is the time difference between here and [place_name : dakar],what is the time difference between here and dakar,What is the time difference between here and <insert city>,datetime_query,11
+7,9717.0,datetime,query,let me know the time in [place_name : india],let me know the time in india,let me know the time in india,datetime_query,11
+8,18777.0,datetime,query,tell me the time in [time_zone : this time zone],tell me the time in this time zone,"PDA, Tell me the time in this time zone.",datetime_query,11
+9,21923.0,datetime,query,which date is on next [date : monday],which date is on next monday,which date is on next monday,datetime_query,11
+10,6477.0,datetime,query,tell me what time it is in [place_name : dallas texas],tell me what time it is in dallas texas,"Tell me what time it is in Dallas, Texas.",datetime_query,11
+11,2413.0,datetime,query,what time is it in the [place_name : other time zones],what time is it in the other time zones,what time is it in the other time zones,datetime_query,11
+12,11420.0,datetime,query,hey what's the current time in [place_name : austin],hey what's the current time in austin,Hey PDA what's the current time in Austin?,datetime_query,11
+13,16181.0,datetime,query,hey what is the time,hey what is the time,"Hey, what is the time?",datetime_query,11
+14,8707.0,datetime,query,could you tell me what time it is,could you tell me what time it is,Could you tell me what time it is?,datetime_query,11
+15,24425.0,datetime,query,what day of the week does the [event_name : next holiday] fall on,what day of the week does the next holiday fall on,What day of the week does the next holiday fall on?,datetime_query,11
+16,23967.0,datetime,query,[date : august fifteenth] is what day of the week,august fifteenth is what day of the week,August 15th is what day of the week,datetime_query,11
+17,9668.0,datetime,query,can you tell me the date [date : today],can you tell me the date today,can you tell me the date today,datetime_query,11
+18,5047.0,datetime,query,hey what's [date : today's] date,hey what's today's date,"Hey PDA, what's today's date?",datetime_query,11
+0,2059.0,qa,definition,please define [definition_word : forensic],please define forensic,Please define forensic,qa_definition,48
+1,2514.0,qa,definition,tell about the origin of the word [definition_word : evolution],tell about the origin of the word evolution,Tell about the origin of the word,qa_definition,48
+2,8995.0,qa,definition,what's the definition of [definition_word : diverse],what's the definition of diverse,What's the definition of diverse?,qa_definition,48
+3,18832.0,qa,definition,what is [definition_word : love],what is love,what is love,qa_definition,48
+4,20527.0,qa,definition,what is a [definition_word : trebuchet],what is a trebuchet,What is a trebuchet?,qa_definition,48
+5,17399.0,qa,definition,what do you know about [definition_word : the statue of liberty],what do you know about the statue of liberty,What do you know about the statue of Liberty,qa_definition,48
+6,12014.0,qa,definition,google definition for me,google definition for me,google pda definition for me,qa_definition,48
+7,15522.0,qa,definition,Define [definition_word : economics],Define economics,Define Economics,qa_definition,48
+8,8529.0,qa,definition,what does h2o stand for,what does h2o stand for,What does H2O stand for?,qa_definition,48
+9,7792.0,qa,definition,meaning of word,meaning of word,meaning of word,qa_definition,48
+10,20764.0,qa,definition,please tell me the definition of [definition_word : home],please tell me the definition of home,Please tell me the definition of home,qa_definition,48
+11,26528.0,qa,definition,how would you define a [definition_word : car],how would you define a car,How would yo define object A?,qa_definition,48
+12,3623.0,qa,definition,look up [definition_word : animal] and give me the definition,look up animal and give me the definition,Look up animal and give me the definition,qa_definition,48
+13,17274.0,qa,definition,describe a [definition_word : rotor],describe a rotor,Describe a rotor,qa_definition,48
+14,26010.0,qa,definition,define [definition_word : the moon] for me,define the moon for me,Define the moon for me.,qa_definition,48
+15,18866.0,qa,definition,define [definition_word : flabbergasted],define flabbergasted,Define flabbergasted.,qa_definition,48
+16,26639.0,qa,definition,find the meaning of [definition_word : promise],find the meaning of promise,Find the meaning of promise.,qa_definition,48
+17,23575.0,qa,definition,define [definition_word : rumplestiltskin],define rumplestiltskin,Define Rumplestiltskin.,qa_definition,48
+18,22411.0,qa,definition,what does a [definition_word : grapefruit] look like,what does a grapefruit look like,What does a grapefruit look like?,qa_definition,48
+0,26410.0,weather,query,do i have to bring [weather_descriptor : umbrella] for [timeofday : tonight] party,do i have to bring umbrella for tonight party,Do I have to bring umbrella for tonight party,weather_query,63
+1,26490.0,weather,query,should i wear [weather_descriptor : gloves] [timeofday : tonight],should i wear gloves tonight,Should i wear gloves tonight?,weather_query,63
+2,26411.0,weather,query,will it [weather_descriptor : rain] in the [timeofday : noon],will it rain in the noon,Will it rain in the noon,weather_query,63
+3,23748.0,weather,query,how will be the weather at [timeofday : night],how will be the weather at night,How will be the weather at night,weather_query,63
+4,17973.0,weather,query,will the [weather_descriptor : temperature] be [weather_descriptor : higher than forty] [date : tomorrow],will the temperature be higher than forty tomorrow,will the temperature be higher than 40 tomorrow?,weather_query,63
+5,23746.0,weather,query,ask for the weather [date : today] [timeofday : morning],ask for the weather today morning,Ask for the weather today morning,weather_query,63
+6,3361.0,weather,query,is [weather_descriptor : summer] going on,is summer going on,is summer going on?,weather_query,63
+7,24933.0,weather,query,do you think i can wear [weather_descriptor : sandals] or should i wear [weather_descriptor : sneakers] [timeofday : tonight] at [time : seven pm],do you think i can wear sandals or should i wear sneakers tonight at seven pm,Do you think I can wear sandals or should I wear sneakers tonight at 7pm?,weather_query,63
+8,9141.0,weather,query,show me the weather forecast for [time : the next three three days],show me the weather forecast for the next three three days,Show me the weather forecast for the next 3 three days,weather_query,63
+9,20932.0,weather,query,are you sure its going to [weather_descriptor : rain] [date : tomorrow],are you sure its going to rain tomorrow,"Olly, are you sure its going to rain [date : tomorrow]?",weather_query,63
+10,26072.0,weather,query,will i need my [weather_descriptor : snow boots] [timeofday : this afternoon],will i need my snow boots this afternoon,Will I need my snow boots this afternoon?,weather_query,63
+11,17470.0,weather,query,do i need to wear [weather_descriptor : sunscreen] [date : today],do i need to wear sunscreen today,Do I need to wear sunscreen today?,weather_query,63
+12,3170.0,weather,query,what is the [weather_descriptor : temperature] [date : today],what is the temperature today,What is the temperature today,weather_query,63
+13,24419.0,weather,query,what is the weather [date : next week],what is the weather next week,what is the weather next week,weather_query,63
+14,5055.0,weather,query,what is the climate here [date : today],what is the climate here today,what is the climate here today,weather_query,63
+15,3696.0,weather,query,let me know when the next cold front is expected,let me know when the next cold front is expected,Let me know when the next cold front is expected,weather_query,63
+16,27011.0,weather,query,i am gonna need an [weather_descriptor : umbrella] [date : today] [time : after sunset],i am gonna need an umbrella today after sunset,I am gonna need an umbrella today after sunset?,weather_query,63
+17,22545.0,weather,query,google what is the temperature outside,google what is the temperature outside,"Google, what is the temperature outside?",weather_query,63
+18,15984.0,weather,query,are there any [weather_descriptor : tornado] warnings [date : today],are there any tornado warnings today,Are there any tornado warnings today?,weather_query,63
+0,2490.0,audio,volume_mute,quiet please,quiet please,Quiet please.,audio_volume_mute,4
+1,10974.0,audio,volume_mute,mute sound from speakers,mute sound from speakers,Mute sound from speakers.,audio_volume_mute,4
+2,27292.0,audio,volume_mute,please mute for [time : five minutes],please mute for five minutes,PDA please mute for 5 minutes,audio_volume_mute,4
+3,15393.0,audio,volume_mute,mute my speakers for a minute here i need to make a call,mute my speakers for a minute here i need to make a call,Mute my speakers for a minute here I need to make a call.,audio_volume_mute,4
+4,13033.0,audio,volume_mute,mute speaker,mute speaker,Mute speaker,audio_volume_mute,4
+5,10973.0,audio,volume_mute,silence volume on speakers,silence volume on speakers,Silence volume on speakers.,audio_volume_mute,4
+6,19545.0,audio,volume_mute,turn off media volume,turn off media volume,turn off media volume,audio_volume_mute,4
+7,10086.0,audio,volume_mute,i need you to be quiet [time : until tomorrow],i need you to be quiet until tomorrow,I need you to be quiet until tomorrow.,audio_volume_mute,4
+8,13025.0,audio,volume_mute,go to sleep,go to sleep,Go to sleep,audio_volume_mute,4
+9,27293.0,audio,volume_mute,no notifications for [time : five minutes],no notifications for five minutes,PDA no notifications for 5 minutes,audio_volume_mute,4
+10,12006.0,audio,volume_mute,turn off the sound,turn off the sound,Turn off the PDA's sound,audio_volume_mute,4
+11,14416.0,audio,volume_mute,mute the music,mute the music,mute the music,audio_volume_mute,4
+12,33.0,audio,volume_mute,pause for [time : ten seconds],pause for ten seconds,Olly pause for ten seconds,audio_volume_mute,4
+13,2815.0,audio,volume_mute,set mute for [time : twenty minutes],set mute for twenty minutes,Set mute for 20 mins,audio_volume_mute,4
+14,14236.0,audio,volume_mute,i need to mute the speaker,i need to mute the speaker,i need to mute the speaker,audio_volume_mute,4
+0,433.0,general,dontcare,"i would not mind, olly.","i would not mind, olly.","i would not mind, olly.",general_dontcare,19
+1,243.0,general,dontcare,wouldn't mind for any one.,wouldn't mind for any one.,wouldn't mind for any one.,general_dontcare,19
+2,22.0,general,dontcare,"does not matter for me, olly.","does not matter for me, olly.","does not matter for me, olly.",general_dontcare,19
+3,88.0,general,dontcare,"don't really bother, olly.","don't really bother, olly.","don't really bother, olly.",general_dontcare,19
+4,49.0,general,dontcare,"wouldn't really know, olly.","wouldn't really know, olly.","wouldn't really know, olly.",general_dontcare,19
+5,80.0,general,dontcare,"i have no idea about what to do, olly.","i have no idea about what to do, olly.","i have no idea about what to do, olly.",general_dontcare,19
+6,438.0,general,dontcare,i do not mind for whatever.,i do not mind for whatever.,i do not mind for whatever.,general_dontcare,19
+7,258.0,general,dontcare,"any one is good, olly.","any one is good, olly.","any one is good, olly.",general_dontcare,19
+8,357.0,general,dontcare,"it does not matter to me, olly.","it does not matter to me, olly.","it does not matter to me, olly.",general_dontcare,19
+9,427.0,general,dontcare,i would not mind to select any one.,i would not mind to select any one.,i would not mind to select any one.,general_dontcare,19
+10,127.0,general,dontcare,i do not really mind for whatever.,i do not really mind for whatever.,i do not really mind for whatever.,general_dontcare,19
+11,161.0,general,dontcare,this is unimportant for me.,this is unimportant for me.,this is unimportant for me.,general_dontcare,19
+12,235.0,general,dontcare,"i would not mind to select any one, olly.","i would not mind to select any one, olly.","i would not mind to select any one, olly.",general_dontcare,19
+13,444.0,general,dontcare,does not matter for me.,does not matter for me.,does not matter for me.,general_dontcare,19
+14,423.0,general,dontcare,any one is good to me.,any one is good to me.,any one is good to me.,general_dontcare,19
+15,197.0,general,dontcare,"this is unimportant, olly.","this is unimportant, olly.","this is unimportant, olly.",general_dontcare,19
+16,434.0,general,dontcare,wouldn't really mind for whatever.,wouldn't really mind for whatever.,wouldn't really mind for whatever.,general_dontcare,19
+17,241.0,general,dontcare,"have no idea regarding to what to select, olly.","have no idea regarding to what to select, olly.","have no idea regarding to what to select, olly.",general_dontcare,19
+18,65.0,general,dontcare,"does not matter, olly.","does not matter, olly.","does not matter, olly.",general_dontcare,19
+0,15287.0,email,addcontact,add [person : dan's] email,add dan's email,Add dan's email,email_addcontact,12
+1,26749.0,email,addcontact,add contacts n mail,add contacts n mail,add contacts n mail,email_addcontact,12
+2,15796.0,email,addcontact,enter [email_address : atdfd@yahoo dot com] into my contact list,enter atdfd@yahoo dot com into my contact list,Enter atdfd@yahoo.com into my contact list,email_addcontact,12
+3,18183.0,email,addcontact,get [email_address : apahelp@yahoo dot com] in my contacts,get apahelp@yahoo dot com in my contacts,Get apahelp@yahoo.com in my contacts.,email_addcontact,12
+4,22414.0,email,addcontact,save the email to my contact,save the email to my contact,Save the email to my contact,email_addcontact,12
+5,18928.0,email,addcontact,please add [email_address : johndoe@yahoocom] to my contact list,please add johndoe@yahoocom to my contact list,Please add johndoe@yahoo.com to my contact list.,email_addcontact,12
+6,4414.0,email,addcontact,add this new email,add this new email,add this new email,email_addcontact,12
+7,4312.0,email,addcontact,add work email address,add work email address,Add work email address,email_addcontact,12
+0,23960.0,alarm,remove,disable the alarm which is set at [time : nine thirty pm],disable the alarm which is set at nine thirty pm,disable the alarm which is set at 9:30pm,alarm_remove,1
+1,11624.0,alarm,remove,delete scheduled alarm,delete scheduled alarm,Delete scheduled alarm,alarm_remove,1
+2,19606.0,alarm,remove,turn off my first alarm,turn off my first alarm,Turn off my first alarm,alarm_remove,1
+3,11270.0,alarm,remove,please cancel all alarms for [date : tomorrow],please cancel all alarms for tomorrow,Please cancel all alarms for tomorrow.,alarm_remove,1
+4,14684.0,alarm,remove,please delete the [date : wednesday] [timeofday : evening] alarm,please delete the wednesday evening alarm,Please delete the Wednesday evening alarm.,alarm_remove,1
+5,3737.0,alarm,remove,please delete my [timeofday : morning] alarm,please delete my morning alarm,please delete my morning alarm,alarm_remove,1
+6,15082.0,alarm,remove,remove all of my alarms,remove all of my alarms,"Olly, remove all of my alarms.",alarm_remove,1
+7,11625.0,alarm,remove,cancel alarm,cancel alarm,Cancel alarm,alarm_remove,1
+8,1530.0,alarm,remove,delete the alarm i just set,delete the alarm i just set,Delete the alarm I just set,alarm_remove,1
+9,25900.0,alarm,remove,could you please remove the set of alarms between [time : eight and nine],could you please remove the set of alarms between eight and nine,Could you please remove the set of alarms between 8 and 9?,alarm_remove,1
+10,13047.0,alarm,remove,please turn off the alarm,please turn off the alarm,pls turn off the alarm,alarm_remove,1
+0,8131.0,iot,hue_lightoff,switch off [device_type : main light],switch off main light,Switch off main light,iot_hue_lightoff,30
+1,7248.0,iot,hue_lightoff,off all the [device_type : lights on the right side],off all the lights on the right side,off all the lights on the right side,iot_hue_lightoff,30
+2,23411.0,iot,hue_lightoff,turn off lights in [house_place : bathroom],turn off lights in bathroom,turn off lights in bathroom,iot_hue_lightoff,30
+3,18059.0,iot,hue_lightoff,[house_place : bedroom] lights off now,bedroom lights off now,Bedroom lights off now.,iot_hue_lightoff,30
+4,2257.0,iot,hue_lightoff,turn off the lights in the [house_place : bathroom],turn off the lights in the bathroom,Turn off the lights in the bathroom,iot_hue_lightoff,30
+5,11287.0,iot,hue_lightoff,please turn off the lights in the [house_place : kitchen],please turn off the lights in the kitchen,Please turn off the lights in the kitchen.,iot_hue_lightoff,30
+6,22836.0,iot,hue_lightoff,turn off the [house_place : room] light,turn off the room light,Turn off the room light.,iot_hue_lightoff,30
+7,10754.0,iot,hue_lightoff,power off the current,power off the current,power off the current,iot_hue_lightoff,30
+8,22025.0,iot,hue_lightoff,turn off lights of [house_place : kitchen],turn off lights of kitchen,turn off lights of kitchen,iot_hue_lightoff,30
+9,2571.0,iot,hue_lightoff,by main power off,by main power off,by main power off,iot_hue_lightoff,30
+10,7150.0,iot,hue_lightoff,turn off the upstairs [house_place : bathroom] light,turn off the upstairs bathroom light,Turn off the upstairs bathroom light.,iot_hue_lightoff,30
+11,13218.0,iot,hue_lightoff,please turn off my [house_place : patio] lights,please turn off my patio lights,pls turn off my patio lights,iot_hue_lightoff,30
+12,40.0,iot,hue_lightoff,turn the lights off please,turn the lights off please,turn the lights off please,iot_hue_lightoff,30
+13,26569.0,iot,hue_lightoff,can you make sure the [house_place : kitchen] light is off,can you make sure the kitchen light is off,Can you make sure the kitchen light is off?,iot_hue_lightoff,30
+14,3969.0,iot,hue_lightoff,could you turn the light off,could you turn the light off,Could you turn the light off?,iot_hue_lightoff,30
+15,3967.0,iot,hue_lightoff,turn the [house_place : living room's] light off,turn the living room's light off,Turn the living room's light off,iot_hue_lightoff,30
+16,2101.0,iot,hue_lightoff,switch off the lights,switch off the lights,Switch off the lights,iot_hue_lightoff,30
+17,16364.0,iot,hue_lightoff,can you turn off my [device_type : desk lamp],can you turn off my desk lamp,Can you turn off my desk lamp?,iot_hue_lightoff,30
+18,5977.0,iot,hue_lightoff,turn the [device_type : left light] off,turn the left light off,Turn the left light off,iot_hue_lightoff,30
+0,12324.0,iot,hue_lightdim,dim the lights at the [house_place : living room],dim the lights at the living room,dim the lights at the living room,iot_hue_lightdim,29
+1,6565.0,iot,hue_lightdim,lower the light intensity,lower the light intensity,lower the light intensity,iot_hue_lightdim,29
+2,3052.0,iot,hue_lightdim,hi can you please turn lower the lights,hi can you please turn lower the lights,Hi can you please turn lower the lights,iot_hue_lightdim,29
+3,3857.0,iot,hue_lightdim,dim the lights please,dim the lights please,Dim the lights please.,iot_hue_lightdim,29
+4,18078.0,iot,hue_lightdim,please turn down the lights,please turn down the lights,Please turn down the lights,iot_hue_lightdim,29
+5,768.0,iot,hue_lightdim,lower the lights,lower the lights,Lower the lights,iot_hue_lightdim,29
+6,23684.0,iot,hue_lightdim,lower the lights in [house_place : bedroom two],lower the lights in bedroom two,Lower the lights in Bedroom 2,iot_hue_lightdim,29
+7,18077.0,iot,hue_lightdim,i want the room to be less bright,i want the room to be less bright,I want the room to be less bright,iot_hue_lightdim,29
+8,15827.0,iot,hue_lightdim,hey olly make the lights [change_amount : a little] dimmer,hey olly make the lights a little dimmer,hey siri make the lights a little dimmer,iot_hue_lightdim,29
+9,8375.0,iot,hue_lightdim,light is too much,light is too much,light is too much.,iot_hue_lightdim,29
+10,2946.0,iot,hue_lightdim,reduce brightness,reduce brightness,reduce brightness,iot_hue_lightdim,29
+11,10997.0,iot,hue_lightdim,dim the [house_place : overhead] lights a tad,dim the overhead lights a tad,Dim the overhead lights a tad.,iot_hue_lightdim,29
+0,19740.0,transport,taxi,request a driver for [transport_agency : uber] [time : in five minutes],request a driver for uber in five minutes,Request a driver for Uber in 5 minutes,transport_taxi,60
+1,18893.0,transport,taxi,order me an [transport_agency : uber] ride please,order me an uber ride please,Order me n Uber ride please.,transport_taxi,60
+2,6841.0,transport,taxi,call [transport_type : yellow cab],call yellow cab,Call Yellow Cab,transport_taxi,60
+3,10971.0,transport,taxi,find an [transport_agency : uber] that can get me to the [place_name : airport] now,find an uber that can get me to the airport now,Find an Uber that can get me to the airport now.,transport_taxi,60
+4,12186.0,transport,taxi,book me a [transport_type : taxi] from [place_name : castle street] to [place_name : airport],book me a taxi from castle street to airport,book me a taxi from XXX to XXX destination,transport_taxi,60
+5,6541.0,transport,taxi,call a [transport_type : taxi],call a taxi,Call a taxi,transport_taxi,60
+6,7917.0,transport,taxi,book a [transport_type : taxi],book a taxi,Book a taxi,transport_taxi,60
+7,17455.0,transport,taxi,book an [transport_agency : uber] to pick me up outside of [place_name : long island bar] right now,book an uber to pick me up outside of long island bar right now,Book an Uber to pick me up outside of Long Island Bar right now.,transport_taxi,60
+8,14567.0,transport,taxi,call a [transport_type : taxi] to pick me up at work,call a taxi to pick me up at work,Call a taxi to pick me up at work.,transport_taxi,60
+9,10969.0,transport,taxi,find an [transport_agency : uber] driver available for [timeofday : tonight] after [time : ten pm],find an uber driver available for tonight after ten pm,Find an uber driver available for tonight after 10 pm.,transport_taxi,60
+10,12472.0,transport,taxi,book me an [transport_agency : uber],book me an uber,"PDA, book me an Uber.",transport_taxi,60
+11,71.0,transport,taxi,schedule an [transport_agency : uber] in [time : twenty minutes] to [business_name : tesco] on [place_name : fifth street],schedule an uber in twenty minutes to tesco on fifth street,Schedule an uber in 20 minutes to Tesco on 5th street,transport_taxi,60
+12,14566.0,transport,taxi,get me a [transport_type : taxi] to the [place_name : airport] right now,get me a taxi to the airport right now,Get me a taxi to the airport right now?,transport_taxi,60
+13,21582.0,transport,taxi,have a [transport_type : taxi] pick me up,have a taxi pick me up,Have a taxi pick me up.,transport_taxi,60
+14,13964.0,transport,taxi,book me a [transport_agency : uber] for [date : tomorrow] [timeofday : night] at [time : six pm],book me a uber for tomorrow night at six pm,Book me a Uber for tomorrow night at 6 pm.,transport_taxi,60
+15,23514.0,transport,taxi,book for me an [transport_agency : uber] [transport_type : taxi] to [place_name : carmen drive],book for me an uber taxi to carmen drive,Book for me an Uber taxi to Carmen Drive,transport_taxi,60
+16,24516.0,transport,taxi,[transport_agency : uber],uber,uber,transport_taxi,60
+17,8951.0,transport,taxi,book a [transport_type : taxi] to start from here,book a taxi to start from here,Book a taxi to start from here,transport_taxi,60
+0,874.0,general,negate,thanks but i think you don't understand this correctly.,thanks but i think you don't understand this correctly.,thanks but i think you don't understand this correctly.,general_negate,22
+1,864.0,general,negate,sorry but i think you've got that not right.,sorry but i think you've got that not right.,sorry but i think you've got that not right.,general_negate,22
+2,658.0,general,negate,i didn't say it.,i didn't say it.,i didn't say it.,general_negate,22
+3,913.0,general,negate,"shit, not right.","shit, not right.","shit, not right.",general_negate,22
+4,404.0,general,negate,i think it is not correct response.,i think it is not correct response.,i think it is not correct response.,general_negate,22
+5,868.0,general,negate,thanks but you have understood this wrongly.,thanks but you have understood this wrongly.,thanks but you have understood this wrongly.,general_negate,22
+6,556.0,general,negate,"wait, i think that's not the right answer.","wait, i think that's not the right answer.","wait, i think that's not the right answer.",general_negate,22
+7,138.0,general,negate,that wasn't right.,that wasn't right.,that wasn't right.,general_negate,22
+8,75.0,general,negate,"oops, you're not correct.","oops, you're not correct.","oops, you're not correct.",general_negate,22
+9,660.0,general,negate,"wait, you did not interpret command right.","wait, you did not interpret command right.","wait, you did not interpret command right.",general_negate,22
+10,720.0,general,negate,you have done a wrong thing.,you have done a wrong thing.,you have done a wrong thing.,general_negate,22
+11,249.0,general,negate,"wait, this is not the correct answer.","wait, this is not the correct answer.","wait, this is not the correct answer.",general_negate,22
+12,164.0,general,negate,thanks but i think you do not get me.,thanks but i think you do not get me.,thanks but i think you do not get me.,general_negate,22
+13,57.0,general,negate,"no, this is not what i am looking for.","no, this is not what i am looking for.","no, this is not what i am looking for.",general_negate,22
+14,98.0,general,negate,"uhh no, incorrect command.","uhh no, incorrect command.","uhh no, incorrect command.",general_negate,22
+15,227.0,general,negate,i think you don't get answer right.,i think you don't get answer right.,i think you don't get answer right.,general_negate,22
+16,118.0,general,negate,i think you did a task all wrong.,i think you did a task all wrong.,i think you did a task all wrong.,general_negate,22
+17,871.0,general,negate,"uh no, you did not understand what i am searching for.","uh no, you did not understand what i am searching for.","uh no, you did not understand what i am searching for.",general_negate,22
+18,388.0,general,negate,i am sorry but i think it was not the correct answer.,i am sorry but i think it was not the correct answer.,i am sorry but i think it was not the correct answer.,general_negate,22
+0,7146.0,audio,volume_up,could you speak a little more softly,could you speak a little more softly,Could you speak a little more softly?,audio_volume_up,5
+1,6785.0,audio,volume_up,turn it up,turn it up,"Turn it up, Olly!",audio_volume_up,5
+2,5359.0,audio,volume_up,just increase the volume a little,just increase the volume a little,Just increase the volume a little.,audio_volume_up,5
+3,20488.0,audio,volume_up,olly turn the volume up,olly turn the volume up,"Siri, turn the volume up",audio_volume_up,5
+4,16772.0,audio,volume_up,raise volume [change_amount : to level seven] on [device_type : music player],raise volume to level seven on music player,Raise volume to level 7 on music player,audio_volume_up,5
+5,7128.0,audio,volume_up,i want the speakers turned up high,i want the speakers turned up high,I want the speakers turned up high.,audio_volume_up,5
+6,8039.0,audio,volume_up,rise volume,rise volume,Rise volume,audio_volume_up,5
+7,2632.0,audio,volume_up,please increase the volume of the music [song_name : hips don't lie],please increase the volume of the music hips don't lie,Please increase the volume of the music Hips don't lie.,audio_volume_up,5
+8,10527.0,audio,volume_up,raise the volume of my [device_type : music player] [change_amount : by fifty percent],raise the volume of my music player by fifty percent,Raise the volume of my music player by 50%,audio_volume_up,5
+9,7144.0,audio,volume_up,speak as loud as you can,speak as loud as you can,Speak as loud as you can.,audio_volume_up,5
+10,13048.0,audio,volume_up,increase volume please,increase volume please,Increase volume please,audio_volume_up,5
+11,13897.0,audio,volume_up,make this a bit louder,make this a bit louder,make this a bit louder,audio_volume_up,5
+12,8087.0,audio,volume_up,increase volume [change_amount : to fifty percent],increase volume to fifty percent,Increase volume to 50%,audio_volume_up,5
+0,9538.0,email,querycontact,what is [person : sarah's] [personal_info : number],what is sarah's number,What is Sarah's number?,email_querycontact,14
+1,17854.0,email,querycontact,can you give me details on [person : john],can you give me details on john,Can you give me details on John?,email_querycontact,14
+2,22876.0,email,querycontact,have you responded my [event_name : phone calls],have you responded my phone calls,have you responded my phone calls,email_querycontact,14
+3,8255.0,email,querycontact,what is [person : jeff's] [personal_info : number],what is jeff's number,what is jeff's number,email_querycontact,14
+4,2901.0,email,querycontact,how many contacts are there named [person : john],how many contacts are there named john,How many contacts are there named John.,email_querycontact,14
+5,8167.0,email,querycontact,tell me the [personal_info : contact details] of my [relation : brother],tell me the contact details of my brother,tell me the contact details of my brother,email_querycontact,14
+6,20639.0,email,querycontact,show [personal_info : mobile number] of [person : john],show mobile number of john,show mobile number of john,email_querycontact,14
+7,21556.0,email,querycontact,does contact [person : mona] has an [personal_info : email] as well,does contact mona has an email as well,Does contact Mona has an email as well?,email_querycontact,14
+8,6075.0,email,querycontact,show [personal_info : number] and contact [personal_info : email] of [person : rehan],show number and contact email of rehan,"show number and contact email of Rehan, Olly",email_querycontact,14
+9,3095.0,email,querycontact,look up for the [personal_info : residential address] of my [relation : team leader],look up for the residential address of my team leader,Look up for the residential address of my team leader.,email_querycontact,14
+10,18662.0,email,querycontact,what is [relation : my wife's] [personal_info : email],what is my wife's email,What is my wife's e-mail?,email_querycontact,14
+11,6656.0,email,querycontact,select the contact,select the contact,Select the contact,email_querycontact,14
+12,13948.0,email,querycontact,is this my [relation : sisters] [personal_info : cellphone number],is this my sisters cellphone number,Is this my sisters cellphone number?,email_querycontact,14
+13,8524.0,email,querycontact,how [personal_info : old] is [person : mary s.],how old is mary s.,How old is Mary S?,email_querycontact,14
+14,12062.0,email,querycontact,did [relation : mom] text me,did mom text me,Did mom text me?,email_querycontact,14
+15,22998.0,email,querycontact,please let me know where [person : david] is [personal_info : travelling],please let me know where david is travelling,Please let me know where David is travelling,email_querycontact,14
+16,4980.0,email,querycontact,is [person : hayden] still [personal_info : living] on [place_name : turnpike lane],is hayden still living on turnpike lane,Is Hayden still living on Turnpike Lane?,email_querycontact,14
+17,4119.0,email,querycontact,add [person : rebecca green] to my list of favorite contacts,add rebecca green to my list of favorite contacts,Add Rebecca Green to my list of favorite contacts,email_querycontact,14
+18,6753.0,email,querycontact,what is [person : jill's] [personal_info : home phone number],what is jill's home phone number,What is Jill's home phone number?,email_querycontact,14
+0,3218.0,iot,wemo_on,turn on the [device_type : wemo plug socket] to connect my charger to it,turn on the wemo plug socket to connect my charger to it,Turn on the Wemo plug socket to connect my charger to it,iot_wemo_on,34
+1,1320.0,iot,wemo_on,turn on the [device_type : plug],turn on the plug,Turn on the plug.,iot_wemo_on,34
+2,20231.0,iot,wemo_on,on all the button on dashboard,on all the button on dashboard,On all the button on dashboard,iot_wemo_on,34
+3,23754.0,iot,wemo_on,toggle [device_type : wemo plug socket] on,toggle wemo plug socket on,Toggle wemo plug socket on,iot_wemo_on,34
+4,13934.0,iot,wemo_on,[device_type : wemo] on,wemo on,wemo on,iot_wemo_on,34
+5,18011.0,iot,wemo_on,start new [device_type : smart socket],start new smart socket,start new smart socket,iot_wemo_on,34
+6,20328.0,iot,wemo_on,make the [device_type : wemo] go on,make the wemo go on,Make the wemo go on,iot_wemo_on,34
+0,3159.0,play,music,play music i have liked,play music i have liked,Play music I have liked,play_music,44
+1,26643.0,play,music,i would like to hear the [music_descriptor : theme song] to [song_name : this is us],i would like to hear the theme song to this is us,I would like to hear the theme song to This is Us,play_music,44
+2,15890.0,play,music,play the list from my favorites,play the list from my favorites,Play the list from my favorites,play_music,44
+3,12234.0,play,music,put [song_name : poker face] by [artist_name : lady gaga] next in the play queue,put poker face by lady gaga next in the play queue,"PDA, put Poker Face by Lady Gaga next in the play queue.",play_music,44
+4,24134.0,play,music,turn on the tunes,turn on the tunes,Turn on the tunes.,play_music,44
+5,21693.0,play,music,[music_genre : rock],rock,1980's rock,play_music,44
+6,27115.0,play,music,play [song_name : jumper] by [artist_name : third eye blind],play jumper by third eye blind,"Olly, play jumper by third eye blind.",play_music,44
+7,12164.0,play,music,play music playlist,play music playlist,play 80s music playlist,play_music,44
+8,23188.0,play,music,please turn on my music,please turn on my music,Please turn on my music.,play_music,44
+9,11981.0,play,music,play my [music_genre : rap] playlist,play my rap playlist,Play my Rap playlist,play_music,44
+10,11442.0,play,music,after this song play [song_name : atmosphere],after this song play atmosphere,"After this song, play Atomsphere.",play_music,44
+11,20044.0,play,music,play [song_name : true love] next,play true love next,play True Love next,play_music,44
+12,23971.0,play,music,play [music_genre : hip hop] songs,play hip hop songs,Play Hip Hop Songs,play_music,44
+13,10966.0,play,music,hey play crazy by [artist_name : britney spears],hey play crazy by britney spears,hey PDA play crazy by britney spears,play_music,44
+14,27006.0,play,music,play [artist_name : marvin gaye] [song_name : i want you],play marvin gaye i want you,Play Marvin Gaye I Want You,play_music,44
+15,2491.0,play,music,play [music_descriptor : tonic],play tonic,plau Tonic,play_music,44
+16,14113.0,play,music,play [song_name : jingle bells] next,play jingle bells next,Play Jingle Bells next.,play_music,44
+17,8704.0,play,music,open [music_genre : jazz],open jazz,open jazz,play_music,44
+18,19826.0,play,music,play all [artist_name : third day],play all third day,play all Third Day,play_music,44
+0,282.0,general,confirm,would you confirm the question.,would you confirm the question.,would you confirm the question.,general_confirm,18
+1,479.0,general,confirm,could you check my last question.,could you check my last question.,could you check my last question.,general_confirm,18
+2,156.0,general,confirm,will you check and confirm command please.,will you check and confirm command please.,will you check and confirm command please.,general_confirm,18
+3,212.0,general,confirm,please will you check it.,please will you check it.,please will you check it.,general_confirm,18
+4,154.0,general,confirm,could you check and confirm what i last said please.,could you check and confirm what i last said please.,could you check and confirm what i last said please.,general_confirm,18
+5,528.0,general,confirm,will you please check it.,will you please check it.,will you please check it.,general_confirm,18
+6,7.0,general,confirm,please can you confirm the question.,please can you confirm the question.,please can you confirm the question.,general_confirm,18
+7,180.0,general,confirm,check the details please.,check the details please.,check the details please.,general_confirm,18
+8,243.0,general,confirm,can you confirm it.,can you confirm it.,can you confirm it.,general_confirm,18
+9,462.0,general,confirm,please can you confirm it.,please can you confirm it.,please can you confirm it.,general_confirm,18
+10,26.0,general,confirm,can you check and confirm the question please.,can you check and confirm the question please.,can you check and confirm the question please.,general_confirm,18
+11,299.0,general,confirm,i like you check question please.,i like you check question please.,i like you check question please.,general_confirm,18
+12,77.0,general,confirm,did you get what just said correctly?,did you get what just said correctly?,did you get what just said correctly?,general_confirm,18
+13,407.0,general,confirm,did you get what said correctly?,did you get what said correctly?,did you get what said correctly?,general_confirm,18
+14,417.0,general,confirm,i like you to check and confirm what i said please.,i like you to check and confirm what i said please.,i like you to check and confirm what i said please.,general_confirm,18
+15,9.0,general,confirm,would you please confirm the instruction.,would you please confirm the instruction.,would you please confirm the instruction.,general_confirm,18
+16,461.0,general,confirm,check and confirm my last question please.,check and confirm my last question please.,check and confirm my last question please.,general_confirm,18
+17,466.0,general,confirm,will you check and confirm the instruction please.,will you check and confirm the instruction please.,will you check and confirm the instruction please.,general_confirm,18
+18,320.0,general,confirm,can you check last thing said please.,can you check last thing said please.,can you check last thing said please.,general_confirm,18
+0,26054.0,iot,coffee,i would like some coffee now,i would like some coffee now,I would like some coffee now.,iot_coffee,27
+1,26584.0,iot,coffee,please make coffee at [time : seven am],please make coffee at seven am,Please make coffee at 7:00 AM,iot_coffee,27
+2,19946.0,iot,coffee,make a cup of coffee,make a cup of coffee,Olly make a cup of coffee,iot_coffee,27
+3,9168.0,iot,coffee,start coffee at [time : six am],start coffee at six am,Olly start coffee at 6am,iot_coffee,27
+4,13629.0,iot,coffee,i want some coffee now,i want some coffee now,Olly I want some coffee now,iot_coffee,27
+5,6252.0,iot,coffee,get me some [coffee_type : latte] please,get me some latte please,Get me some latte please.,iot_coffee,27
+6,26055.0,iot,coffee,prepare my [coffee_type : morning] coffee,prepare my morning coffee,Prepare my morning coffee.,iot_coffee,27
+7,10721.0,iot,coffee,prepare some cups of coffee for us,prepare some cups of coffee for us,prepare some cups of coffee for us,iot_coffee,27
+8,9212.0,iot,coffee,can you see to it that the [device_type : coffee maker] is ready with my [coffee_type : filter] coffee in approximately [time : ten minutes from now],can you see to it that the coffee maker is ready with my filter coffee in approximately ten minutes from now,Can you see to it that the coffee maker is ready with my filter coffee in approx. 10 mins. from now?,iot_coffee,27
+9,13119.0,iot,coffee,i'd like a coffee now,i'd like a coffee now,I'd like a coffee now,iot_coffee,27
+10,12939.0,iot,coffee,can you please turn on the [device_type : coffee pot] to make me coffee,can you please turn on the coffee pot to make me coffee,Can you please turn on the coffee pot to make me coffee?,iot_coffee,27
+11,16346.0,iot,coffee,prepare coffee now,prepare coffee now,Prepare coffee now,iot_coffee,27
+12,11004.0,iot,coffee,can you get me a cup of coffee,can you get me a cup of coffee,Can you get me a cup of coffee,iot_coffee,27
+13,10720.0,iot,coffee,make a cup of coffee for me,make a cup of coffee for me,make a cup of coffee for me,iot_coffee,27
+14,2031.0,iot,coffee,get a cup of coffee ready now,get a cup of coffee ready now,get a cup of coffee ready now,iot_coffee,27
+15,13389.0,iot,coffee,coffee please,coffee please,Coffee please.,iot_coffee,27
+16,6251.0,iot,coffee,make me a [coffee_type : capuccino],make me a capuccino,Make me a capuccino.,iot_coffee,27
+17,9166.0,iot,coffee,make me coffee at [time : eight am],make me coffee at eight am,Olly make me coffee at 8am,iot_coffee,27
+18,21750.0,iot,coffee,put on a pot of coffee,put on a pot of coffee,put on a pot of coffee,iot_coffee,27
+0,10002.0,cooking,recipe,help me make [food_type : brownies],help me make brownies,Help me make brownies.,cooking_recipe,9
+1,20702.0,cooking,recipe,[food_type : crabmeat] recipe,crabmeat recipe,Crabmeat recipe,cooking_recipe,9
+2,25389.0,cooking,recipe,it should spices,it should spices,IT SHOULD SPICES,cooking_recipe,9
+3,6198.0,cooking,recipe,tell how [ingredient : vegetable] is cooked,tell how vegetable is cooked,"Olly, tell how vegetable is cooked",cooking_recipe,9
+4,19595.0,cooking,recipe,learn to cut [food_type : potatoes] correctly,learn to cut potatoes correctly,Learn to cut potatoes correctly,cooking_recipe,9
+5,9980.0,cooking,recipe,how to cook that meal,how to cook that meal,How to cook that meal,cooking_recipe,9
+6,12924.0,cooking,recipe,can i get a recipe for [food_type : tuna],can i get a recipe for tuna,Can I get a recipe for x?,cooking_recipe,9
+7,13309.0,cooking,recipe,please cook me a [food_type : hamburger],please cook me a hamburger,Please cook me a hamburger.,cooking_recipe,9
+8,9225.0,cooking,recipe,how to cook [ingredient : yellow rice],how to cook yellow rice,How to cook yellow rice,cooking_recipe,9
+9,17571.0,cooking,recipe,i need to know how to make [food_type : stuffed peppers],i need to know how to make stuffed peppers,I need to know how to make stuffed peppers,cooking_recipe,9
+10,4120.0,cooking,recipe,how can i cook [food_type : pasta],how can i cook pasta,How can I cook pasta?,cooking_recipe,9
+11,12304.0,cooking,recipe,look for different recipes,look for different recipes,look for different recipes,cooking_recipe,9
+12,4343.0,cooking,recipe,what ingredient can be used instead of [ingredient : saffron],what ingredient can be used instead of saffron,What ingredient can be used instead of saffron,cooking_recipe,9
+13,18141.0,cooking,recipe,find [food_type : apple pie] recipe,find apple pie recipe,Find apple pie recipe.,cooking_recipe,9
+14,12225.0,cooking,recipe,do i have enough ingredients in my [device_type : refrigerator],do i have enough ingredients in my refrigerator,Do I have enough ingredients in my refrigerator?,cooking_recipe,9
+15,6767.0,cooking,recipe,search for your favorite meal,search for your favorite meal,Search for your favorite meal,cooking_recipe,9
+16,26136.0,cooking,recipe,tell me the preparation method for [food_type : chicken] sixty five,tell me the preparation method for chicken sixty five,Tell me the preparation method for Chicken 65,cooking_recipe,9
+17,11128.0,cooking,recipe,i would like it to be able to find recipes i have,i would like it to be able to find recipes i have,i would like it to be able to find recipes i have,cooking_recipe,9
+18,3263.0,cooking,recipe,why do people use [ingredient : avocado seeds],why do people use avocado seeds,Why do people use Avocado seeds?,cooking_recipe,9
+0,12581.0,news,query,add newscast time to daily schedule,add newscast time to daily schedule,add newscast time to daily schedule,news_query,41
+1,8765.0,news,query,what were the cities affected by the earthquake,what were the cities affected by the earthquake,What were the cities affected by the earthquake?,news_query,41
+2,8784.0,news,query,head lines [date : today] from news,head lines today from news,head lines today from news,news_query,41
+3,10622.0,news,query,what is the [place_name : seattle] [news_topic : city council doing about homelessness],what is the seattle city council doing about homelessness,What is the Seattle city council doing about homelessness?,news_query,41
+4,6943.0,news,query,find me any news from [media_type : so clean] the [time : last six hours],find me any news from so clean the last six hours,Find me any news from SO CLEAN the last 6 hours?,news_query,41
+5,11860.0,news,query,what is the latest headline news from this [media_type : newsource],what is the latest headline news from this newsource,What is the latest headline news from this newsource,news_query,41
+6,3261.0,news,query,could you please find me the latest news from a source that i do not usually go to,could you please find me the latest news from a source that i do not usually go to,Could you please find me the latest news from a source that I do not usually go to?,news_query,41
+7,19508.0,news,query,please keep tabs on how the [news_topic : presidential debates] are going,please keep tabs on how the presidential debates are going,Please keep tabs on how the presidential debates are going.,news_query,41
+8,9562.0,news,query,what's happening around the [place_name : world],what's happening around the world,What's happening around the world?,news_query,41
+9,15572.0,news,query,i want to know everything that breaks about the dam breaking in [place_name : california],i want to know everything that breaks about the dam breaking in california,I want to know everything that breaks about the dam breaking in California.,news_query,41
+10,20274.0,news,query,what is the latest news about [news_topic : obamacare],what is the latest news about obamacare,What is the latest news about Obamacare,news_query,41
+11,21517.0,news,query,show news of [news_topic : migration],show news of migration,show news of migration,news_query,41
+12,4487.0,news,query,find new [news_topic : trump] articles but not from [media_type : fox news],find new trump articles but not from fox news,Find new Trump articles but not from Fox News.,news_query,41
+13,13552.0,news,query,what's the latest news from [media_type : xinhua],what's the latest news from xinhua,what's the latest news from Xinhua?,news_query,41
+14,14362.0,news,query,find me info on [news_topic : cars],find me info on cars,find me info on cars,news_query,41
+15,13640.0,news,query,Show me news from [media_type : cnn],Show me news from cnn,Show me news from CNN,news_query,41
+16,1846.0,news,query,what is the current state of [news_topic : brexit negotiations],what is the current state of brexit negotiations,What is the current state of Brexit negotiations?,news_query,41
+17,5026.0,news,query,fast me the news of [news_topic : academy awards],fast me the news of academy awards,Fast me the news of academy awards,news_query,41
+18,5027.0,news,query,i want the news about [news_topic : academy awards],i want the news about academy awards,I want the news about academy award,news_query,41
+0,16403.0,iot,hue_lightup,light up,light up,light up,iot_hue_lightup,32
+1,1863.0,iot,hue_lightup,lighten the light,lighten the light,Lighten the light,iot_hue_lightup,32
+2,14532.0,iot,hue_lightup,i need the lights in here to be turned up to [time : seven],i need the lights in here to be turned up to seven,I need the lights in here to be turned up to 7.,iot_hue_lightup,32
+3,1943.0,iot,hue_lightup,increase brightness [change_amount : by twenty percent],increase brightness by twenty percent,increase brightness by 20 percent,iot_hue_lightup,32
+4,5801.0,iot,hue_lightup,increase the light in the [house_place : room],increase the light in the room,Increase the light in the room,iot_hue_lightup,32
+5,8203.0,iot,hue_lightup,can you turn up the lights,can you turn up the lights,Can you turn up the lights?,iot_hue_lightup,32
+6,13682.0,iot,hue_lightup,i would like all the lights on when i enter,i would like all the lights on when i enter,I would like all the lights on when I enter.,iot_hue_lightup,32
+7,22731.0,iot,hue_lightup,please arrange to make [device_type : all lights] to show brighter,please arrange to make all lights to show brighter,please arrange to make all lights to show  brighter,iot_hue_lightup,32
+8,15067.0,iot,hue_lightup,brighten [house_place : living room] lights,brighten living room lights,Brighten living room lights,iot_hue_lightup,32
+9,12231.0,iot,hue_lightup,raise all the lights on,raise all the lights on,raise all the lights on,iot_hue_lightup,32
+10,14128.0,iot,hue_lightup,raise the lights,raise the lights,raise the lights,iot_hue_lightup,32
+11,7858.0,iot,hue_lightup,brighten the light [change_amount : at seventy percent],brighten the light at seventy percent,BRIGTEN THE LIGHT AT 70 PERCENT,iot_hue_lightup,32
+12,9639.0,iot,hue_lightup,increase,increase,Increase the light level.,iot_hue_lightup,32
+13,7275.0,iot,hue_lightup,brighten the lights,brighten the lights,brighten the lights,iot_hue_lightup,32
+0,17732.0,qa,maths,two by two is,two by two is,Two by two is?,qa_maths,50
+1,21653.0,qa,maths,fifteen plus twenty,fifteen plus twenty,15+20,qa_maths,50
+2,24273.0,qa,maths,divide two hundred by four,divide two hundred by four,Divide two hundred by four.,qa_maths,50
+3,6520.0,qa,maths,what is one plus one,what is one plus one,What is 1+1?,qa_maths,50
+4,24054.0,qa,maths,is one divisible by three,is one divisible by three,is 1005 divisible by 3,qa_maths,50
+5,21449.0,qa,maths,convert ten inches to centimeters,convert ten inches to centimeters,Convert 10 inches to centimeters.,qa_maths,50
+6,18355.0,qa,maths,what is the answer to this math question,what is the answer to this math question,what is the answer to this math question?,qa_maths,50
+7,2999.0,qa,maths,three times two equals six,three times two equals six,3*2=6,qa_maths,50
+8,21463.0,qa,maths,how many inches make one feet,how many inches make one feet,How many inches make one feet?,qa_maths,50
+9,17914.0,qa,maths,what is the square root of four,what is the square root of four,What is the square root of 4 ?,qa_maths,50
+10,8965.0,qa,maths,can you add up thirteen plus five plus nine for me,can you add up thirteen plus five plus nine for me,Can you add up 13+5+9 for me?,qa_maths,50
+11,23404.0,qa,maths,what is twenty percent of one hundred and twenty,what is twenty percent of one hundred and twenty,What is 20 % of 120?,qa_maths,50
+12,12444.0,qa,maths,what is five divided by one,what is five divided by one,What is 5 divided by 1,qa_maths,50
+13,,qa,maths,what is the sum of 9 and 12,what is the sum of 9 and 12,,qa_maths,50
+0,18292.0,qa,stock,what are the stock prices of target,what are the stock prices of target,What are the stock prices of Target?,qa_stock,51
+1,22125.0,qa,stock,fill me in on stock symbol,fill me in on stock symbol,Fill me in on stock symbol,qa_stock,51
+2,26287.0,qa,stock,what is the price of stock for [business_name : gm],what is the price of stock for gm,What is the price of stock for GM?,qa_stock,51
+3,18731.0,qa,stock,[business_name : google] [business_name : i. b. m.] stock prices,google i. b. m. stock prices,Google IBM stock prices,qa_stock,51
+4,21206.0,qa,stock,how is shell s stock doing [date : today],how is shell s stock doing today,How is [company's' stock doing today,qa_stock,51
+5,24067.0,qa,stock,stock price for [business_name : gss energy],stock price for gss energy,Stock price for GSS Energy,qa_stock,51
+6,18606.0,qa,stock,list me the stock of [business_name : apple] right now,list me the stock of apple right now,List me the stock of apple right now,qa_stock,51
+7,20064.0,qa,stock,stock price for [business_name : sprint],stock price for sprint,stock price for sprint,qa_stock,51
+8,17179.0,qa,stock,what is the value of [business_name : apple],what is the value of apple,what is the value of apple,qa_stock,51
+9,27155.0,qa,stock,compare the stock prices for [business_name : nintendo] and [business_name : sony] and tell me which ones are better,compare the stock prices for nintendo and sony and tell me which ones are better,"Olly, compare the stock prices for nintendo and sony and tell me which ones are better.",qa_stock,51
+10,24203.0,qa,stock,how much did [business_name : facebook] stock increase last night,how much did facebook stock increase last night,how much did facebook stock increase last night,qa_stock,51
+11,25359.0,qa,stock,what is the stock information of [business_name : walmart],what is the stock information of walmart,what is the stock information of walmart,qa_stock,51
+12,24856.0,qa,stock,what is now stock price of [business_name : tata],what is now stock price of tata,what is now stock price of tata,qa_stock,51
+13,23854.0,qa,stock,what is the current price of [business_name : jindel] stock,what is the current price of jindel stock,What is the current price of jindel stock,qa_stock,51
+14,22362.0,qa,stock,how is [business_name : coca cola] stock doing [date : today],how is coca cola stock doing today,How is Coca-Cola stock doing today?,qa_stock,51
+15,26339.0,qa,stock,for how much is [business_name : hp] selling for,for how much is hp selling for,For how much is HP selling for?,qa_stock,51
+16,24881.0,qa,stock,what price are [business_name : google] stocks trading for,what price are google stocks trading for,"Ok Google, what price are Google stocks trading for",qa_stock,51
+17,26162.0,qa,stock,is [business_name : starbucks] stock up or down from last quarter,is starbucks stock up or down from last quarter,Is Starbucks' stock up or down from last quarter?,qa_stock,51
+18,23631.0,qa,stock,how much to buy stock in [business_name : i. b. m.],how much to buy stock in i. b. m.,How much to buy stock in IBM?,qa_stock,51
+0,15159.0,takeaway,query,where can i order [food_type : pizza] for [order_type : delivery],where can i order pizza for delivery,Where can I order pizza for delivery?,takeaway_query,58
+1,22066.0,takeaway,query,does [business_name : pings] do [order_type : takeaway],does pings do takeaway,Does Pings do takeaway?,takeaway_query,58
+2,4821.0,takeaway,query,i need to know if [business_name : mr pizza] [order_type : delivers],i need to know if mr pizza delivers,PDA I need to know if Mr Pizza delivers.,takeaway_query,58
+3,23447.0,takeaway,query,what's the exact time we get food delivered once we place an order for food,what's the exact time we get food delivered once we place an order for food,What's the exact time we get food delivered once we place an order for food.,takeaway_query,58
+4,8346.0,takeaway,query,how long until i receive my food,how long until i receive my food,How long until I receive my food,takeaway_query,58
+5,17924.0,takeaway,query,check [order_type : delivery] options for the [business_type : restaurant],check delivery options for the restaurant,Check delivery options for the restaurant.,takeaway_query,58
+6,11728.0,takeaway,query,does [business_name : louie's] do take out,does louie's do take out,Does Louie's do take out,takeaway_query,58
+7,13578.0,takeaway,query,where are my [order_type : takeaway] order,where are my takeaway order,where are my takeaway order?,takeaway_query,58
+8,26227.0,takeaway,query,is my order at [business_name : domino's] ready,is my order at domino's ready,Is my order at domino's ready?,takeaway_query,58
+9,21687.0,takeaway,query,hi there do you offer home [order_type : delivery] for orders,hi there do you offer home delivery for orders,"Hi There, Do you offer home delivery for orders?",takeaway_query,58
+10,804.0,takeaway,query,can they provide [order_type : takeaway],can they provide takeaway,Can they provide takeaway?,takeaway_query,58
+11,7902.0,takeaway,query,[business_type : restaurant] order status,restaurant order status,Restaurant order status,takeaway_query,58
+12,25179.0,takeaway,query,when is my [order_type : takeaway] arriving,when is my takeaway arriving,When is my takeaway arriving?,takeaway_query,58
+13,12433.0,takeaway,query,find out if [business_name : kfc] delivers please,find out if kfc delivers please,"Olly, find out if KFC delivers, please.",takeaway_query,58
+14,806.0,takeaway,query,do they [order_type : deliver] home,do they deliver home,Do they deliver home?,takeaway_query,58
+15,11249.0,takeaway,query,please see if [food_type : chili's] has [order_type : delivery],please see if chili's has delivery,Please see if Chili's has delivery.,takeaway_query,58
+16,25004.0,takeaway,query,what is the status of my order no,what is the status of my order no,what is the status of my order no?,takeaway_query,58
+17,11250.0,takeaway,query,please see if the [business_type : restaurant] [business_name : chili's] has [order_type : delivery] as an option,please see if the restaurant chili's has delivery as an option,Please see if the restaurant Chili's has delivery as an option?,takeaway_query,58
+18,805.0,takeaway,query,can they do [order_type : delivery],can they do delivery,Can they do delivery?,takeaway_query,58
+0,23699.0,play,game,play for me the game [game_name : temple run],play for me the game temple run,Play for me the Game Temple Run,play_game,43
+1,27087.0,play,game,i want to play [game_name : solitare] with you,i want to play solitare with you,I want to play solitare with you.,play_game,43
+2,26140.0,play,game,can we play [game_name : twenty questions],can we play twenty questions,Can we play Twenty Questions?,play_game,43
+3,22479.0,play,game,give me a company for playing [game_name : football],give me a company for playing football,Give me a company for playing football,play_game,43
+4,25708.0,play,game,my games to play in my phones,my games to play in my phones,MY GAMES TO PLAY IN MY PHONES,play_game,43
+5,22915.0,play,game,let's play,let's play,Let's play,play_game,43
+6,26378.0,play,game,play [game_name : tennis] for me,play tennis for me,Play Tennis for me,play_game,43
+7,23617.0,play,game,lets play [game_name : poker],lets play poker,Lets play poker.,play_game,43
+8,18282.0,play,game,anyone for [game_name : tennis],anyone for tennis,Anyone for tennis?,play_game,43
+9,25350.0,play,game,play [game_name : pong] against me,play pong against me,play pong against me,play_game,43
+10,18784.0,play,game,play [game_name : solitaire],play solitaire,Play Solitaire,play_game,43
+11,24830.0,play,game,we should play [game_name : nfs] at high speed,we should play nfs at high speed,we should play nfs at high speed,play_game,43
+12,15962.0,play,game,can we play a game of [game_name : hangman],can we play a game of hangman,Can we play a game of hangman?,play_game,43
+13,26019.0,play,game,do you want to play [game_name : monopoly] with me,do you want to play monopoly with me,Do you want to play Monopoly with me?,play_game,43
+14,24192.0,play,game,bring up [game_name : papa pear saga],bring up papa pear saga,bring up papa pear saga,play_game,43
+15,22149.0,play,game,play [game_name : checkers] with me,play checkers with me,play checkers with me,play_game,43
+16,22475.0,play,game,fight me in [game_name : street fighter],fight me in street fighter,Fight me in Street Fighter,play_game,43
+17,26251.0,play,game,[game_name : paper scissors or stone],paper scissors or stone,"Paper, scissors or stone?",play_game,43
+18,21264.0,play,game,start [game_name : poker] game with me,start poker game with me,Start poker game with me.,play_game,43
+0,19732.0,music,likeness,save this song in my favorites,save this song in my favorites,Save this song in my favorites.,music_likeness,38
+1,12412.0,music,likeness,please rate this song five stars please,please rate this song five stars please,Please rate this song <insert rating here>,music_likeness,38
+2,16543.0,music,likeness,i like [music_genre : alt rock] music,i like alt rock music,I like alt rock music.,music_likeness,38
+3,7767.0,music,likeness,add song to [playlist_name : running] list,add song to running list,Add song to running list,music_likeness,38
+4,10814.0,music,likeness,i like to be it,i like to be it,i like to be it,music_likeness,38
+5,10392.0,music,likeness,add this channel to [app_name : pandora],add this channel to pandora,PDA: Add this channel to Pandora,music_likeness,38
+6,14945.0,music,likeness,this song should be on my playlist,this song should be on my playlist,This song should be on my playlist,music_likeness,38
+7,731.0,music,likeness,i like it,i like it,I like it,music_likeness,38
+8,14133.0,music,likeness,add this song to favorites playlist,add this song to favorites playlist,Add this song to favorites playlist.,music_likeness,38
+9,5006.0,music,likeness,i favorite singer is [artist_name : arijit singh] find his voice on radio,i favorite singer is arijit singh find his voice on radio,"I FAVORITE SINGER IS ARIJIT SINGH, FIND HIS VOICE ON RADIO.",music_likeness,38
+10,18253.0,music,likeness,i really enjoy this song,i really enjoy this song,I really enjoy this song,music_likeness,38
+11,14823.0,music,likeness,i'd like you to remember that i like this song,i'd like you to remember that i like this song,I'd like you to remember that I like this song.,music_likeness,38
+12,18846.0,music,likeness,what is in my favorites music folder,what is in my favorites music folder,What is in my favorites music folder?,music_likeness,38
+13,11524.0,music,likeness,please save the current song to favorites,please save the current song to favorites,"Alexa, please save the current song to favorites.",music_likeness,38
+14,4468.0,music,likeness,all i ever want to hear is [music_genre : rap],all i ever want to hear is rap,All I ever want to hear is rap.,music_likeness,38
+15,598.0,music,likeness,the song you are playing is amazing,the song you are playing is amazing,The song you are playing is amazing,music_likeness,38
+16,12413.0,music,likeness,please thumbs up this song,please thumbs up this song,Please thumbs up this song,music_likeness,38
+17,16632.0,music,likeness,remember that this song is good but too slow to exercise to,remember that this song is good but too slow to exercise to,"Remember that this song is good, but too slow to exercise to.",music_likeness,38
+0,216.0,general,commandstop,i would like you just stop it.,i would like you just stop it.,i would like you just stop it.,general_commandstop,17
+1,114.0,general,commandstop,will you please shut down.,will you please shut down.,will you please shut down.,general_commandstop,17
+2,253.0,general,commandstop,"olly that's enough, just stop it.","olly that's enough, just stop it.","olly that's enough, just stop it.",general_commandstop,17
+3,188.0,general,commandstop,olly can you stop it.,olly can you stop it.,olly can you stop it.,general_commandstop,17
+4,12.0,general,commandstop,olly please would you stop.,olly please would you stop.,olly please would you stop.,general_commandstop,17
+5,298.0,general,commandstop,please shut up.,please shut up.,please shut up.,general_commandstop,17
+6,310.0,general,commandstop,i like you cancel.,i like you cancel.,i like you cancel.,general_commandstop,17
+7,195.0,general,commandstop,will you just stop it please.,will you just stop it please.,will you just stop it please.,general_commandstop,17
+8,240.0,general,commandstop,would you cancel it please.,would you cancel it please.,would you cancel it please.,general_commandstop,17
+9,138.0,general,commandstop,olly can you shut down.,olly can you shut down.,olly can you shut down.,general_commandstop,17
+10,269.0,general,commandstop,"olly that is enough, just stop it.","olly that is enough, just stop it.","olly that is enough, just stop it.",general_commandstop,17
+11,305.0,general,commandstop,olly will you cancel please.,olly will you cancel please.,olly will you cancel please.,general_commandstop,17
+12,68.0,general,commandstop,will you stop.,will you stop.,will you stop.,general_commandstop,17
+13,66.0,general,commandstop,"that's all, cancel it.","that's all, cancel it.","that's all, cancel it.",general_commandstop,17
+14,27.0,general,commandstop,olly shut down please.,olly shut down please.,olly shut down please.,general_commandstop,17
+15,309.0,general,commandstop,olly can you just stop.,olly can you just stop.,olly can you just stop.,general_commandstop,17
+16,244.0,general,commandstop,will you cancel it.,will you cancel it.,will you cancel it.,general_commandstop,17
+17,263.0,general,commandstop,olly please can you shut up.,olly please can you shut up.,olly please can you shut up.,general_commandstop,17
+18,53.0,general,commandstop,olly i want you cancel.,olly i want you cancel.,olly i want you cancel.,general_commandstop,17
+0,20882.0,email,sendemail,send a mail to whom to talk,send a mail to whom to talk,send a mail to whom to talk,email_sendemail,15
+1,8535.0,email,sendemail,pull up [person : kate's] email and write that i will let her know,pull up kate's email and write that i will let her know,Pull up Kate's email and write that I will let her know.,email_sendemail,15
+2,6076.0,email,sendemail,please reply to my [relation : boss] most recent email and say that the ppt will be ready in one hour maximum,please reply to my boss most recent email and say that the ppt will be ready in one hour maximum,Please reply to my boss' most recent email and say that the ppt will be ready in one hour maximum.,email_sendemail,15
+3,21634.0,email,sendemail,reply the email of [person : charles] with just thank you right now,reply the email of charles with just thank you right now,"Reply the email of Charles with just thank you, right now",email_sendemail,15
+4,12633.0,email,sendemail,send new email to [email_address : jana dot litt at gmail dot com],send new email to jana dot litt at gmail dot com,Send new email to jana dot litt at gmail dot com,email_sendemail,15
+5,579.0,email,sendemail,hey please reply to last [person : pawel's] email,hey please reply to last pawel's email,"Hey, please reply to last Pawel's email",email_sendemail,15
+6,13172.0,email,sendemail,send email to new email address,send email to new email address,Send email to new email address,email_sendemail,15
+7,6531.0,email,sendemail,send an email to my [relation : friend] say [event_name : birthday] wishes,send an email to my friend say birthday wishes,Send an email to my friend say birthday wishes,email_sendemail,15
+8,25714.0,email,sendemail,send email to [relation : mom] starting with the subject vacation,send email to mom starting with the subject vacation,Send email to Mom starting with the subject: Vacation.,email_sendemail,15
+9,15167.0,email,sendemail,[email_address : jj.nzt@yahoo dot com],jj.nzt@yahoo dot com,jj_nzt@yahoo.com,email_sendemail,15
+10,3330.0,email,sendemail,email happy new year to [person : john],email happy new year to john,email 'happy new year' to john,email_sendemail,15
+11,21636.0,email,sendemail,tell to [person : joe's] email that come to my house in this moment i am alone,tell to joe's email that come to my house in this moment i am alone,Tell to Joe┬┤s email that come to my house in this moment i am alone,email_sendemail,15
+12,2058.0,email,sendemail,go to email and send message to,go to email and send message to,go to email and send message to,email_sendemail,15
+13,19634.0,email,sendemail,email [person : john smith],email john smith,Email John Smith.,email_sendemail,15
+14,6276.0,email,sendemail,start a new email to [person : george brown],start a new email to george brown,Start a new email to George Brown,email_sendemail,15
+15,12964.0,email,sendemail,send a replay email,send a replay email,send a replay email,email_sendemail,15
+16,15753.0,email,sendemail,send reply to [person : joe],send reply to joe,send reply to joe,email_sendemail,15
+17,8384.0,email,sendemail,email [person : tom] the date and time of [date : tomorrow's] [event_name : meeting],email tom the date and time of tomorrow's meeting,Email Tom the date and time of tomorrow's meeting,email_sendemail,15
+18,2036.0,email,sendemail,add mail id subject content,add mail id subject content,"add mail id, subject , content",email_sendemail,15
+0,15315.0,social,query,who is doing [media_type : facebook live] right now,who is doing facebook live right now,Who is doing FaceBook live right now?,social_query,56
+1,18423.0,social,query,tell me what's going on [media_type : snap chat],tell me what's going on snap chat,Tell me what's going on snap chat,social_query,56
+2,17998.0,social,query,what's the most popular story on my [media_type : facebook] newsfeed,what's the most popular story on my facebook newsfeed,What's the most popular story on my Facebook newsfeed?,social_query,56
+3,6129.0,social,query,how many notifications do i have on [media_type : facebook],how many notifications do i have on facebook,How many notifications do I have on Facebook?,social_query,56
+4,14966.0,social,query,please check the trending topics on [media_type : twitter],please check the trending topics on twitter,Please check the trending topics on Twitter.,social_query,56
+5,11160.0,social,query,read me new post on my feed,read me new post on my feed,Read me new post on my feed,social_query,56
+6,3697.0,social,query,get me updates from [person : kenny's] [media_type : facebook] from the [time : weekend],get me updates from kenny's facebook from the weekend,Get me updates from Kenny's Facebook from the weekend,social_query,56
+7,17999.0,social,query,did anyone get [event_name : engaged or give birth] among my [relation : online friends],did anyone get engaged or give birth among my online friends,Did anyone get engaged or give birth among my online friends?,social_query,56
+8,8515.0,social,query,did anyone like my photo i just posted,did anyone like my photo i just posted,Did anyone like my photo I just posted?,social_query,56
+9,8647.0,social,query,show me the posts of my [relation : friends] in the [time : last hour],show me the posts of my friends in the last hour,Show me the posts of my friends in the last hour,social_query,56
+10,2656.0,social,query,may i know what is trending in [media_type : social media],may i know what is trending in social media,May I know what is trending in social media?,social_query,56
+11,3698.0,social,query,find updates from [person : vicki's] [media_type : facebook] from [date : mardi gras day],find updates from vicki's facebook from mardi gras day,Find updates from Vicki's Facebook from Mardi Gras day,social_query,56
+12,10652.0,social,query,open social media account,open social media account,"Open social media (Facebook, Google+, Twitter)",social_query,56
+13,22837.0,social,query,hi what is happening in [media_type : twitter] [date : today],hi what is happening in twitter today,"Hi, What is happening in Twitter today.",social_query,56
+14,16763.0,social,query,did anyone message me on [media_type : facebook],did anyone message me on facebook,did anyone message me on facebook,social_query,56
+15,13653.0,social,query,take me to the most popular post,take me to the most popular post,Take me to the most popular post.,social_query,56
+16,1717.0,social,query,are there any interesting stuff happened [date : today] in my [media_type : twitter],are there any interesting stuff happened today in my twitter,Are there any interesting stuff happened today in my Twitter,social_query,56
+17,2067.0,social,query,what the highest likes on [media_type : facebook],what the highest likes on facebook,What the highest likes on facebook?,social_query,56
+0,7993.0,music,query,who is the song writer,who is the song writer,Who is the songwriter?,music_query,39
+1,22078.0,music,query,please give me detail of [artist_name : o zaalima] song,please give me detail of o zaalima song,Plaease give me detail of o zaalima song.,music_query,39
+2,13252.0,music,query,give me the details on [artist_name : elton john],give me the details on elton john,Give me the details on (event),music_query,39
+3,23111.0,music,query,what movie is this song from,what movie is this song from,What movie is this song from?,music_query,39
+4,20255.0,music,query,when did [song_name : pop it like it's hot] come out,when did pop it like it's hot come out,When did pop it like it's hot come out?,music_query,39
+5,7994.0,music,query,what is the name of the singer,what is the name of the singer,what is the name of the singer?,music_query,39
+6,2636.0,music,query,who is singing this song,who is singing this song,who is singing this song,music_query,39
+7,18665.0,music,query,i want to know what song has the phrase stairway to heaven in it,i want to know what song has the phrase stairway to heaven in it,I want to know what song has the phrase stairway to heaven in it,music_query,39
+8,5175.0,music,query,where can i find this song,where can i find this song,"Where can I find this song, PDA?",music_query,39
+9,9514.0,music,query,song info,song info,song info,music_query,39
+10,3125.0,music,query,what list is available for my favorite [media_type : music] from [person : ed sheeran],what list is available for my favorite music from ed sheeran,What list is available for my favorite music from Ed Sheeran,music_query,39
+11,21818.0,music,query,who is this,who is this,Who is this?,music_query,39
+12,26371.0,music,query,list of playback of [artist_name : ar rahman] collections,list of playback of ar rahman collections,List of Playback of A.R Rahman collections,music_query,39
+13,676.0,music,query,what music is this,what music is this,what music is this?,music_query,39
+14,7079.0,music,query,what music service has some soul music i can listen to,what music service has some soul music i can listen to,What music service has some soul music I can listen to?,music_query,39
+15,13874.0,music,query,which songs do i listen to most,which songs do i listen to most,Echo which songs to I listen to most.,music_query,39
+16,2921.0,music,query,can you locate some [music_genre : gospel] music for me,can you locate some gospel music for me,can you locate some gospel music for me,music_query,39
+17,22802.0,music,query,tell me the name of this music,tell me the name of this music,tell me the name of this music,music_query,39
+18,12919.0,music,query,music traking,music traking,music traking,music_query,39
+0,670.0,music,settings,[player_setting : shuffle] this playlist,shuffle this playlist,Shuffle this playlist.,music_settings,40
+1,4671.0,music,settings,[player_setting : repeat] this song when it ends,repeat this song when it ends,Repeat this song when it ends.,music_settings,40
+2,25616.0,music,settings,cut the songs in this musics,cut the songs in this musics,CUT THE SONGS IN THIS MUSICS,music_settings,40
+3,21621.0,music,settings,[player_setting : repeat] previous song,repeat previous song,Repeat previous song.,music_settings,40
+4,2634.0,music,settings,please [player_setting : repeat] that music again of [artist_name : akon],please repeat that music again of akon,Please repeat that music again of Akon.,music_settings,40
+5,3756.0,music,settings,[player_setting : repeat] this song,repeat this song,repeat this song,music_settings,40
+6,2723.0,music,settings,[player_setting : repeat] same [media_type : song] for ten times,repeat same song for ten times,repeat same song for 10 times,music_settings,40
+0,20157.0,iot,hue_lightchange,please make the lights natural,please make the lights natural,Please make the lights natural.,iot_hue_lightchange,28
+1,12743.0,iot,hue_lightchange,lights [change_amount : to fifty percent],lights to fifty percent,Lights to 50%,iot_hue_lightchange,28
+2,2182.0,iot,hue_lightchange,can you change the light colors in the [house_place : house],can you change the light colors in the house,Can you change the light colors in the house?,iot_hue_lightchange,28
+3,11184.0,iot,hue_lightchange,turn the lights on [color_type : party mode],turn the lights on party mode,Turn the lights on party mode,iot_hue_lightchange,28
+4,8597.0,iot,hue_lightchange,set the mood please,set the mood please,"Set the mood, please.",iot_hue_lightchange,28
+5,19849.0,iot,hue_lightchange,change the light colors,change the light colors,Chang the ight colors.,iot_hue_lightchange,28
+6,24408.0,iot,hue_lightchange,could you change the lights colour to [color_type : green] please,could you change the lights colour to green please,"Could you change the lights colour to green, please",iot_hue_lightchange,28
+7,15861.0,iot,hue_lightchange,make [device_type : curser] adjustable position,make curser adjustable position,make curser adjustable position,iot_hue_lightchange,28
+8,2696.0,iot,hue_lightchange,change light color,change light color,Change light color,iot_hue_lightchange,28
+9,2452.0,iot,hue_lightchange,change the light color to [color_type : blue],change the light color to blue,Change the light color to blue,iot_hue_lightchange,28
+10,11163.0,iot,hue_lightchange,alter the color of the lights at [house_place : home],alter the color of the lights at home,Alter the color of the lights at home.,iot_hue_lightchange,28
+11,7906.0,iot,hue_lightchange,change lights to [color_type : blue],change lights to blue,Change [light name] to blue,iot_hue_lightchange,28
+12,5923.0,iot,hue_lightchange,can you change the [house_place : living room] lights to a [color_type : softer] color,can you change the living room lights to a softer color,Can you change the living room lights to a softer color?,iot_hue_lightchange,28
+13,15740.0,iot,hue_lightchange,can you set the [house_place : living room] lights to [color_type : pink],can you set the living room lights to pink,Can you set the living room lights to pink?,iot_hue_lightchange,28
+14,13016.0,iot,hue_lightchange,change the color of the lights to [color_type : blue],change the color of the lights to blue,Change the color of the lights to blue,iot_hue_lightchange,28
+15,7818.0,iot,hue_lightchange,let's have a [color_type : warm] glow in the [house_place : front room],let's have a warm glow in the front room,Let's have a warm glow in the front room,iot_hue_lightchange,28
+16,8300.0,iot,hue_lightchange,switch lights to [color_type : red] tone,switch lights to red tone,switch lights to red tone,iot_hue_lightchange,28
+17,11842.0,iot,hue_lightchange,change my light color to [color_type : blue] and please turn off the [house_place : kitchen] light,change my light color to blue and please turn off the kitchen light,"Change my light color to blue, and please turn off the kitchen light.",iot_hue_lightchange,28
+18,8115.0,iot,hue_lightchange,all lights colour to [color_type : blue] please,all lights colour to blue please,All lights colour to blue please,iot_hue_lightchange,28
+0,2575.0,alarm,set,set an alarm for [time : nine am],set an alarm for nine am,Set an alarm for 9 AM.,alarm_set,2
+1,2793.0,alarm,set,change alarm to start at [time : midnight],change alarm to start at midnight,change alarm to start at,alarm_set,2
+2,23534.0,alarm,set,alarm [time : ten am],alarm ten am,Alarm 10 AM,alarm_set,2
+3,14139.0,alarm,set,set an alarm for me for [date : tomorrow],set an alarm for me for tomorrow,set an alarm for me for tomorrow,alarm_set,2
+4,645.0,alarm,set,set an alarm for [time : twelve],set an alarm for twelve,set an alarm for 12,alarm_set,2
+5,14216.0,alarm,set,set a timer at [time : five am] [general_frequency : seven days a week],set a timer at five am seven days a week,Set a timer at 5 Am 7 days a week,alarm_set,2
+6,10071.0,alarm,set,i need to set an alarm for next [date : friday] at [timeofday : noon],i need to set an alarm for next friday at noon,I need to set an alarm for next Friday at noon.,alarm_set,2
+7,14289.0,alarm,set,please sound an alarm [time : three hours] before a scheduled event,please sound an alarm three hours before a scheduled event,Please sound an alarm three hours before a scheduled event.,alarm_set,2
+8,18375.0,alarm,set,can you set an alarm for [time : seven am],can you set an alarm for seven am,Can you set an alarm for 7 am?,alarm_set,2
+9,26831.0,alarm,set,alert me at [time : ten am] please,alert me at ten am please,"Olly, alert me at ten a.m., please.",alarm_set,2
+10,5863.0,alarm,set,set the alarm to [time : seven am] for [event_name : work],set the alarm to seven am for work,Set the alarm to 7 am for work,alarm_set,2
+11,9054.0,alarm,set,wake up time,wake up time,wake up time,alarm_set,2
+12,14919.0,alarm,set,change my alarms to [time_zone : mountain] time,change my alarms to mountain time,Change my alarms to Mountain time,alarm_set,2
+13,18383.0,alarm,set,set up each day an alarm at [time : ten] time for my [event_name : meal],set up each day an alarm at ten time for my meal,Set up each <day>> at <time> for,alarm_set,2
+14,2882.0,alarm,set,please set an alarm clock for my next [event_name : meeting] with [relation : the team] at [time : three pm] next [date : friday],please set an alarm clock for my next meeting with the team at three pm next friday,please set an alarm clock for my next meeting with the team at 3 pm next friday,alarm_set,2
+15,22598.0,alarm,set,set my alarm for [time : six am],set my alarm for six am,Set my alarm for 6am,alarm_set,2
+16,11106.0,alarm,set,set an alarm for this [time : eight hundred pm] [timeofday : this evening],set an alarm for this eight hundred pm this evening,Set an alarm for this 8:00 PM this evening,alarm_set,2
+17,8159.0,alarm,set,set alarm at [time : six thirty am],set alarm at six thirty am,set alarm at 6:30 a.m,alarm_set,2
+18,2241.0,alarm,set,make me a wake up alarm for [time : eight forty five am],make me a wake up alarm for eight forty five am,make me a wake up alarm for 8:45am,alarm_set,2
+0,21372.0,transport,traffic,is it possible to drive now in [place_name : ohio],is it possible to drive now in ohio,is it possible to drive now in ohio,transport_traffic,62
+1,16201.0,transport,traffic,how is traffic in city,how is traffic in city,HOW IS TRAFFIC IN CITY,transport_traffic,62
+2,17485.0,transport,traffic,what is the current traffic,what is the current traffic,What is the current traffic,transport_traffic,62
+3,24122.0,transport,traffic,is there any traffic,is there any traffic,Is there any traffic?,transport_traffic,62
+4,12696.0,transport,traffic,are there are any delays on my commute,are there are any delays on my commute,Are there are any delays on my commute?,transport_traffic,62
+5,2049.0,transport,traffic,what the traffic condition outside my [place_name : office],what the traffic condition outside my office,what the traffic condition outside my office?,transport_traffic,62
+6,7185.0,transport,traffic,in [place_name : jodhpur] traffic level is very low,in jodhpur traffic level is very low,In Jodhpur traffic level is very Low,transport_traffic,62
+7,9198.0,transport,traffic,outside traffic status please,outside traffic status please,Outside Traffic  status please,transport_traffic,62
+8,19293.0,transport,traffic,show me the current traffic [place_name : nearby me],show me the current traffic nearby me,Show me the current traffic nearby me,transport_traffic,62
+9,6291.0,transport,traffic,give information about the traffic near my location please,give information about the traffic near my location please,Give information about the traffic near my location please.,transport_traffic,62
+10,21276.0,transport,traffic,just how bad is traffic on my commute,just how bad is traffic on my commute,just how bad is traffic on my commute,transport_traffic,62
+11,16578.0,transport,traffic,how much traffic does [place_name : atlanta georgia] usually have,how much traffic does atlanta georgia usually have,"How much traffic does Atlanta, Georgia usually have?",transport_traffic,62
+12,2359.0,transport,traffic,what is the traffic like right now on [place_name : telegraph],what is the traffic like right now on telegraph,what is the traffic like right now on telegraph?,transport_traffic,62
+13,16759.0,transport,traffic,what's the traffic this [timeofday : morning],what's the traffic this morning,What's the traffic this morning?,transport_traffic,62
+14,6558.0,transport,traffic,accident or normal traffic,accident or normal traffic,Accident or normal traffic,transport_traffic,62
+15,6162.0,transport,traffic,how long will it take me to get to [place_name : park avenue] considering current traffic,how long will it take me to get to park avenue considering current traffic,How long will it take me to get to Park Avenue considering current traffic?,transport_traffic,62
+16,2707.0,transport,traffic,what are the traffic conditions on the [place_name : one hundred and one],what are the traffic conditions on the one hundred and one,What are the traffic conditions on the 101?,transport_traffic,62
+17,6289.0,transport,traffic,how's the traffic [place_name : downtown],how's the traffic downtown,How's the traffic downtown?,transport_traffic,62
+18,10659.0,transport,traffic,how is traffic on the [place_name : highway],how is traffic on the highway,How is traffic on the highway?,transport_traffic,62
+0,8641.0,play,radio,play [radio_name : radia],play radia,play radia,play_radio,46
+1,14351.0,play,radio,play [radio_name : nine hundred and seventy one],play nine hundred and seventy one,play 97.1,play_radio,46
+2,2068.0,play,radio,play the radio,play the radio,Play the radio.,play_radio,46
+3,19897.0,play,radio,turn on the [radio_name : local] radio,turn on the local radio,"Echo, turn on the local radio",play_radio,46
+4,25957.0,play,radio,please turn on the sean hannity show on [radio_name : am],please turn on the sean hannity show on am,Please turn on the Sean Hannity show on AM.,play_radio,46
+5,2333.0,play,radio,play [radio_name : national public radio],play national public radio,play npr,play_radio,46
+6,16174.0,play,radio,play [radio_name : one thousand and thirty seven fm],play one thousand and thirty seven fm,Play 103.7 FM.,play_radio,46
+7,26028.0,play,radio,show me upcoming programmes on [radio_name : one hundred and five point one],show me upcoming programmes on one hundred and five point one,Show me upcoming programmes on 105.1,play_radio,46
+8,15841.0,play,radio,load sirius and play a [radio_name : rock and roll show],load sirius and play a rock and roll show,Load Sirius and play a rock and roll show.,play_radio,46
+9,22956.0,play,radio,tune into the [radio_name : nearest english fm station],tune into the nearest english fm station,tune into the nearest English fm station,play_radio,46
+10,13422.0,play,radio,please play some songs for [relation : kids],please play some songs for kids,pls play some songs for kids,play_radio,46
+11,21181.0,play,radio,find joel osteen's broadcast on [app_name : sirius],find joel osteen's broadcast on sirius,Find Joel Osteen's broadcast on sirius?,play_radio,46
+12,14547.0,play,radio,please go to the [radio_name : local sports talk show] on the radio,please go to the local sports talk show on the radio,Please go to the local sports talk show on the radio.,play_radio,46
+13,19109.0,play,radio,play [person : alex jones] in radio,play alex jones in radio,play alex jones in radio,play_radio,46
+14,3963.0,play,radio,play radio [radio_name : javan],play radio javan,play (radio station) on (radio app),play_radio,46
+15,20234.0,play,radio,press play on the radio,press play on the radio,Press play on the radio,play_radio,46
+16,2287.0,play,radio,play my [music_genre : rock] station on [app_name : pandora],play my rock station on pandora,Play my Rock Station on Pandora,play_radio,46
+17,1693.0,play,radio,play music radio for me,play music radio for me,Play music radio for me,play_radio,46
+18,3160.0,play,radio,play me a radio channel for [radio_name : trance music],play me a radio channel for trance music,play me a radio channel for trance music,play_radio,46
+0,15834.0,social,post,send a complaint to [business_name : sony] about this tv that quit working,send a complaint to sony about this tv that quit working,Send a complaint to Sony about this TV that quit working.,social_post,55
+1,23878.0,social,post,write complaint to [business_name : wallmart],write complaint to wallmart,write complaint to wallmart,social_post,55
+2,23767.0,social,post,please [media_type : tweet] about the problem i m facing with the product of company,please tweet about the problem i m facing with the product of company,please tweet about the problem I m facing with the product of company,social_post,55
+3,23192.0,social,post,open [media_type : gallery] post video name,open gallery post video name,open gallery post video name,social_post,55
+4,26176.0,social,post,complain to [business_name : amazon customer service] for me,complain to amazon customer service for me,Complain to Amazon customer service for me,social_post,55
+5,19016.0,social,post,tell [business_name : comcast] i am still on hold,tell comcast i am still on hold,tell comcast I am still on hold,social_post,55
+6,26063.0,social,post,[media_type : tweet] that there was an insect in the chocolate packet,tweet that there was an insect in the chocolate packet,tweet that there was an insect in the chocolate packet,social_post,55
+7,25201.0,social,post,post new status,post new status,post new status,social_post,55
+8,26424.0,social,post,lets send a [media_type : tweet],lets send a tweet,"PDA, Lets send a tweet",social_post,55
+9,18494.0,social,post,i want to [media_type : tweet] a complaint on apples phone issues,i want to tweet a complaint on apples phone issues,I want to tweet a complaint on apples phone issues,social_post,55
+10,24883.0,social,post,[media_type : tweet] to [business_name : ikea costumer service] the following i'm not happy with this new klm product,tweet to ikea costumer service the following i'm not happy with this new klm product,"Tweet to Ikea costumer service the following, I'm not happy with this new KLM product",social_post,55
+11,22006.0,social,post,[media_type : tweet] at [business_name : quote unquote],tweet at quote unquote,Tweet at quote unquote,social_post,55
+12,23740.0,social,post,[media_type : tweet] customer service not good for lpg service in my [media_type : twitter] account,tweet customer service not good for lpg service in my twitter account,Tweet 'customer service not good for LPG service' in my Twitter account,social_post,55
+13,27066.0,social,post,comcast sucks put that on their [media_type : twitter] account,comcast sucks put that on their twitter account,"Comcast sucks, put that on their twitter account.",social_post,55
+14,25111.0,social,post,[media_type : tweet] my complaint to [business_name : @nsa],tweet my complaint to @nsa,PDA name: tweet my complaint to @nsa,social_post,55
+15,17734.0,social,post,[media_type : tweet] terrible service,tweet terrible service,Tweet terrible service,social_post,55
+16,23256.0,social,post,Hashtag loving this weather post to [media_type : twitter],Hashtag loving this weather post to twitter,hashtag...loving this weather..post to twitter.,social_post,55
+17,19049.0,social,post,send a [media_type : tweet] to [business_name : apple] that their batteries drain too fast,send a tweet to apple that their batteries drain too fast,Send a tweet to Apple that their batteries drain too fast,social_post,55
+18,22168.0,social,post,complain to [business_name : mcdonalds] [media_type : twitter] about my burger,complain to mcdonalds twitter about my burger,Complain to McDonalds twitter about my burger,social_post,55
+0,21162.0,play,audiobook,i want to hear more [media_type : audiobook],i want to hear more audiobook,I want to hear more audiobook,play_audiobook,42
+1,22099.0,play,audiobook,[player_setting : pause] [player_setting : resume],pause resume,Pause/ resume,play_audiobook,42
+2,16438.0,play,audiobook,[player_setting : resume] my audio book from [audiobook_author : karl pilkington],resume my audio book from karl pilkington,Resume my audio book from karl Pilkington,play_audiobook,42
+3,26450.0,play,audiobook,[media_type : book] please,book please,"PDA, Book please",play_audiobook,42
+4,16013.0,play,audiobook,[player_setting : start playing] [audiobook_name : american gods] where i last stopped,start playing american gods where i last stopped,Start playing American Gods where I last stopped.,play_audiobook,42
+5,25220.0,play,audiobook,play from my last session of [audiobook_name : joes book],play from my last session of joes book,alexa play from my last session of joes book.,play_audiobook,42
+6,17476.0,play,audiobook,open audio book [audiobook_name : history of rome],open audio book history of rome,Open audio book history of Rome.,play_audiobook,42
+7,24813.0,play,audiobook,[player_setting : start] [media_type : audiobook] [audiobook_name : the time traveller],start audiobook the time traveller,"Ok Google, start audiobook {title}",play_audiobook,42
+8,19844.0,play,audiobook,[player_setting : resume] [audiobook_name : animal farm],resume animal farm,Resume Animal Farm.,play_audiobook,42
+9,24821.0,play,audiobook,can you play [audiobook_name : file],can you play file,can you play m3 file,play_audiobook,42
+10,24369.0,play,audiobook,[media_type : audio],audio,audio,play_audiobook,42
+11,25221.0,play,audiobook,[player_setting : start] from my last session of [audiobook_name : joes book],start from my last session of joes book,alexa start from my last session of joes book,play_audiobook,42
+12,27351.0,play,audiobook,play from this point from this [media_type : audiobook],play from this point from this audiobook,PDA play from this point form this audiobook,play_audiobook,42
+13,21457.0,play,audiobook,[player_setting : resume] my [media_type : audiobook] where we paused last,resume my audiobook where we paused last,resume my audiobook where we paused last,play_audiobook,42
+14,23343.0,play,audiobook,[player_setting : resume] [audiobook_name : the last kingdom] for me,resume the last kingdom for me,Resume The Last Kingdom for me,play_audiobook,42
+15,17478.0,play,audiobook,[player_setting : end pause] on audio book [audiobook_name : history of rome],end pause on audio book history of rome,End pause on audio book history of Rome,play_audiobook,42
+16,15902.0,play,audiobook,i want to finish listening to the book [time : one thousand nine hundred and eighty four] from where i left off,i want to finish listening to the book one thousand nine hundred and eighty four from where i left off,I want to finish listening to the book 1984 from where I left off.,play_audiobook,42
+17,17160.0,play,audiobook,[player_setting : keep reading],keep reading,keep reading,play_audiobook,42
+18,16034.0,play,audiobook,can you play my favorite audio book of [audiobook_name : tarzan],can you play my favorite audio book of tarzan,Can you play my favorite audio book of Tarzan?,play_audiobook,42
+0,3165.0,audio,volume_down,could you please lower the tone,could you please lower the tone,Could you please lower the tone?,audio_volume_down,3
+1,19709.0,audio,volume_down,please talk softer,please talk softer,Please talk softer.,audio_volume_down,3
+2,4111.0,audio,volume_down,lower the speak volume,lower the speak volume,Lower the speak volume,audio_volume_down,3
+3,3005.0,audio,volume_down,it is too loud decrease the volume,it is too loud decrease the volume,"It is too loud, decrease the volume.",audio_volume_down,3
+4,2789.0,audio,volume_down,Turn down volume,Turn down volume,turn down volume,audio_volume_down,3
+5,23482.0,audio,volume_down,reduce volume,reduce volume,"PDA, Reduce volume.",audio_volume_down,3
+6,5880.0,audio,volume_down,lower the volume [change_amount : to twenty],lower the volume to twenty,Lower the volume to 20,audio_volume_down,3
+7,7145.0,audio,volume_down,lower volume [change_amount : by fifty percent],lower volume by fifty percent,Lower volume by 50%.,audio_volume_down,3
+0,78.0,general,praise,"you are my hero, thank you very much, olly.","you are my hero, thank you very much, olly.","you are my hero, thank you very much, olly.",general_praise,23
+1,148.0,general,praise,"you have done it correctly thanks, olly.","you have done it correctly thanks, olly.","you have done it correctly thanks, olly.",general_praise,23
+2,519.0,general,praise,ah that's nice one.,ah that's nice one.,ah that's nice one.,general_praise,23
+3,599.0,general,praise,"you rock, thank you very much, olly.","you rock, thank you very much, olly.","you rock, thank you very much, olly.",general_praise,23
+4,718.0,general,praise,"fantastic job, you did well.","fantastic job, you did well.","fantastic job, you did well.",general_praise,23
+5,658.0,general,praise,"that's good, thanks.","that's good, thanks.","that's good, thanks.",general_praise,23
+6,785.0,general,praise,"appreciate your answers, olly.","appreciate your answers, olly.","appreciate your answers, olly.",general_praise,23
+7,771.0,general,praise,"you are my star, thank you so much, olly.","you are my star, thank you so much, olly.","you are my star, thank you so much, olly.",general_praise,23
+8,409.0,general,praise,"that was cool, i appreciate it.","that was cool, i appreciate it.","that was cool, i appreciate it.",general_praise,23
+9,304.0,general,praise,"fantastic job, you've done well, olly.","fantastic job, you've done well, olly.","fantastic job, you've done well, olly.",general_praise,23
+10,615.0,general,praise,"great work, you did well, olly.","great work, you did well, olly.","great work, you did well, olly.",general_praise,23
+11,582.0,general,praise,"that is cool, thanks, olly.","that is cool, thanks, olly.","that is cool, thanks, olly.",general_praise,23
+12,5.0,general,praise,"thank you for the response, olly.","thank you for the response, olly.","thank you for the response, olly.",general_praise,23
+13,413.0,general,praise,you've done it right.,you've done it right.,you've done it right.,general_praise,23
+14,524.0,general,praise,"well done, appreciated.","well done, appreciated.","well done, appreciated.",general_praise,23
+15,110.0,general,praise,"excellent work, you have done well.","excellent work, you have done well.","excellent work, you have done well.",general_praise,23
+16,776.0,general,praise,"awesome job, you did well.","awesome job, you did well.","awesome job, you did well.",general_praise,23
+17,280.0,general,praise,"it's great one, thank you very much.","it's great one, thank you very much.","it's great one, thank you very much.",general_praise,23
+18,635.0,general,praise,"it's helpful, appreciated.","it's helpful, appreciated.","it's helpful, appreciated.",general_praise,23
+0,603.0,general,explain,would you clarify me on your answer further please.,would you clarify me on your answer further please.,would you clarify me on your answer further please.,general_explain,20
+1,97.0,general,explain,"s2, i can not understand that.","s2, i can not understand that.","s2, i can not understand that.",general_explain,20
+2,292.0,general,explain,your words is not so clear.,your words is not so clear.,your words is not so clear.,general_explain,20
+3,41.0,general,explain,"s1, explain further please.","s1, explain further please.","s1, explain further please.",general_explain,20
+4,649.0,general,explain,"s2, i am unclear about what you have just said.","s2, i am unclear about what you have just said.","s2, i am unclear about what you have just said.",general_explain,20
+5,591.0,general,explain,please will you clarify me more on that.,please will you clarify me more on that.,please will you clarify me more on that.,general_explain,20
+6,572.0,general,explain,will you rephrase me about your response once again please.,will you rephrase me about your response once again please.,will you rephrase me about your response once again please.,general_explain,20
+7,46.0,general,explain,again clarify me on your answers.,again clarify me on your answers.,again clarify me on your answers.,general_explain,20
+8,372.0,general,explain,again elaborate.,again elaborate.,again elaborate.,general_explain,20
+9,595.0,general,explain,couldn't understand what you just said now.,couldn't understand what you just said now.,couldn't understand what you just said now.,general_explain,20
+10,136.0,general,explain,can you again clarify what you've said please.,can you again clarify what you've said please.,can you again clarify what you've said please.,general_explain,20
+11,467.0,general,explain,i didn't get your response.,i didn't get your response.,i didn't get your response.,general_explain,20
+12,663.0,general,explain,"s1, could you please again rephrase me about what you said now.","s1, could you please again rephrase me about what you said now.","s1, could you please again rephrase me about what you said now.",general_explain,20
+13,379.0,general,explain,what you said now was not clear.,what you said now was not clear.,what you said now was not clear.,general_explain,20
+14,130.0,general,explain,can you explain once again.,can you explain once again.,can you explain once again.,general_explain,20
+15,1.0,general,explain,do not get this.,do not get this.,do not get this.,general_explain,20
+16,12.0,general,explain,"s1, explain me on your answer further please.","s1, explain me on your answer further please.","s1, explain me on your answer further please.",general_explain,20
+17,625.0,general,explain,"s2, i do not catch up with you.","s2, i do not catch up with you.","s2, i do not catch up with you.",general_explain,20
+18,659.0,general,explain,didn't understand what you said now.,didn't understand what you said now.,didn't understand what you said now.,general_explain,20
+0,14588.0,play,podcasts,play fishing podcasts that are favorited,play fishing podcasts that are favorited,play fishing podcasts that are favorited,play_podcasts,45
+1,5972.0,play,podcasts,play podcast for the [podcast_name : philadelphia eagles content],play podcast for the philadelphia eagles content,Play podcast for the Philadelphia Eagles content,play_podcasts,45
+2,3503.0,play,podcasts,play me the new podcast from [podcast_name : npr],play me the new podcast from npr,Play me the new podcast from NPR.,play_podcasts,45
+3,26646.0,play,podcasts,[player_setting : keep playing] the episodes in order,keep playing the episodes in order,keep playing the episodes in order,play_podcasts,45
+4,2290.0,play,podcasts,play [podcast_descriptor : next episode],play next episode,Play next episode,play_podcasts,45
+5,17968.0,play,podcasts,play my [podcast_descriptor : play list],play my play list,play my play list,play_podcasts,45
+6,25696.0,play,podcasts,play favorites listed in podcasts starting with first one,play favorites listed in podcasts starting with first one,Play favorites listed in podcasts starting with first one.,play_podcasts,45
+7,17939.0,play,podcasts,play [podcast_descriptor : previous episode],play previous episode,Play previous episode.,play_podcasts,45
+8,23502.0,play,podcasts,play my favourite podcasts,play my favourite podcasts,Play my favourite podcasts.,play_podcasts,45
+9,18054.0,play,podcasts,get the [podcast_descriptor : next episode],get the next episode,Get the next episode.,play_podcasts,45
+10,11678.0,play,podcasts,please start the [podcast_descriptor : next podcast episode],please start the next podcast episode,Please start the next podcast episode.,play_podcasts,45
+11,20278.0,play,podcasts,please play next episode of podcast,please play next episode of podcast,Please play next episode of podcast.,play_podcasts,45
+12,7477.0,play,podcasts,show me podcasts,show me podcasts,show me podcasts,play_podcasts,45
+13,7681.0,play,podcasts,can you play back to [date : december],can you play back to december,Can you play back to December,play_podcasts,45
+14,9262.0,play,podcasts,can you please download my podcast file available in internet and play it once,can you please download my podcast file available in internet and play it once,Can you please download my podcaste file available in internet and play it once?,play_podcasts,45
+15,10890.0,play,podcasts,skip this episode,skip this episode,Skip this episode.,play_podcasts,45
+16,8936.0,play,podcasts,[player_setting : skip] this one,skip this one,skip this one,play_podcasts,45
+17,5598.0,play,podcasts,what are my top played podcasts,what are my top played podcasts,what are my top played podcasts,play_podcasts,45
+18,8462.0,play,podcasts,go back to [podcast_descriptor : previous episode] of podcast,go back to previous episode of podcast,go back to previous episode of podcast.,play_podcasts,45
+0,3788.0,datetime,convert,if it's [time : eight pm] on the [place_name : east coast] what time is it in [place_name : sacramento california],if it's eight pm on the east coast what time is it in sacramento california,"Cortana, if it's 8 PM on the east coast, what time is it in Sacramento, California?",datetime_convert,10
+1,5983.0,datetime,convert,if it is [time : four pm] in [place_name : missouri] what time is it in [place_name : london],if it is four pm in missouri what time is it in london,"If it is four pm in Missouri, what time is it in London?",datetime_convert,10
+2,13243.0,datetime,convert,can you please change the time zone to [place_name : us],can you please change the time zone to us,can u pls change the timezone to us,datetime_convert,10
+3,21840.0,datetime,convert,which time zone are we in please change to [time_zone : current],which time zone are we in please change to current,Which time zone are we in? Please change to current,datetime_convert,10
+4,13244.0,datetime,convert,please change time zone to [place_name : canada],please change time zone to canada,pls change timezone to canada,datetime_convert,10
+5,12729.0,datetime,convert,what time will it be locally at [time : nine am] [place_name : bangalore] [place_name : india] time,what time will it be locally at nine am bangalore india time,"PDA, what time will it be locally at 9AM Bangalore, India, time?",datetime_convert,10
+6,9259.0,datetime,convert,it is [time : ten am] in [time_zone : eastern] standard time what time it is now it [time_zone : pacific] standard time,it is ten am in eastern standard time what time it is now it pacific standard time,"It is 10:00 am in Eastern Standard Time, what time it is now it Pacific Standard Time?",datetime_convert,10
+7,16054.0,datetime,convert,change [time_zone : mountain] standard to [time_zone : pacific],change mountain standard to pacific,change mountain standard to pacific,datetime_convert,10
+0,2566.0,general,joke,tell me [joke_type : random] joke,tell me random joke,Tell me random joke.,general_joke,21
+1,6320.0,general,joke,find me a joke related to [joke_type : baseball],find me a joke related to baseball,Find me a joke related to baseball.,general_joke,21
+2,3930.0,general,joke,i need to be cheered up right now can you tell me a [joke_type : good] joke,i need to be cheered up right now can you tell me a good joke,I need to be cheered up right now. Can you tell me a good joke?,general_joke,21
+3,19549.0,general,joke,[date : today's] jokes,today's jokes,today's jokes,general_joke,21
+4,16358.0,general,joke,do you have a joke,do you have a joke,Do you have a joke?,general_joke,21
+5,2568.0,general,joke,what's your favorite joke,what's your favorite joke,What's your favorite joke?,general_joke,21
+6,14156.0,general,joke,look for a joke,look for a joke,look for a joke,general_joke,21
+7,10694.0,general,joke,do you know what a joke is,do you know what a joke is,"Olly, do you know what a joke is?",general_joke,21
+8,18585.0,general,joke,i want a [joke_type : nerd] joke,i want a nerd joke,I want a nerd joke,general_joke,21
+9,19556.0,general,joke,what about this joke,what about this joke,what about this joke?,general_joke,21
+10,17592.0,general,joke,have any jokes,have any jokes,Have any jokes?,general_joke,21
+11,9280.0,general,joke,joke please,joke please,Joke please,general_joke,21
+0,18611.0,iot,wemo_off,deactive the socket,deactive the socket,Can we deactive the socket,iot_wemo_off,33
+1,1708.0,iot,wemo_off,turn off the [device_type : rice cooker socket],turn off the rice cooker socket,Turn off the rice cooker socket,iot_wemo_off,33
+2,10785.0,iot,wemo_off,power off [device_type : wemo plug socket],power off wemo plug socket,Power off wemo plug socket.,iot_wemo_off,33
+3,17823.0,iot,wemo_off,please switch off on the [device_type : wemo plug socket],please switch off on the wemo plug socket,Please switch off/on the wenmo plug socket.,iot_wemo_off,33
+4,22302.0,iot,wemo_off,shut the [device_type : smart socket] down,shut the smart socket down,Shut the smart socket down.,iot_wemo_off,33
+5,10715.0,iot,wemo_off,i do not want to use the [device_type : socket] anymore,i do not want to use the socket anymore,I do not  want to use the socket anymore,iot_wemo_off,33
+6,3972.0,iot,wemo_off,turn off my [device_type : smart plug] [time : in thirty minutes],turn off my smart plug in thirty minutes,Turn off my smart plug socket in 30 minutes.,iot_wemo_off,33
+7,6395.0,iot,wemo_off,turn off [device_type : wifi] when you leave home to save power,turn off wifi when you leave home to save power,Turn off WiFi when you leave home to save power,iot_wemo_off,33
+8,15493.0,iot,wemo_off,please turn off my [device_type : smart plug socket],please turn off my smart plug socket,Please turn off my smart plug socket.,iot_wemo_off,33
+0,26515.0,general,quirky,today i had a lunch with my longtime sweetheart play me a nice song to the mood,today i had a lunch with my longtime sweetheart play me a nice song to the mood,"Alexa, today I had a lunch with my longtime sweetheart. Play me a nice song to the mood.",general_quirky,24
+1,20082.0,general,quirky,what's on tv,what's on tv,what's on tv,general_quirky,24
+2,25647.0,general,quirky,is the data prefers any problems in objects,is the data prefers any problems in objects,IS THE DATA PREFERS ANY PROBLEMS IN OBJECTS,general_quirky,24
+3,,general,quirky,your salary,your salary,xxx,general_quirky,24
+4,25984.0,general,quirky,overall day,overall day,Overall day,general_quirky,24
+5,22137.0,general,quirky,anything i need to know,anything i need to know,Anything i need to know?,general_quirky,24
+6,18266.0,general,quirky,is mile marker sixty five where the hanging tree is located,is mile marker sixty five where the hanging tree is located,Is mile marker 65 where the hanging tree is located?,general_quirky,24
+7,4131.0,general,quirky,tell me what happens when we die,tell me what happens when we die,Tell me what happens when we die.,general_quirky,24
+8,8389.0,general,quirky,what is your country,what is your country,what is your country?,general_quirky,24
+9,22988.0,general,quirky,do i need to spare washing my car [date : today],do i need to spare washing my car today,do i need to spare washing my car today?,general_quirky,24
+10,25637.0,general,quirky,this brings some problems to us,this brings some problems to us,THIS BRINGS SOME PROBLES TO US,general_quirky,24
+11,3340.0,general,quirky,can you explain me the problems when the [place_name : syria] becomes more stronger than [place_name : america],can you explain me the problems when the syria becomes more stronger than america,can you explain me the problems when the syria becomes more stronger than america,general_quirky,24
+12,,general,quirky,you are chatbot,you are chatbot,xxx,general_quirky,24
+13,21314.0,general,quirky,how high is the quality of this stone,how high is the quality of this stone,how high is the quality of this stone,general_quirky,24
+14,19373.0,general,quirky,can you please tell me who are you,can you please tell me who are you,Can you please tell me who are you?,general_quirky,24
+15,19727.0,general,quirky,where did he was [date : yesterday],where did he was yesterday,Where did he was yesterday?,general_quirky,24
+16,26126.0,general,quirky,have you come across any new recipes,have you come across any new recipes,Have you come across any new recipes?,general_quirky,24
+17,26674.0,general,quirky,how did your day go,how did your day go,How did your day go?,general_quirky,24
+18,11833.0,general,quirky,give me the product review from gamespot about the nintendo switch,give me the product review from gamespot about the nintendo switch,PDA give me the product review from GameSpot about the NIntendo Switch,general_quirky,24

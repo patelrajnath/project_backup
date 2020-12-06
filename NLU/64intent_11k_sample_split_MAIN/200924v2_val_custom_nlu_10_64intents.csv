@@ -1,0 +1,1083 @@
+,answerid,scenario,intent,answer_annotation,answer_from_anno,text,sintent,labels
+118,6044.0,play,music,play some [artist_name : boy band] music,play some boy band music,Play some boy band music.,play_music,44
+61,2743.0,recommendation,events,can you tell me what kind of [business_type : show] can i go [timeofday : tonight] in [place_name : miami],can you tell me what kind of show can i go tonight in miami,can you tell me what kind of show can I go tonight in Miami?,recommendation_events,52
+2,171.0,general,affirm,yeah wonderful response.,yeah wonderful response.,yeah wonderful response.,general_affirm,16
+86,20696.0,recommendation,locations,ask a [business_type : restaurant] in me area,ask a restaurant in me area,ask a restaurant in My area,recommendation_locations,53
+80,18667.0,qa,factoid,how old is [person : barack obaba],how old is barack obaba,How old is Barack Obamba?,qa_factoid,49
+171,363.0,general,affirm,you have gotten that exactly.,you have gotten that exactly.,you have gotten that exactly.,general_affirm,16
+158,11110.0,recommendation,locations,find me the cheapest place to buy a new backpack,find me the cheapest place to buy a new backpack,find me the cheapest place to buy a new backpack,recommendation_locations,53
+6,19545.0,audio,volume_mute,turn off media volume,turn off media volume,turn off media volume,audio_volume_mute,4
+46,11753.0,calendar,query,what's my next [event_name : appointment],what's my next appointment,"Olly, what's my next appointment",calendar_query,6
+7,13453.0,audio,volume_mute,turn off sound,turn off sound,Turn off sound.,audio_volume_mute,4
+67,2890.0,recommendation,locations,what are the best [food_type : italian] [business_type : restaurants] in [place_name : los angeles],what are the best italian restaurants in los angeles,What are the best Italian restaurants in Los Angeles?,recommendation_locations,53
+158,23329.0,qa,definition,how would the [definition_word : volkswagen golf car] look like,how would the volkswagen golf car look like,How would the Volkswagen Golf car look like?,qa_definition,48
+157,19.0,general,affirm,yeap you've gotten that correcly.,yeap you've gotten that correcly.,yeap you've gotten that correcly.,general_affirm,16
+3,18183.0,email,addcontact,get [email_address : apahelp@yahoo dot com] in my contacts,get apahelp@yahoo dot com in my contacts,Get apahelp@yahoo.com in my contacts.,email_addcontact,12
+39,251.0,general,dontcare,i don't really mind for anything.,i don't really mind for anything.,i don't really mind for anything.,general_dontcare,19
+138,7520.0,cooking,recipe,show me what the ingredients are,show me what the ingredients are,show me what the ingredients are,cooking_recipe,9
+74,21070.0,recommendation,movies,local [business_type : theater] screening which [event_name : movie],local theater screening which movie,Local theater screening which movie?,recommendation_movies,54
+90,21319.0,play,game,lets play [game_name : tic tac toe],lets play tic tac toe,"Olly, lets play tic tac toe",play_game,43
+8,13622.0,lists,remove,remove this from the list,remove this from the list,Remove this from the list,lists_remove,37
+130,13950.0,email,querycontact,does my [relation : co worker] have a [personal_info : home phone number],does my co worker have a home phone number,Does my co worker have a home phone number?,email_querycontact,14
+10,13048.0,audio,volume_up,increase volume please,increase volume please,Increase volume please,audio_volume_up,5
+36,8439.0,transport,ticket,book a [transport_type : train] ticket to city [place_name : leeds],book a train ticket to city leeds,book a train ticket to city A.,transport_ticket,61
+50,12607.0,lists,createoradd,start a new [list_name : shopping] list,start a new shopping list,"Start a new (grocery, task, shopping) list.",lists_createoradd,35
+4,21853.0,iot,hue_lightoff,turn off this light,turn off this light,Turn off this light,iot_hue_lightoff,30
+77,13938.0,calendar,remove,remove meeting for [date : wednesday] [timeofday : morning],remove meeting for wednesday morning,Remove meeting for Wednesday morning,calendar_remove,7
+18,805.0,takeaway,query,can they do [order_type : delivery],can they do delivery,Can they do delivery?,takeaway_query,58
+27,15012.0,lists,query,what is available in your [list_name : stock] of lists,what is available in your stock of lists,What is available in your stock of lists?,lists_query,36
+142,23736.0,lists,remove,please clear the list,please clear the list,please clear the list,lists_remove,37
+18,14595.0,transport,query,get me to the nearest [place_name : train station],get me to the nearest train station,get me to the nearest train station,transport_query,59
+59,19675.0,play,music,pull up my [playlist_name : party playlist],pull up my party playlist,Pull up my party palylist.,play_music,44
+132,13571.0,transport,ticket,can you check [transport_type : train] schedule to [place_name : berkeley],can you check train schedule to berkeley,can you check train schedule to Berkeley,transport_ticket,61
+123,10740.0,audio,volume_up,louder please,louder please,"Louder, please.",audio_volume_up,5
+7,21998.0,lists,createoradd,add oil change to my [list_name : to do] list,add oil change to my to do list,add oil change to my to do list,lists_createoradd,35
+34,5992.0,audio,volume_mute,set mute mode for [time : one hour],set mute mode for one hour,Set mute mode for one hour.,audio_volume_mute,4
+171,26038.0,qa,stock,what's the price of [business_name : ge] right now,what's the price of ge right now,What's the price of GE right now?,qa_stock,51
+14,8707.0,datetime,query,could you tell me what time it is,could you tell me what time it is,Could you tell me what time it is?,datetime_query,11
+166,486.0,general,repeat,will you tell me what you have said one more time please.,will you tell me what you have said one more time please.,will you tell me what you have said one more time please.,general_repeat,25
+115,13418.0,iot,coffee,make me coffee in [time : five minutes],make me coffee in five minutes,make me coffee in 5 minutes,iot_coffee,27
+70,8839.0,recommendation,events,[event_name : badminton],badminton,batminton,recommendation_events,52
+83,16093.0,lists,createoradd,start creating a new list,start creating a new list,Start creating a new list,lists_createoradd,35
+124,287.0,general,dontcare,doesn't matter.,doesn't matter.,doesn't matter.,general_dontcare,19
+48,210.0,general,dontcare,really i would not mind.,really i would not mind.,really i would not mind.,general_dontcare,19
+45,2913.0,alarm,query,i need to set an alarm how many do i have set,i need to set an alarm how many do i have set,i need to set an alarm how many do i have set,alarm_query,0
+80,23430.0,lists,remove,please remove dallas from my [list_name : travel itinerary],please remove dallas from my travel itinerary,Please remove Dallas from my travel itinerary,lists_remove,37
+100,4092.0,iot,hue_lightup,brighten the lights on the [house_place : front porch],brighten the lights on the front porch,Brighten the lights on the front porch,iot_hue_lightup,32
+111,20611.0,recommendation,events,Show current local events,Show current local events,Show current local events,recommendation_events,52
+148,5859.0,transport,query,[transport_type : train] times to [place_name : new york],train times to new york,PDA trantimes to NY.,transport_query,59
+11,161.0,general,dontcare,this is unimportant for me.,this is unimportant for me.,this is unimportant for me.,general_dontcare,19
+29,8624.0,iot,hue_lighton,It's too dark in here,It's too dark in here,It's too dark in here,iot_hue_lighton,31
+76,3672.0,lists,createoradd,i need to make a list of [list_name : bills that are due],i need to make a list of bills that are due,I need to make a list of bills that are due,lists_createoradd,35
+4,19595.0,cooking,recipe,learn to cut [food_type : potatoes] correctly,learn to cut potatoes correctly,Learn to cut potatoes correctly,cooking_recipe,9
+4,13033.0,audio,volume_mute,mute speaker,mute speaker,Mute speaker,audio_volume_mute,4
+160,27283.0,qa,stock,what is the stock for [business_name : hp] company,what is the stock for hp company,What is the stock for X company?,qa_stock,51
+86,12979.0,iot,hue_lightup,brighten the lights please,brighten the lights please,Brighten the lights please,iot_hue_lightup,32
+93,255.0,general,confirm,check and confirm the detail please.,check and confirm the detail please.,check and confirm the detail please.,general_confirm,18
+171,16671.0,datetime,query,give me the time in [time_zone : pst],give me the time in pst,Give me the time in PST,datetime_query,11
+165,283.0,general,negate,sorry but you have messed up the command.,sorry but you have messed up the command.,sorry but you have messed up the command.,general_negate,22
+5,7837.0,qa,definition,define [definition_word : oscillate],define oscillate,Define oscillate,qa_definition,48
+173,18709.0,play,music,play [song_name : jingle bells],play jingle bells,Play jingle bells,play_music,44
+164,20939.0,recommendation,locations,what [business_type : pubs] are near [place_name : the metro station],what pubs are near the metro station,What pubs are near the Metro station?,recommendation_locations,53
+95,3433.0,email,query,do i have any emails from [person : katherine],do i have any emails from katherine,Do I have any emails from Katherine?,email_query,13
+128,20811.0,lists,query,can i see my work lists,can i see my work lists,can I see my work lists,lists_query,36
+66,6771.0,calendar,set,my calendar is to be updated with all [place_name : rccg] event in [date : march],my calendar is to be updated with all rccg event in march,My calender is to be updated with all RCCG event in March,calendar_set,8
+172,27358.0,email,querycontact,call [person : vikki],call vikki,Call vikki,email_querycontact,14
+113,4386.0,iot,cleaning,turn on the [device_type : vacuum] now,turn on the vacuum now,Turn on the vacuum now,iot_cleaning,26
+57,18298.0,email,query,please alert me when [person : john] emails me,please alert me when john emails me,Please alert me when John emails me,email_query,13
+14,3948.0,transport,taxi,find a [transport_type : taxi] service close to me,find a taxi service close to me,Find a taxi service close to me.,transport_taxi,60
+27,24355.0,play,game,play [game_name : chess],play chess,play chess,play_game,43
+56,20614.0,recommendation,events,searching on [event_name : holidays] in my location,searching on holidays in my location,searching on holidays in my location,recommendation_events,52
+164,3729.0,iot,hue_lightoff,turn the lights off to [house_place : my room],turn the lights off to my room,turn the lights off to my room,iot_hue_lightoff,30
+2,12466.0,recommendation,movies,what movies are playing at [place_name : theatres] near me,what movies are playing at theatres near me,What movies are playing at theatres near me,recommendation_movies,54
+43,15940.0,email,querycontact,find [person : john smith] from [place_name : alabama],find john smith from alabama,find john smith from Alabama,email_querycontact,14
+63,7948.0,transport,taxi,get me a [transport_agency : uber],get me a uber,Get me a Uber,transport_taxi,60
+96,17343.0,iot,cleaning,start cleaning,start cleaning,start cleaning,iot_cleaning,26
+142,22997.0,email,querycontact,please let me know the what [person : raj's] [personal_info : status update] in [app_name : facebook],please let me know the what raj's status update in facebook,Please let me know the what Raj's status update in Facebook,email_querycontact,14
+152,418.0,general,repeat,stop and try what i've just said once more.,stop and try what i've just said once more.,stop and try what i've just said once more.,general_repeat,25
+6,26055.0,iot,coffee,prepare my [coffee_type : morning] coffee,prepare my morning coffee,Prepare my morning coffee.,iot_coffee,27
+7,14313.0,play,music,play my first favorite song on loop,play my first favorite song on loop,play my first favorite song on loop,play_music,44
+120,24418.0,transport,ticket,tell me about the cheapest flight fares to [place_name : nj] [date : today],tell me about the cheapest flight fares to nj today,tell me about the cheapest flight fares to NJ today,transport_ticket,61
+3,14414.0,lists,remove,please remove my list of [list_name : favorite albums],please remove my list of favorite albums,Please remove my list of favorite albums.,lists_remove,37
+171,16692.0,takeaway,order,open the [app_name : grubhub] app so i can order take out,open the grubhub app so i can order take out,Open the Grubhub app so I can order take-out.,takeaway_order,57
+59,226.0,general,repeat,replay the last utterance said.,replay the last utterance said.,replay the last utterance said.,general_repeat,25
+3,12200.0,recommendation,events,is there anything to do [timeofday : tonight],is there anything to do tonight,Is there anything to do tonight?,recommendation_events,52
+51,3874.0,lists,remove,remove apple from list,remove apple from list,Remove apple from list,lists_remove,37
+150,25508.0,transport,taxi,get me a [transport_type : taxi] to take me to the [place_name : airport] on [date : friday] at [time : five thirty am],get me a taxi to take me to the airport on friday at five thirty am,Get me a taxi to take me to the airport on Friday at 5:30am.,transport_taxi,60
+134,17216.0,transport,taxi,call [transport_type : taxi],call taxi,call taxi,transport_taxi,60
+1,22561.0,iot,hue_lighton,please turn on the lights,please turn on the lights,"Alexa, please turn on the lights.",iot_hue_lighton,31
+115,9434.0,audio,volume_up,get louder,get louder,Get louder,audio_volume_up,5
+94,4452.0,transport,taxi,find an [transport_agency : uber] on [date : twenty ninth],find an uber on twenty ninth,Find an Uber on 29th St.,transport_taxi,60
+58,5335.0,transport,query,what time is the [transport_type : train] to [place_name : san francisco] due,what time is the train to san francisco due,What time is the train to San francisco due?,transport_query,59
+21,21105.0,iot,hue_lightdim,turn my lights down to a lower level of brightness,turn my lights down to a lower level of brightness,Turn my lights down to a lower level of brightness,iot_hue_lightdim,29
+8,10203.0,recommendation,movies,[movie_name : training day],training day,Training Day,recommendation_movies,54
+37,6489.0,iot,cleaning,can you start the [device_type : roomba],can you start the roomba,Can you start the Roomba?,iot_cleaning,26
+48,13935.0,iot,wemo_on,times clapping sound times,times clapping sound times,*clapping sound*,iot_wemo_on,34
+41,9734.0,qa,definition,Define [definition_word : perpetual],Define perpetual,Define perpetual,qa_definition,48
+66,3146.0,calendar,query,latest events,latest events,latest events,calendar_query,6
+113,17192.0,recommendation,events,is there anything special going on nearby,is there anything special going on nearby,Is there anything special going on nearby?,recommendation_events,52
+88,14597.0,calendar,remove,list all events and delete,list all events and delete,list all events and delete,calendar_remove,7
+17,11250.0,takeaway,query,please see if the [business_type : restaurant] [business_name : chili's] has [order_type : delivery] as an option,please see if the restaurant chili's has delivery as an option,Please see if the restaurant Chili's has delivery as an option?,takeaway_query,58
+32,22752.0,qa,factoid,can turkeys fly,can turkeys fly,Can turkeys fly,qa_factoid,49
+53,3877.0,recommendation,events,what events are happening near me,what events are happening near me,"Cortana, what events are happening near me?",recommendation_events,52
+131,6191.0,play,music,play the billboard top ten,play the billboard top ten,Play the Billboard top 10.,play_music,44
+93,12204.0,transport,query,what is the time of the [timeofday : morning] [transport_type : train] headed to [place_name : chicago],what is the time of the morning train headed to chicago,what is the time of the morning train headed to Chicago,transport_query,59
+95,21612.0,iot,hue_lightoff,cut the lights off,cut the lights off,"PDA, cut the lights off",iot_hue_lightoff,30
+4,12110.0,lists,remove,remove this list from the others,remove this list from the others,Remove this list from the others,lists_remove,37
+9,15115.0,recommendation,locations,give me some [business_type : cafes] near [place_name : downtown fort lauderdale],give me some cafes near downtown fort lauderdale,Give me some cafes near downtown Fort Lauderdale.,recommendation_locations,53
+13,16181.0,datetime,query,hey what is the time,hey what is the time,"Hey, what is the time?",datetime_query,11
+157,20832.0,play,game,start play [game_name : spider],start play spider,start play spider,play_game,43
+54,11229.0,lists,query,will you please show me my lists,will you please show me my lists,Will you please show me my lists?,lists_query,36
+119,11777.0,iot,hue_lightoff,turn light off,turn light off,PDA turn light off,iot_hue_lightoff,30
+78,12487.0,calendar,query,what events do i have scheduled [date : today],what events do i have scheduled today,What events do I have scheduled today,calendar_query,6
+21,17645.0,calendar,remove,remove the [event_name : fundraiser for dolphines] in [date : april],remove the fundraiser for dolphines in april,Remove the fundraiser for dolphines in April.,calendar_remove,7
+54,23096.0,audio,volume_mute,enter silence mode,enter silence mode,Enter silence mode,audio_volume_mute,4
+5,24655.0,qa,factoid,where is [place_name : italy],where is italy,where is contry x,qa_factoid,49
+163,8198.0,email,query,have i got any new email from my [relation : company],have i got any new email from my company,have i got any new email from my company.,email_query,13
+62,116.0,general,confirm,would you check what i said.,would you check what i said.,would you check what i said.,general_confirm,18
+15,3696.0,weather,query,let me know when the next cold front is expected,let me know when the next cold front is expected,Let me know when the next cold front is expected,weather_query,63
+85,334.0,general,affirm,it's amazing.,it's amazing.,it's amazing.,general_affirm,16
+119,8745.0,cooking,recipe,i need a recipe that is from ingredients on my [list_name : shopping] list,i need a recipe that is from ingredients on my shopping list,I need a recipe that is from ingredients on my shopping list,cooking_recipe,9
+169,25209.0,lists,remove,i don't need the [list_name : shopping] list delete it,i don't need the shopping list delete it,"I don't need the shopping list, delete it.",lists_remove,37
+14,27.0,general,affirm,yeah strongly agree.,yeah strongly agree.,yeah strongly agree.,general_affirm,16
+96,16693.0,play,music,let me hear some music,let me hear some music,Let me hear some music,play_music,44
+114,27361.0,qa,stock,check stock prices on this,check stock prices on this,PDA check stock prices on this,qa_stock,51
+38,9127.0,recommendation,events,search for any upcoming [event_name : book fairs] during [date : next week] in [place_name : washington dc],search for any upcoming book fairs during next week in washington dc,Search for any upcoming book fairs during next week in Washington D.C.,recommendation_events,52
+109,26588.0,lists,remove,delete this item,delete this item,delete this item,lists_remove,37
+134,2029.0,iot,coffee,yo i need a coffee now,yo i need a coffee now,"yo, Olly, I need a coffee now",iot_coffee,27
+10,619.0,cooking,recipe,whats needed to make [food_type : pizza],whats needed to make pizza,Whats needed to make pizza,cooking_recipe,9
+44,3746.0,iot,hue_lightdim,please lower the lights [change_amount : a little bit],please lower the lights a little bit,please lower the lights a little bit,iot_hue_lightdim,29
+2,19279.0,calendar,set,schedule a [event_name : meeting] with [person : al] on [date : tuesday],schedule a meeting with al on tuesday,Schedule a meeting with Al on Tuesday,calendar_set,8
+26,15632.0,calendar,remove,hey olly on the [date : twentieth] clear my calendar,hey olly on the twentieth clear my calendar,hey siri on the 20th clear my calendar,calendar_remove,7
+10,12132.0,alarm,query,what alarms have i set for [date : tomorrow],what alarms have i set for tomorrow,what alarms have i set for tomorrow,alarm_query,0
+41,14332.0,calendar,set,schedule a reminder on [date : fifteenth march] and input name as [event_name : meeting],schedule a reminder on fifteenth march and input name as meeting,Schedule a reminder on 15th march and input name as meeting,calendar_set,8
+66,13606.0,takeaway,order,i am so hungry and tired and i think i might order some food now,i am so hungry and tired and i think i might order some food now,I am so hungry and tired and I think I might order some food now.,takeaway_order,57
+56,12.0,general,repeat,can you say it one more time again please.,can you say it one more time again please.,can you say it one more time again please.,general_repeat,25
+93,190.0,general,dontcare,don't really bother.,don't really bother.,don't really bother.,general_dontcare,19
+155,1718.0,cooking,recipe,tell me how to [cooking_type : cook] [food_type : pasta],tell me how to cook pasta,Tell me how to cook pasta.,cooking_recipe,9
+89,17276.0,audio,volume_up,unmute,unmute,unmute,audio_volume_up,5
+133,10585.0,calendar,set,don't let me forget i have a [event_name : parent teacher conference] this [date : monday] at [time : four hundred pm],don't let me forget i have a parent teacher conference this monday at four hundred pm,Don't let me forget I have a Parent-Teacher conference this Monday at 4:00 pm.,calendar_set,8
+3,14641.0,lists,remove,please delete list titled [list_name : kickball],please delete list titled kickball,Please delete list titled KICKBALL.,lists_remove,37
+158,321.0,general,affirm,yes you have done it exactly.,yes you have done it exactly.,yes you have done it exactly.,general_affirm,16
+84,20050.0,iot,hue_lightup,make the light more brighter,make the light more brighter,make the light more brighter,iot_hue_lightup,32
+12,4487.0,news,query,find new [news_topic : trump] articles but not from [media_type : fox news],find new trump articles but not from fox news,Find new Trump articles but not from Fox News.,news_query,41
+7,22605.0,recommendation,events,inform about latest scheduled events near my location,inform about latest scheduled events near my location,inform about latest scheduled events near my locaion,recommendation_events,52
+142,15033.0,iot,hue_lightoff,can you make the lights go out,can you make the lights go out,Can you make the lights go out?,iot_hue_lightoff,30
+164,207.0,general,dontcare,that does not matter for me.,that does not matter for me.,that does not matter for me.,general_dontcare,19
+76,3345.0,email,querycontact,what is [person : john's] [personal_info : phone number],what is john's phone number,what is john's phone number?,email_querycontact,14
+50,13417.0,iot,coffee,set my [device_type : coffee machine],set my coffee machine,set my coffee machine,iot_coffee,27
+23,16624.0,audio,volume_up,raise the volume of the speakers,raise the volume of the speakers,Raise the volume of the speakers.,audio_volume_up,5
+11,18701.0,transport,ticket,i need to buy a [transport_type : train] ticket,i need to buy a train ticket,I need to buy a train ticket.,transport_ticket,61
+99,16278.0,datetime,query,please tell me the current [time_zone : date],please tell me the current date,Please tell me the current date,datetime_query,11
+41,2055.0,recommendation,locations,[business_type : tea shop],tea shop,teaa shop,recommendation_locations,53
+165,17130.0,weather,query,give me the [date : weekly] weather near me,give me the weekly weather near me,Give me the weekly weather near me.,weather_query,63
+42,7485.0,play,music,[player_setting : reshuffle] and play music,reshuffle and play music,reshuffle and play music,play_music,44
+25,14935.0,alarm,query,are there any alarms for [date : today],are there any alarms for today,Are there any alarms for today?,alarm_query,0
+8,12599.0,iot,hue_lightoff,please turn off the lights in this [house_place : room],please turn off the lights in this room,Please turn off the lights in this room.,iot_hue_lightoff,30
+164,20032.0,recommendation,events,what is happening [date : tomorrow],what is happening tomorrow,what is happening [date : tomorrow],recommendation_events,52
+161,20920.0,email,querycontact,give me [person : charles] [personal_info : telephone number],give me charles telephone number,Give me Charles telephone number.,email_querycontact,14
+10,13659.0,email,querycontact,what's [person : john's] home [personal_info : phone number],what's john's home phone number,Olly what's John's home phone number?,email_querycontact,14
+130,14117.0,calendar,set,please set a reminder for [event_name : church services] on [date : sundays] for [time : eleven am],please set a reminder for church services on sundays for eleven am,Please set a reminder for church services on Sundays for 11am.,calendar_set,8
+11,13071.0,lists,remove,remove [list_name : soccer] list from notes,remove soccer list from notes,Remove Soccer list from notes,lists_remove,37
+53,22164.0,qa,stock,how much has [business_name : hp] stock gone up,how much has hp stock gone up,how much has hp stock gone up?,qa_stock,51
+110,12441.0,iot,hue_lightdim,darker lights please,darker lights please,"Olly, darker lights please.",iot_hue_lightdim,29
+80,4069.0,calendar,remove,remove my [event_name : car payment] on the [date : fifteenth] from my calendar,remove my car payment on the fifteenth from my calendar,Remove my car payment on the 15th from my calendar.,calendar_remove,7
+147,52.0,iot,cleaning,cleaning is good dust is so bad do now your magic clean my [house_place : carpet],cleaning is good dust is so bad do now your magic clean my carpet,"cleaning is good, dust is so bad do now your magic clean my carpet",iot_cleaning,26
+129,19828.0,qa,definition,what does [definition_word : triumph] mean,what does triumph mean,What does triumph mean?,qa_definition,48
+26,19218.0,lists,query,can you find my lists,can you find my lists,Can you find my lists?,lists_query,36
+11,17470.0,weather,query,do i need to wear [weather_descriptor : sunscreen] [date : today],do i need to wear sunscreen today,Do I need to wear sunscreen today?,weather_query,63
+35,6154.0,takeaway,query,is my order ready,is my order ready,Is my order ready?,takeaway_query,58
+25,9826.0,email,querycontact,can i find out information about a contact,can i find out information about a contact,Can I find out information about a contact?,email_querycontact,14
+23,15321.0,iot,cleaning,activate [device_type : robot vacuum cleaner],activate robot vacuum cleaner,Activate robot vacuum cleaner,iot_cleaning,26
+143,24666.0,email,querycontact,what's [person : rene] [personal_info : phone number],what's rene phone number,What's Rene phone number?,email_querycontact,14
+94,3825.0,qa,maths,what is two hundred divided by ten,what is two hundred divided by ten,What is 200 divided by 10,qa_maths,50
+12,23791.0,calendar,remove,remove [person : emma's] [event_name : birthday] from events,remove emma's birthday from events,Remove Emma's birthday from events,calendar_remove,7
+57,4147.0,iot,cleaning,start the [device_type : robot vacuum cleaner] at [time : one pm] [date : today],start the robot vacuum cleaner at one pm today,Start the robot vacuum cleaner at 1pm today.,iot_cleaning,26
+43,7277.0,news,query,what and how is [news_topic : india's economy] at the moment,what and how is india's economy at the moment,what and how is india's economy at the moment?,news_query,41
+66,90.0,general,repeat,tell me again.,tell me again.,tell me again.,general_repeat,25
+16,5091.0,email,addcontact,add [email_address : jpearsonjessica@gmail dot com] to email contacts,add jpearsonjessica@gmail dot com to email contacts,Add jpearsonjessica@gmail.com to email contacts,email_addcontact,12
+118,733.0,general,negate,i think that's not the right command.,i think that's not the right command.,i think that's not the right command.,general_negate,22
+87,5406.0,cooking,recipe,what the [food_type : sexiest] food to cook on a date,what the sexiest food to cook on a date,"PDA, what the sexiest food to cook on a date?",cooking_recipe,9
+172,7398.0,calendar,set,the location is my [place_name : office],the location is my office,the location is _____,calendar_set,8
+65,14423.0,iot,cleaning,activate the [device_type : roomba],activate the roomba,activate the roomba,iot_cleaning,26
+116,2272.0,transport,ticket,book my [transport_descriptor : first class] ac [transport_type : train] ticket from [place_name : new york] to [place_name : san francisco],book my first class ac train ticket from new york to san francisco,Book my 1st class AC ttrain icket from New York to San Francisco,transport_ticket,61
+156,1935.0,recommendation,locations,where is a [business_type : petrol station] in [place_name : five mile radius],where is a petrol station in five mile radius,where is a petrol station in 0.5 mile radius?,recommendation_locations,53
+11,10197.0,calendar,set,add [event_name : running] to my calendar for [date : thursday],add running to my calendar for thursday,Add running to my calendar for thursday.,calendar_set,8
+50,15591.0,qa,currency,currency converter please,currency converter please,Currency converter please,qa_currency,47
+90,21508.0,audio,volume_mute,please you don't speak in [time : eight to ten pm],please you don't speak in eight to ten pm,Please u don't speak in 8 to 10 P.M.,audio_volume_mute,4
+56,9263.0,play,music,can you play my music file,can you play my music file,Can you play my music file?,play_music,44
+135,23397.0,transport,taxi,google [transport_agency : uber],google uber,google uber,transport_taxi,60
+2,375.0,general,affirm,yes you've done your understanding correcly.,yes you've done your understanding correcly.,yes you've done your understanding correcly.,general_affirm,16
+170,10676.0,qa,factoid,what size is a sperm whale,what size is a sperm whale,What size is a sperm whale?,qa_factoid,49
+22,18242.0,transport,query,is the [time : four hundred and thirty pm] [transport_type : train] running late,is the four hundred and thirty pm train running late,Is the 4:30 PM train running late?,transport_query,59
+87,31.0,audio,volume_mute,quiet,quiet,Olly quiet!,audio_volume_mute,4
+52,11262.0,alarm,query,do i have alarms set for [date : today],do i have alarms set for today,Do I have alarms set for today?,alarm_query,0
+11,1778.0,iot,hue_lightup,make the lights brighter,make the lights brighter,Olly make the lights brighter,iot_hue_lightup,32
+28,9174.0,lists,createoradd,create new list for [list_name : baby names],create new list for baby names,Create new list for baby names,lists_createoradd,35
+64,18595.0,play,game,can you play a game with me,can you play a game with me,Can you play a game with me,play_game,43
+106,21059.0,calendar,query,which is the next event coming up,which is the next event coming up,Which is the next event coming up?,calendar_query,6
+77,21647.0,iot,cleaning,start cleaning floors,start cleaning floors,start cleaning floors,iot_cleaning,26
+34,9275.0,transport,taxi,i need a [transport_type : taxi] ride now,i need a taxi ride now,I need a taxi ride now,transport_taxi,60
+68,22871.0,email,query,what is my recent email activity,what is my recent email activity,what is my recent email activity?,email_query,13
+95,26964.0,cooking,recipe,find recipe [food_type : chicken casserole],find recipe chicken casserole,Find recipe chicken casserole,cooking_recipe,9
+133,11598.0,qa,factoid,when is president's day,when is president's day,PDA when is President's Day?,qa_factoid,49
+2,20649.0,recommendation,locations,show [business_type : shops] around [place_name : second street],show shops around second street,show shops around second street,recommendation_locations,53
+110,13899.0,audio,volume_up,turn up the speakers,turn up the speakers,turn up the speakers,audio_volume_up,5
+117,22446.0,qa,factoid,is [person : keith richards] dead,is keith richards dead,Is Keith Richards dead?,qa_factoid,49
+74,5745.0,alarm,query,what alarms do i have,what alarms do i have,what alarms do I have PDA?,alarm_query,0
+20,19961.0,calendar,set,reminders,reminders,Reminders,calendar_set,8
+80,20900.0,lists,query,tell me items that are on my [list_name : shopping] list,tell me items that are on my shopping list,Tell me items that are on my shopping list,lists_query,36
+106,22857.0,lists,query,List all the lists on this device,List all the lists on this device,list all the lists on this device.,lists_query,36
+37,23345.0,recommendation,locations,nearest [business_type : restaurants] available at this time,nearest restaurants available at this time,nearest restaurants available at this time,recommendation_locations,53
+48,17796.0,takeaway,order,call [business_name : domino's pizza],call domino's pizza,Call Domino's Pizza,takeaway_order,57
+91,13481.0,email,query,what is the latest email from [person : zita],what is the latest email from zita,what is the latest email from xxx,email_query,13
+98,21810.0,cooking,recipe,what are the steps for [food_type : biriyani meal],what are the steps for biriyani meal,What are the steps for biriyani meal,cooking_recipe,9
+102,9595.0,calendar,remove,clean my entire calendar,clean my entire calendar,Clean my entire calendar,calendar_remove,7
+20,8468.0,iot,hue_lighton,switch on all the lights,switch on all the lights,switch on all the lights,iot_hue_lighton,31
+19,20993.0,qa,definition,please tell me what is the definition of [definition_word : cylinder],please tell me what is the definition of cylinder,PLEASE TELL ME WHAT IS THE DEFINITION OF CYLINDER.,qa_definition,48
+5,14685.0,alarm,remove,kickball is over i do not need the alarm for kickball on [date : wednesday] [timeofday : evening] any longer,kickball is over i do not need the alarm for kickball on wednesday evening any longer,"Kickball is over, I do not need the alarm for kickball on Wednesday evening, any longer.",alarm_remove,1
+22,26300.0,qa,currency,what is the exchange rate of [currency_name : euro] [date : today] to [currency_name : dirham],what is the exchange rate of euro today to dirham,What is the exchange rate of Euro today to dirham,qa_currency,47
+41,17110.0,audio,volume_mute,mute the audio,mute the audio,Mute the audio,audio_volume_mute,4
+64,1764.0,audio,volume_up,i can barely hear you,i can barely hear you,I can barely hear you Olly,audio_volume_up,5
+17,27003.0,qa,stock,what is the closing price of [business_name : apple] [date : today],what is the closing price of apple today,what is the closing price of Apple today?,qa_stock,51
+46,7435.0,recommendation,locations,will the [food_type : fast food] [business_type : shop] at the corner open [date : today],will the fast food shop at the corner open today,Will the fast food shop at the corner open today?,recommendation_locations,53
+9,15572.0,news,query,i want to know everything that breaks about the dam breaking in [place_name : california],i want to know everything that breaks about the dam breaking in california,I want to know everything that breaks about the dam breaking in California.,news_query,41
+83,8380.0,audio,volume_mute,i dont want sound,i dont want sound,i dont want sound.,audio_volume_mute,4
+24,20708.0,play,music,find songs from my [playlist_name : big band playlist],find songs from my big band playlist,Find songs from my Big Band playlist.,play_music,44
+151,366.0,general,confirm,would you confirm the last thing i said please.,would you confirm the last thing i said please.,would you confirm the last thing i said please.,general_confirm,18
+121,25369.0,weather,query,do i need [weather_descriptor : boots] [date : today],do i need boots today,do i need boots today,weather_query,63
+37,21348.0,qa,stock,whats the dow jones at [date : today],whats the dow jones at today,"Olly, Whats the dow jones at today?",qa_stock,51
+44,19327.0,lists,createoradd,generate fresh list,generate fresh list,Generate fresh list.,lists_createoradd,35
+69,7368.0,calendar,query,give me the reminders,give me the reminders,give me the reminders,calendar_query,6
+1,6565.0,iot,hue_lightdim,lower the light intensity,lower the light intensity,lower the light intensity,iot_hue_lightdim,29
+66,5807.0,alarm,remove,change the alarm weekly settings,change the alarm weekly settings,Change the alarm weekly settings,alarm_remove,1
+133,8595.0,cooking,recipe,what temperature do you [cooking_type : bake] a [ingredient : potato],what temperature do you bake a potato,what temperature do you bake a potato?,cooking_recipe,9
+18,3263.0,cooking,recipe,why do people use [ingredient : avocado seeds],why do people use avocado seeds,Why do people use Avocado seeds?,cooking_recipe,9
+136,11801.0,calendar,query,what's going on [time : between three hundred and thirty and four],what's going on between three hundred and thirty and four,"Olly, what's going on between 3:30 and 4?",calendar_query,6
+37,16867.0,play,game,open up [game_name : tetris],open up tetris,Open up tetris.,play_game,43
+75,7612.0,recommendation,movies,what movies is out there in the [place_name : local cinema],what movies is out there in the local cinema,What movies is out there in the local cinema?,recommendation_movies,54
+150,21697.0,iot,cleaning,i want to clean my bedroom put the [device_type : vacuum] on and go to my [house_place : room],i want to clean my bedroom put the vacuum on and go to my room,"I want to clean  my bedroom, put the vacuum on and go to my room",iot_cleaning,26
+33,20431.0,cooking,recipe,how long do i roast [food_type : chicken breasts],how long do i roast chicken breasts,How long do I roast chicken breasts?,cooking_recipe,9
+9,752.0,qa,maths,seven times seven,seven times seven,Seven times seven,qa_maths,50
+27,7359.0,qa,maths,what is the answer to that question,what is the answer to that question,what is the answer to that question,qa_maths,50
+66,89.0,general,confirm,i want you check the last thing i said please.,i want you check the last thing i said please.,i want you check the last thing i said please.,general_confirm,18
+7,8552.0,transport,ticket,get me two [transport_type : train] tickets from where i am now to [place_name : dallas] arriving [time : before dark],get me two train tickets from where i am now to dallas arriving before dark,Get me 2 train tickets from where I am now to Dallas arriving before dark.,transport_ticket,61
+171,216.0,general,negate,i think this is not correct command.,i think this is not correct command.,i think this is not correct command.,general_negate,22
+53,16666.0,email,query,did [person : mike] send me an email,did mike send me an email,did Mike send me an email,email_query,13
+14,15311.0,transport,query,i want to go to [business_name : bank of america] give me directions,i want to go to bank of america give me directions,I want to go to Bank of America. Give me directions,transport_query,59
+49,15189.0,takeaway,query,look up whether or not [business_name : charley's steakhouse] delivers,look up whether or not charley's steakhouse delivers,Look up whether or not Charley's Steakhouse delivers.,takeaway_query,58
+88,6348.0,email,query,let me know of any incoming emails for the [time : last hour] please,let me know of any incoming emails for the last hour please,Let me know of any incoming emails for the last hour please.,email_query,13
+145,25811.0,qa,stock,please find [date : today's] stock prices for [business_name : samsung] company,please find today's stock prices for samsung company,Please find today's stock prices for Samsung company.,qa_stock,51
+51,21960.0,iot,hue_lightdim,bring the lights down [change_amount : a bit],bring the lights down a bit,Bring the lights down a bit,iot_hue_lightdim,29
+116,16798.0,recommendation,locations,what [business_type : bars] are around me,what bars are around me,"Olly, what bars are around me",recommendation_locations,53
+101,309.0,general,confirm,would you check and confirm question please.,would you check and confirm question please.,would you check and confirm question please.,general_confirm,18
+79,25769.0,recommendation,movies,[movie_name : ocean eleven],ocean eleven,ocean 11,recommendation_movies,54
+50,7640.0,takeaway,order,order one [food_type : burger],order one burger,Order 1 burger,takeaway_order,57
+18,18770.0,lists,createoradd,i need oranges added to my [list_name : grocery] list,i need oranges added to my grocery list,I need oranges added to my grocery list.,lists_createoradd,35
+128,10727.0,takeaway,order,order two medium [food_type : cheese] and one medium [food_type : pepperoni pizza] from [business_name : dominoes],order two medium cheese and one medium pepperoni pizza from dominoes,Order two medium cheese and one medium pepperoni pizza from Dominoes.,takeaway_order,57
+42,8625.0,iot,hue_lightup,a little brighter thanks,a little brighter thanks,a little brighter thanks,iot_hue_lightup,32
+75,249.0,general,affirm,yes correct response.,yes correct response.,yes correct response.,general_affirm,16
+55,21464.0,qa,maths,how many pounds do sixty kg make,how many pounds do sixty kg make,How many pounds do 60 kg make?,qa_maths,50
+4,13024.0,audio,volume_mute,please be quiet,please be quiet,Please be quiet,audio_volume_mute,4
+129,4786.0,lists,query,check my [list_name : to do] list,check my to do list,Check my to do list,lists_query,36
+4,11611.0,iot,hue_lightdim,lower lights,lower lights,Lower lights,iot_hue_lightdim,29
+109,26620.0,transport,taxi,i need a ride [time : in an hour],i need a ride in an hour,I need a ride in an hour,transport_taxi,60
+115,22344.0,play,game,would you like to play a game,would you like to play a game,Would you like to play a game?,play_game,43
+100,26418.0,iot,hue_lightoff,i want the light to be switched off,i want the light to be switched off,i want the light to be switched off.,iot_hue_lightoff,30
+119,343.0,general,dontcare,wouldn't bother.,wouldn't bother.,wouldn't bother.,general_dontcare,19
+91,5937.0,alarm,query,list all the alarms,list all the alarms,List all the alarms,alarm_query,0
+99,11830.0,calendar,set,add [event_name : valia's wedding] the next [date : saturday] at [time : eight o clock],add valia's wedding the next saturday at eight o clock,"Add Valia's wedding the next Saturday at 8 o clock,",calendar_set,8
+10,804.0,takeaway,query,can they provide [order_type : takeaway],can they provide takeaway,Can they provide takeaway?,takeaway_query,58
+114,10037.0,calendar,remove,is there a way to clear my calendar,is there a way to clear my calendar,Is there a way to clear my calendar?,calendar_remove,7
+87,13499.0,iot,hue_lightoff,turn the light off,turn the light off,turn the light off,iot_hue_lightoff,30
+61,20515.0,qa,definition,siri what does [definition_word : obstacle] mean,siri what does obstacle mean,"Siri, what does obstacle mean?",qa_definition,48
+142,329.0,general,confirm,could you please check and confirm last thing i said.,could you please check and confirm last thing i said.,could you please check and confirm last thing i said.,general_confirm,18
+0,8857.0,recommendation,movies,which [movie_type : rom com] movie can i watch in theatres around [place_name : new york],which rom com movie can i watch in theatres around new york,Which rom-com movie can I watch in theatres around New York,recommendation_movies,54
+54,5165.0,calendar,query,when will the [event_name : match] start,when will the match start,When will the match start,calendar_query,6
+37,10323.0,news,query,check for recent news stories on [media_type : msnbc],check for recent news stories on msnbc,Check for recent news stories on MSNBC,news_query,41
+148,6540.0,calendar,remove,check the events on calendar and delete the next event,check the events on calendar and delete the next event,Check the events on calendar and delete the next event,calendar_remove,7
+9,2975.0,recommendation,movies,what is the best movie to watch [date : this weekend],what is the best movie to watch this weekend,What is the best movie to watch this weekend.,recommendation_movies,54
+78,17569.0,cooking,recipe,how can a cook [food_type : risotto],how can a cook risotto,How can a cook risotto?,cooking_recipe,9
+101,2044.0,takeaway,query,find out if the [business_type : restaurant] does [order_type : takeaway] orders,find out if the restaurant does takeaway orders,find out if the restaurant does takeaway orders,takeaway_query,58
+9,177.0,general,dontcare,"i would not really know, olly.","i would not really know, olly.","i would not really know, olly.",general_dontcare,19
+4,419.0,general,dontcare,"it is unimportant for me, olly.","it is unimportant for me, olly.","it is unimportant for me, olly.",general_dontcare,19
+64,18123.0,recommendation,locations,find a [business_type : grocery store] in town that carries creamed pickled herring,find a grocery store in town that carries creamed pickled herring,Find a grocery store in town that carries creamed pickled herring.,recommendation_locations,53
+110,22373.0,play,game,play [game_name : real racing three] game,play real racing three game,Play real racing 3 game,play_game,43
+67,527.0,general,repeat,please can you say it one more time again.,please can you say it one more time again.,please can you say it one more time again.,general_repeat,25
+120,23059.0,lists,query,i have my [list_name : clothes] list,i have my clothes list,i have my clothes list,lists_query,36
+83,4578.0,email,query,read me new messages from name,read me new messages from name,read me new messages from NAME,email_query,13
+56,3988.0,weather,query,will the weather be [weather_descriptor : bad] on [date : Sunday],will the weather be bad on Sunday,Will the weather be bad on Sunday?,weather_query,63
+61,27400.0,email,query,do i have new emails from [person : john],do i have new emails from john,Do I have new emails from John,email_query,13
+112,542.0,general,negate,"shit, it isn't what i was searching for.","shit, it isn't what i was searching for.","shit, it isn't what i was searching for.",general_negate,22
+33,22028.0,alarm,remove,remove number three alarm of list,remove number three alarm of list,Remove no. 3 alarm of list.,alarm_remove,1
+20,23217.0,play,music,play the romantic songs,play the romantic songs,play the romanitc songs,play_music,44
+7,3094.0,email,querycontact,hey ms the [personal_info : email address] of [person : john miller],hey ms the email address of john miller,Hey Ms the email address of John Miller.,email_querycontact,14
+105,12510.0,weather,query,what is the forecast for the [date : week],what is the forecast for the week,What is the forecast for the week,weather_query,63
+130,17193.0,recommendation,events,anything unique to do in the city [date : today],anything unique to do in the city today,Anything unique to do in the city today?,recommendation_events,52
+62,18849.0,recommendation,locations,what is the best [food_type : italian] [business_type : restaurant] around here,what is the best italian restaurant around here,"PDA, what is the best Italian restaurant around here?",recommendation_locations,53
+34,11527.0,lists,remove,open lists remove list,open lists remove list,Open lists. remove list,lists_remove,37
+24,2908.0,iot,hue_lightup,[change_amount : slightly] raise the light,slightly raise the light,Slightly raise the light.,iot_hue_lightup,32
+93,26313.0,play,game,please open and play [game_name : chess] with me,please open and play chess with me,Please open and play chess with me,play_game,43
+68,5124.0,takeaway,query,does that [business_type : restaurant] allow [order_type : take out] orders,does that restaurant allow take out orders,Does that restaurant allow take-out orders?,takeaway_query,58
+114,24557.0,transport,ticket,[transport_type : train] ticket please,train ticket please,train ticket please,transport_ticket,61
+144,18730.0,qa,stock,what are [business_name : i. b. m.'s] stock prices,what are i. b. m.'s stock prices,What are IBM's stock prices,qa_stock,51
+52,20123.0,calendar,query,confirm that my notification is set to remind me when i leave,confirm that my notification is set to remind me when i leave,confirm that my notification is set to remind me when I leave,calendar_query,6
+11,16346.0,iot,coffee,prepare coffee now,prepare coffee now,Prepare coffee now,iot_coffee,27
+40,125.0,general,affirm,yeah you got your understanding perfectly.,yeah you got your understanding perfectly.,yeah you got your understanding perfectly.,general_affirm,16
+73,26326.0,qa,factoid,what is the geographic info of a pop singer [person : rahman],what is the geographic info of a pop singer rahman,What is the geographic info of a pop singer Rahman,qa_factoid,49
+88,105.0,general,dontcare,"any one would be okay, olly.","any one would be okay, olly.","any one would be okay, olly.",general_dontcare,19
+7,13027.0,takeaway,query,does [person : john's] [food_type : pizza] have [order_type : takeaway],does john's pizza have takeaway,Does John's pizza have takeaway,takeaway_query,58
+54,24515.0,transport,taxi,[transport_type : taxi] [transport_agency : uber],taxi uber,taxi uber,transport_taxi,60
+81,9060.0,iot,hue_lightoff,turn off the closet light,turn off the closet light,Turn off the closet light,iot_hue_lightoff,30
+6,12263.0,lists,remove,change that off the list,change that off the list,Change that off the list,lists_remove,37
+86,24710.0,calendar,set,add to calendar an [event_name : medical appointment] for the [time : first day of the next five months],add to calendar an medical appointment for the first day of the next five months,Add to calendar an medical appointment for the first day of the next five months,calendar_set,8
+12,22116.0,play,game,find game,find game,Find game,play_game,43
+82,9001.0,iot,hue_lightoff,turn off [house_place : kitchen] light,turn off kitchen light,Turn off kitchen light,iot_hue_lightoff,30
+142,13415.0,datetime,query,what is the current time in [place_name : california],what is the current time in california,what is the current time in california,datetime_query,11
+20,21177.0,transport,query,how far is [business_name : walmart] from here,how far is walmart from here,How far is Walmart from here?,transport_query,59
+82,16698.0,datetime,query,the time in [place_name : cairo] please,the time in cairo please,PDA. The time in Cairo please.,datetime_query,11
+99,3606.0,iot,cleaning,robot vacuum the [house_place : hallway] now,robot vacuum the hallway now,"Robot, vacuum the hallway now",iot_cleaning,26
+7,14986.0,recommendation,locations,please look up local [business_type : restaurants] that are open now,please look up local restaurants that are open now,Please look up local restaurants that are open now.,recommendation_locations,53
+127,15953.0,lists,query,do i have anything outstanding on any lists,do i have anything outstanding on any lists,Do I have anything outstanding on any lists?,lists_query,36
+39,138.0,general,confirm,would you please check that.,would you please check that.,would you please check that.,general_confirm,18
+17,14638.0,iot,wemo_on,start the laundry,start the laundry,olly start the laundry,iot_wemo_on,34
+4,6418.0,calendar,query,what do i have scheduled for [date : next week],what do i have scheduled for next week,What do I have scheduled for next week?,calendar_query,6
+126,20738.0,qa,definition,give details of [definition_word : rock sand],give details of rock sand,give details of rock sand,qa_definition,48
+138,10094.0,weather,query,tell me the weather for [date : this week],tell me the weather for this week,"PDA, tell me the weather for this week.",weather_query,63
+26,7290.0,transport,taxi,book an [transport_agency : uber] to the [place_name : nearest mall] in the [time : next half hour],book an uber to the nearest mall in the next half hour,book an uber to the nearest mall in the next half hour,transport_taxi,60
+141,795.0,general,negate,olly i said call jack not jake.,olly i said call jack not jake.,olly i said call jack not jake.,general_negate,22
+4,8882.0,datetime,query,what week of the year does the [time : summer season] start,what week of the year does the summer season start,What week of the year does the summer season start?,datetime_query,11
+9,17914.0,qa,maths,what is the square root of four,what is the square root of four,What is the square root of 4 ?,qa_maths,50
+70,17931.0,recommendation,movies,what's a movie in [place_name : theaters] that doesn't suck,what's a movie in theaters that doesn't suck,"Olly, what's a movie in theaters that doesn't suck?",recommendation_movies,54
+19,3359.0,email,query,check all the new them emails and mark them star,check all the new them emails and mark them star,Check all the new them wmails and mark them star,email_query,13
+97,26090.0,qa,currency,how much is [currency_name : indian rupee] going against [currency_name : us dollar],how much is indian rupee going against us dollar,How much is indian rupee going against US dollar?,qa_currency,47
+83,143.0,general,affirm,yeap exact response to command.,yeap exact response to command.,yeap exact response to command.,general_affirm,16
+34,686.0,general,negate,that isn't what i meant.,that isn't what i meant.,that isn't what i meant.,general_negate,22
+119,15579.0,recommendation,events,any local activities you can recommend in my area,any local activities you can recommend in my area,Any local activities you can recommend in my area?,recommendation_events,52
+103,1944.0,iot,hue_lightup,set lights [change_amount : to full power],set lights to full power,set lights to full power,iot_hue_lightup,32
+6,13216.0,iot,hue_lightoff,please turn off all the lights outdoor,please turn off all the lights outdoor,pls turn off all the lights outdoor,iot_hue_lightoff,30
+19,1289.0,calendar,remove,remove next [event_name : meeting] [date : today] in my calendar,remove next meeting today in my calendar,Remove next meeting today in my calendar.,calendar_remove,7
+133,23776.0,email,querycontact,find [person : jhonny's] [personal_info : address],find jhonny's address,Find Jhonny's address,email_querycontact,14
+62,8760.0,alarm,remove,change my alarm,change my alarm,change my alarm,alarm_remove,1
+14,577.0,general,repeat,can you try again please.,can you try again please.,can you try again please.,general_repeat,25
+17,10167.0,takeaway,query,when do i need to leave to pick up my order,when do i need to leave to pick up my order,When do I need to leave to pick up my order?,takeaway_query,58
+6,14673.0,iot,hue_lighton,it is dark,it is dark,"It is dark, we need additional lighting, please adjust.",iot_hue_lighton,31
+32,13251.0,calendar,set,meeting update my calendar to [event_name : reflect meeting],meeting update my calendar to reflect meeting,Meeting (friend) on (date) update my calendar to reflect meeting.,calendar_set,8
+84,7601.0,iot,coffee,i need coffee please preferably [coffee_type : hot],i need coffee please preferably hot,I need coffee please preferably hot.,iot_coffee,27
+97,8919.0,qa,factoid,how old is [person : rihanna],how old is rihanna,How old is Rihanna?,qa_factoid,49
+115,1900.0,iot,cleaning,start a [device_type : vacuum cleaner],start a vacuum cleaner,Start a vacuum cleaner,iot_cleaning,26
+84,25880.0,transport,ticket,i want you to book a [transport_type : train] ticket for me,i want you to book a train ticket for me,I want you to book a train ticket for me,transport_ticket,61
+29,22658.0,recommendation,locations,list all the nearby [business_type : shops],list all the nearby shops,"Olly, list all the nearby shops",recommendation_locations,53
+14,13964.0,transport,taxi,book me a [transport_agency : uber] for [date : tomorrow] [timeofday : night] at [time : six pm],book me a uber for tomorrow night at six pm,Book me a Uber for tomorrow night at 6 pm.,transport_taxi,60
+0,3218.0,iot,wemo_on,turn on the [device_type : wemo plug socket] to connect my charger to it,turn on the wemo plug socket to connect my charger to it,Turn on the Wemo plug socket to connect my charger to it,iot_wemo_on,34
+32,8016.0,qa,definition,what is [definition_word : photosynthesis],what is photosynthesis,What is photosynthesis,qa_definition,48
+4,404.0,general,negate,i think it is not correct response.,i think it is not correct response.,i think it is not correct response.,general_negate,22
+70,11348.0,takeaway,query,tell me if [business_name : taco bell] delivers,tell me if taco bell delivers,Tell me if taco bell delivers,takeaway_query,58
+1,12226.0,calendar,query,do i have a [event_name : dentist appointment] on [date : monday morning],do i have a dentist appointment on monday morning,do I have a dentist appointment on Monday morning?,calendar_query,6
+121,22918.0,iot,cleaning,activate the [device_type : cleaner] for [house_place : furniture] cleaning,activate the cleaner for furniture cleaning,activate the cleaner for furniture cleaning,iot_cleaning,26
+117,4053.0,takeaway,query,tell me if the [business_name : olive garden] allows [order_type : takeaway],tell me if the olive garden allows takeaway,Tell me if The Olive Garden allows takeway.,takeaway_query,58
+16,22475.0,play,game,fight me in [game_name : street fighter],fight me in street fighter,Fight me in Street Fighter,play_game,43
+87,4923.0,recommendation,events,what events are going on around my place,what events are going on around my place,What events are going on around my place?,recommendation_events,52
+4,14559.0,lists,query,what kind of lists do i have saved,what kind of lists do i have saved,what kind of lists do i have saved?,lists_query,36
+56,25097.0,calendar,remove,clear my day on the [date : twenty ninth],clear my day on the twenty ninth,Clear my day on the 29th.,calendar_remove,7
+31,1951.0,lists,createoradd,add apples to [list_name : shopping] list,add apples to shopping list,add apples to shopping list,lists_createoradd,35
+43,4899.0,recommendation,movies,tell me the movie with [movie_type : best imdb ratings] going on in [place_name : theatres] near me,tell me the movie with best imdb ratings going on in theatres near me,tell me the movie with best IMDB ratings going on in theatres near me,recommendation_movies,54
+43,13458.0,alarm,query,what are the next three alarms set to go off,what are the next three alarms set to go off,What are the next three alarms set to go off?,alarm_query,0
+31,23160.0,calendar,set,let me know of the [event_name : meeting] on [date : tuesday],let me know of the meeting on tuesday,Let me know of the meeting on Tuesday,calendar_set,8
+5,18928.0,email,addcontact,please add [email_address : johndoe@yahoocom] to my contact list,please add johndoe@yahoocom to my contact list,Please add johndoe@yahoo.com to my contact list.,email_addcontact,12
+90,14144.0,alarm,query,tell me about alarms,tell me about alarms,tell me about alarms,alarm_query,0
+82,20530.0,alarm,query,is there any alarm after [time : five am],is there any alarm after five am,is there any alarm after 5 am,alarm_query,0
+15,793.0,lists,remove,delete item,delete item,Delete item,lists_remove,37
+147,8283.0,datetime,query,what is the time in [place_name : milwaukee],what is the time in milwaukee,what is the time in milwaukee?,datetime_query,11
+85,26290.0,alarm,query,would like to know the alarm you sent,would like to know the alarm you sent,would like to know the alarm you sent,alarm_query,0
+81,1346.0,takeaway,order,can i order [order_type : takeaway] from [food_type : spanish] place,can i order takeaway from spanish place,Can I order takeaway from Spanish place?,takeaway_order,57
+15,24587.0,qa,stock,stock exchange rates,stock exchange rates,stock exchange rates,qa_stock,51
+72,533.0,general,repeat,i would like to hear what said again.,i would like to hear what said again.,i would like to hear what said again.,general_repeat,25
+3,112.0,general,dontcare,does not matter to me.,does not matter to me.,does not matter to me.,general_dontcare,19
+11,25359.0,qa,stock,what is the stock information of [business_name : walmart],what is the stock information of walmart,what is the stock information of walmart,qa_stock,51
+34,24354.0,iot,hue_lightup,[device_type : every light] of [house_place : room] increase its intensity,every light of room increase its intensity,every light of room increase its intensity,iot_hue_lightup,32
+72,16591.0,transport,query,what is the departure time for the next [transport_type : train] leaving [place_name : new york city],what is the departure time for the next train leaving new york city,What is the departure time for the next train leaving New York City?,transport_query,59
+16,461.0,general,confirm,check and confirm my last question please.,check and confirm my last question please.,check and confirm my last question please.,general_confirm,18
+18,4018.0,lists,remove,delete my [list_name : grocery] list in my notes,delete my grocery list in my notes,Delete my grocery list in my notes.,lists_remove,37
+55,379.0,general,dontcare,do not really bother.,do not really bother.,do not really bother.,general_dontcare,19
+3,7679.0,recommendation,movies,show me theatre where [movie_name : pirates of caribbean] is playing,show me theatre where pirates of caribbean is playing,Show me theatre where pirates of Caribbean is playing,recommendation_movies,54
+169,2569.0,iot,hue_lightoff,by switch off,by switch off,by switch off,iot_hue_lightoff,30
+28,11772.0,recommendation,movies,what movie theatres are in [place_name : stephenville],what movie theatres are in stephenville,Olly what movie theatres are in Stephenville?,recommendation_movies,54
+100,8510.0,takeaway,order,pull up [business_name : peking garden] online,pull up peking garden online,Pull up Peking Garden online,takeaway_order,57
+82,16300.0,calendar,set,add [event_name : lunch appointment] with [person : lisa] to [date : january second] at [time : twelve thirty pm],add lunch appointment with lisa to january second at twelve thirty pm,"Olly, add lunch appointment with Lisa to January 2nd at 12:30pm",calendar_set,8
+102,24438.0,play,game,let's play a game of [game_name : truth or dare],let's play a game of truth or dare,Let's play a game of Truth or Dare.,play_game,43
+76,920.0,general,negate,"dammit, that's not what i said.","dammit, that's not what i said.","dammit, that's not what i said.",general_negate,22
+66,14880.0,email,querycontact,tell me [person : mary's] [personal_info : cell number],tell me mary's cell number,Tell me Mary's cell number?,email_querycontact,14
+39,13891.0,transport,query,how much for a [transport_type : train] ticket,how much for a train ticket,How much for a train ticket?,transport_query,59
+45,25326.0,recommendation,locations,where is a walking trail near me,where is a walking trail near me,where is a walking trail near me,recommendation_locations,53
+49,14284.0,audio,volume_mute,mute for [time : fifteen minutes],mute for fifteen minutes,mute for 15 minutes,audio_volume_mute,4
+30,12212.0,email,addcontact,use that email address as a contact,use that email address as a contact,use that email address as a contact,email_addcontact,12
+48,22027.0,alarm,remove,remove all alarm of [date : sunday],remove all alarm of sunday,Remove all alarm of sunday,alarm_remove,1
+109,13596.0,calendar,remove,can you take out [event_name : dentist appointment] from my calendar,can you take out dentist appointment from my calendar,can you take out dentist appointment from my calendar?,calendar_remove,7
+138,5767.0,play,music,download the latest [music_genre : folk] songs having [music_descriptor : rating of four star or above] and play all [player_setting : without shuffle],download the latest folk songs having rating of four star or above and play all without shuffle,Download the latest folk songs having rating of 4 star or above and play all without shuffle.,play_music,44
+21,16930.0,calendar,set,notify me an hour before my [time : two pm] [event_name : appointment] at the car dealership,notify me an hour before my two pm appointment at the car dealership,Notify me an hour before my 2pm appointment at the car dealership,calendar_set,8
+118,7227.0,takeaway,order,find and order [food_type : rasgulla] of [business_name : janta sweet home pvt ltd],find and order rasgulla of janta sweet home pvt ltd,Find and Order rasgulla of janta sweet home pvt Ltd,takeaway_order,57
+58,5122.0,takeaway,query,hey does that [business_type : restaurant] have [order_type : takeout],hey does that restaurant have takeout,"Hey PDA, does that restaurant have takeout?",takeaway_query,58
+106,20296.0,audio,volume_up,change the volume level [change_amount : to nineteen] please,change the volume level to nineteen please,Change the volume level to 19 please,audio_volume_up,5
+10,19307.0,lists,createoradd,we need milk,we need milk,We need milk.,lists_createoradd,35
+76,7775.0,recommendation,locations,what's the most popular [business_type : curry place] in [place_name : town],what's the most popular curry place in town,What's the most popular curry place in town?,recommendation_locations,53
+129,11771.0,recommendation,locations,what [food_type : chinese] [business_type : restaurants] are in my area,what chinese restaurants are in my area,Olly what chinese restaurants are in my area?,recommendation_locations,53
+49,3949.0,calendar,set,remind me of my [event_name : appointment] on the [date : fifteenth],remind me of my appointment on the fifteenth,Remind me of my appointment on the 15th.,calendar_set,8
+26,50.0,general,dontcare,"i wouldn't really mind, olly.","i wouldn't really mind, olly.","i wouldn't really mind, olly.",general_dontcare,19
+116,23094.0,calendar,set,the [event_name : meeting] with [person : justin] and [person : katrina] has been changed put it on [date : thursday],the meeting with justin and katrina has been changed put it on thursday,The meeting with Justin and katrina has been changed-put it on Thursday.,calendar_set,8
+23,26200.0,qa,definition,what does this [definition_word : stitch long sleeved shirt] look like,what does this stitch long sleeved shirt look like,What does this Stitch long sleeved shirt look like,qa_definition,48
+103,3630.0,takeaway,order,[app_name : grubhub] order,grubhub order,Grubhub order,takeaway_order,57
+103,14120.0,recommendation,locations,find local shops,find local shops,find local shops,recommendation_locations,53
+149,550.0,general,repeat,i'd like to hear that again.,i'd like to hear that again.,i'd like to hear that again.,general_repeat,25
+137,13793.0,takeaway,query,can i carry out with this [business_type : restaurant],can i carry out with this restaurant,Can I carry out with this restaurant?,takeaway_query,58
+130,3652.0,qa,maths,how many times does fifty go into one million,how many times does fifty go into one million,How any times does 50 go into 1 million?,qa_maths,50
+107,18291.0,recommendation,locations,please give me all [business_type : shop] names in a two mile radius,please give me all shop names in a two mile radius,Please give me all shop names in a 2 mile radius,recommendation_locations,53
+147,6171.0,recommendation,events,what's interesting around here,what's interesting around here,What's interesting around here?,recommendation_events,52
+47,16603.0,cooking,recipe,show me cooking websites,show me cooking websites,"PDA, show me cooking websites.",cooking_recipe,9
+16,26819.0,play,game,i need to play [game_name : sims],i need to play sims,I need to play Sims,play_game,43
+100,571.0,general,repeat,start over.,start over.,start over.,general_repeat,25
+69,3683.0,alarm,remove,turn off the [time : six am] alarm for [date : Wednesday],turn off the six am alarm for Wednesday,Turn off the 6AM alarm for Wednesday,alarm_remove,1
+146,9118.0,takeaway,order,order the usual from [business_name : turiellos pizza],order the usual from turiellos pizza,Order the usual from Turiellos Pizza,takeaway_order,57
+12,15962.0,play,game,can we play a game of [game_name : hangman],can we play a game of hangman,Can we play a game of hangman?,play_game,43
+9,25350.0,play,game,play [game_name : pong] against me,play pong against me,play pong against me,play_game,43
+74,138.0,general,repeat,could you speak once more please.,could you speak once more please.,could you speak once more please.,general_repeat,25
+45,13670.0,email,addcontact,make this email a new contact,make this email a new contact,Make this email a new contact.,email_addcontact,12
+88,5336.0,transport,query,when is the next [transport_type : train] to [place_name : b street],when is the next train to b street,When is the next train to B street?,transport_query,59
+63,17773.0,qa,definition,describe what a [definition_word : poltergeist] is,describe what a poltergeist is,Describe what a poltergeist is,qa_definition,48
+141,1960.0,recommendation,events,is there anything happening on [movie_type : jazz scene] around [place_name : edinburgh],is there anything happening on jazz scene around edinburgh,is there anything happening on jazz scene around Edinburgh?,recommendation_events,52
+12,2350.0,audio,volume_up,can you speak a little louder,can you speak a little louder,Can you speak a little louder?,audio_volume_up,5
+95,16418.0,recommendation,locations,where's the closest zoo to where i'm at,where's the closest zoo to where i'm at,"Olly, where's the closest zoo to where I'm at?",recommendation_locations,53
+7,8183.0,lists,remove,remove the list of apps which started with letter a,remove the list of apps which started with letter a,Remove the list of apps which started with letter A,lists_remove,37
+5,7310.0,calendar,set,create an event [event_name : gym] day on [date : monday] and set it to [general_frequency : repeat],create an event gym day on monday and set it to repeat,create an event 'gym day' on monday and set it to repeat,calendar_set,8
+14,175.0,general,affirm,correct response to the command.,correct response to the command.,correct response to the command.,general_affirm,16
+61,23698.0,play,game,play for me the game [game_name : star wars],play for me the game star wars,Play for me the Game Star Wars,play_game,43
+16,18387.0,email,query,my mail,my mail,My mail,email_query,13
+26,11002.0,iot,coffee,brew me a cup of coffee,brew me a cup of coffee,Brew me a cup of coffee,iot_coffee,27
+138,7420.0,lists,query,tell me what is on the list,tell me what is on the list,Tell me what is on the list,lists_query,36
+16,10722.0,iot,coffee,cook some coffees,cook some coffees,cook some coffees,iot_coffee,27
+64,25246.0,email,querycontact,search [person : jack] in contacts,search jack in contacts,search X in contacts,email_querycontact,14
+13,3530.0,recommendation,events,are there any events going on [place_name : downtown] [timeofday : tonight],are there any events going on downtown tonight,Are there any events going on downtown tonight?,recommendation_events,52
+12,3855.0,iot,hue_lightup,increase the brightness of the lights,increase the brightness of the lights,"Cortana, increase the brightness of the lights.",iot_hue_lightup,32
+1,24344.0,qa,factoid,who was the first president of [place_name : united states],who was the first president of united states,Who was the first president of United States,qa_factoid,49
+166,10416.0,lists,createoradd,add grocery shopping to [date : today's] [list_name : to do] list,add grocery shopping to today's to do list,Add grocery shopping to today's to-do list.,lists_createoradd,35
+112,12130.0,alarm,query,do i have any alarms set for [time : six am] [date : tomorrow],do i have any alarms set for six am tomorrow,do I have any alarms set for 6 am tomorrow?,alarm_query,0
+150,7602.0,iot,coffee,please help serve me coffee with a [coffee_type : no sugar],please help serve me coffee with a no sugar,Please help serve me coffee with a no sugar.,iot_coffee,27
+83,19553.0,play,music,play new songs by [artist_name : barenaked ladies],play new songs by barenaked ladies,play new songs by barenaked ladies,play_music,44
+166,20496.0,transport,query,get me [transport_type : train] times to [place_name : location] from [place_name : station],get me train times to location from station,Get me train times to location from station,transport_query,59
+11,7516.0,email,query,show me all the emails received recently,show me all the emails received recently,Show me all the emails received recently,email_query,13
+35,435.0,general,dontcare,i do not really care.,i do not really care.,i do not really care.,general_dontcare,19
+59,15286.0,email,addcontact,add [email_address : dan@dancom] to my contacts,add dan@dancom to my contacts,Add dan@dan.com to my contacts,email_addcontact,12
+18,8600.0,iot,hue_lightoff,turn [house_place : bedroom] lights off,turn bedroom lights off,Turn bedroom lights off,iot_hue_lightoff,30
+138,19391.0,lists,createoradd,include this item,include this item,Include this item.,lists_createoradd,35
+84,7243.0,qa,maths,how to calculate trigonametry,how to calculate trigonametry,how to calculate trigonametry,qa_maths,50
+75,20512.0,qa,stock,what is the current stock rate of [business_name : facebook],what is the current stock rate of facebook,What is the current stock rate of facebook,qa_stock,51
+21,15777.0,qa,currency,what is the exchange rate between the [currency_name : dollar] and the [currency_name : euro] currently,what is the exchange rate between the dollar and the euro currently,What is the exchange rate between the dollar and the Euro currently?,qa_currency,47
+14,2031.0,iot,coffee,get a cup of coffee ready now,get a cup of coffee ready now,get a cup of coffee ready now,iot_coffee,27
+16,15276.0,datetime,query,can you tell me the time in [place_name : new york],can you tell me the time in new york,can you tell me the time in new york,datetime_query,11
+78,22273.0,play,game,play [game_name : ping pong],play ping pong,play ping pong,play_game,43
+114,9253.0,iot,coffee,could you fix me some coffee,could you fix me some coffee,Olly could you fix me some coffee,iot_coffee,27
+59,5371.0,iot,hue_lightdim,turn down the lights,turn down the lights,Turn down the lights,iot_hue_lightdim,29
+63,20694.0,transport,query,train times location,train times location,Train times location,transport_query,59
+42,21806.0,qa,factoid,how is iron made,how is iron made,how if iron made?,qa_factoid,49
+29,21044.0,qa,currency,forex rate of [currency_name : euro] to [currency_name : u. s. d.],forex rate of euro to u. s. d.,forex rate of euro to usd,qa_currency,47
+74,9730.0,lists,remove,please delete this file,please delete this file,Please delete x,lists_remove,37
+63,4340.0,play,music,i want to hear [song_name : tum hi ho] next,i want to hear tum hi ho next,I want to hear Tum hi ho next.,play_music,44
+48,7946.0,qa,maths,calculate two multiplied by two,calculate two multiplied by two,calculate two multiplied by two,qa_maths,50
+28,14336.0,recommendation,events,what's some upcoming events i might want to go to,what's some upcoming events i might want to go to,olly what's some upcoming events i might want to go to?,recommendation_events,52
+132,4720.0,calendar,query,what is my next event,what is my next event,PDA what is my next event.,calendar_query,6
+1,11638.0,qa,stock,please tell me news related to the [news_topic : stock market],please tell me news related to the stock market,Please tell me news related to the stock market.,qa_stock,51
+95,15.0,general,dontcare,i wouldn't bother.,i wouldn't bother.,i wouldn't bother.,general_dontcare,19
+108,3567.0,calendar,set,schedule a [event_name : lunch meeting] with [person : brent] on [date : Wednesday] at [timeofday : noon],schedule a lunch meeting with brent on Wednesday at noon,Schedule a lunch meeting with Brent on Wednesday at noon.,calendar_set,8
+51,2900.0,email,querycontact,is there [personal_info : email id] of [person : john] in the list,is there email id of john in the list,Is there email id of John in the list.,email_querycontact,14
+17,24112.0,transport,query,when is the next [transport_type : train] to [place_name : london],when is the next train to london,When is the next train to London?,transport_query,59
+84,1921.0,email,querycontact,what is a [personal_info : work phone number] of [person : emilia],what is a work phone number of emilia,what is a work phone number of Emilia?,email_querycontact,14
+16,13576.0,takeaway,query,what is the status of my order,what is the status of my order,what is the status of my order?,takeaway_query,58
+3,19860.0,calendar,remove,take away all events,take away all events,Take away all events.,calendar_remove,7
+98,8348.0,qa,maths,do you know math,do you know math,do you know math?,qa_maths,50
+129,5558.0,transport,ticket,ticket for [place_name : new york],ticket for new york,ticket for NY,transport_ticket,61
+7,17219.0,transport,taxi,book me a [transport_type : taxi] to the [place_name : mall of america] please,book me a taxi to the mall of america please,Book me a taxi to the Mall of America please,transport_taxi,60
+29,19971.0,email,addcontact,please place my new email address to the contact,please place my new email address to the contact,Please place my new email address to the contact.,email_addcontact,12
+52,750.0,qa,maths,ten percentages of hundred,ten percentages of hundred,Ten percantages of hundred,qa_maths,50
+66,271.0,general,dontcare,that does not matter.,that does not matter.,that does not matter.,general_dontcare,19
+48,11555.0,iot,cleaning,initialize the [device_type : robot vacuum],initialize the robot vacuum,Initialize the robot vacuum.,iot_cleaning,26
+16,27011.0,weather,query,i am gonna need an [weather_descriptor : umbrella] [date : today] [time : after sunset],i am gonna need an umbrella today after sunset,I am gonna need an umbrella today after sunset?,weather_query,63
+61,18740.0,calendar,set,can you notify the event in my calendar,can you notify the event in my calendar,"PDA, Can you notify the event in my calendar?",calendar_set,8
+89,9959.0,lists,createoradd,add something to my list,add something to my list,Add something to my list.,lists_createoradd,35
+6,11690.0,recommendation,locations,what stores have clearance,what stores have clearance,"Olly, what stores have clearance?",recommendation_locations,53
+83,26853.0,calendar,set,make a calendar entry for next [date : saturday] at [time : ten am] please,make a calendar entry for next saturday at ten am please,"Olly, make a calendar entry for next Saturday at ten a.m., please.",calendar_set,8
+90,15399.0,lists,query,let me know the list,let me know the list,Let me know the list.,lists_query,36
+101,59.0,general,dontcare,do not mind.,do not mind.,do not mind.,general_dontcare,19
+53,21043.0,qa,currency,[currency_name : euro] to [currency_name : u. s. d.],euro to u. s. d.,euro to usd?,qa_currency,47
+102,14307.0,qa,maths,how do i subtract four from two,how do i subtract four from two,how do I subtract 4 from 2,qa_maths,50
+64,22279.0,qa,stock,show stock of [business_name : goog],show stock of goog,show stock of goog,qa_stock,51
+3,2248.0,iot,wemo_on,turn on the [device_type : plug socket one],turn on the plug socket one,turn on the plug socket 1.,iot_wemo_on,34
+70,22212.0,alarm,remove,get rid of the [time : five pm] alarm,get rid of the five pm alarm,Get rid of the 5 pm alarm.,alarm_remove,1
+157,24475.0,recommendation,locations,is there any [business_type : salon] in [place_name : babaji nagar],is there any salon in babaji nagar,is there any salon in babaji nagar,recommendation_locations,53
+118,214.0,general,affirm,yes you have understood my instructions perfectly.,yes you have understood my instructions perfectly.,yes you have understood my instructions perfectly.,general_affirm,16
+5,4148.0,iot,cleaning,i want the [device_type : robot vacuum cleaner] to start at [time : one pm] [date : today],i want the robot vacuum cleaner to start at one pm today,I want the robot vacuum cleaner to start at 1pm today.,iot_cleaning,26
+2,23654.0,email,query,check [email_folder : inbox] for mail from [person : sarah],check inbox for mail from sarah,check inbox for mail from X,email_query,13
+73,25304.0,iot,hue_lightdim,reduce the intensity of lights,reduce the intensity of lights,Reduce the intensity of lights.,iot_hue_lightdim,29
+106,19132.0,qa,factoid,when is sunset,when is sunset,when is sunset,qa_factoid,49
+1,24554.0,recommendation,events,let me see cultural events for [date : this weekend] in [place_name : palermo neighborhood],let me see cultural events for this weekend in palermo neighborhood,Let me see cultural events for this weekend in Palermo neighborhood,recommendation_events,52
+50,2981.0,iot,wemo_on,turn on the [device_type : tv] socket when i arrive home,turn on the tv socket when i arrive home,turn on the tv socket when I arrive home,iot_wemo_on,34
+101,8948.0,play,music,i want to hear [song_name : play that funky music],i want to hear play that funky music,I want to hear Play That Funky Music.,play_music,44
+60,411.0,general,dontcare,would not really mind.,would not really mind.,would not really mind.,general_dontcare,19
+34,20616.0,recommendation,events,searching for recent happenings on the particular dates,searching for recent happenings on the particular dates,searching for recent happenings on the particular dates,recommendation_events,52
+69,20815.0,iot,hue_lightdim,darken the [house_place : room] [change_amount : a bit],darken the room a bit,darken the room a bit,iot_hue_lightdim,29
+26,11446.0,recommendation,movies,what movies are playing nearby,what movies are playing nearby,What movies are playing nearby?,recommendation_movies,54
+36,26148.0,qa,factoid,what are the coordinates of [place_name : everest],what are the coordinates of everest,What are the cordinates of everest?,qa_factoid,49
+40,7452.0,calendar,set,please remind me about the event later [time : five pm],please remind me about the event later five pm,please remind me about the event later 5pm.,calendar_set,8
+2,13831.0,qa,factoid,where is place,where is place,where is place?,qa_factoid,49
+8,16266.0,calendar,query,is there anything i need to be aware of,is there anything i need to be aware of,Is there anything I need to be aware of?,calendar_query,6
+49,20246.0,email,query,please check my gmail for new mail,please check my gmail for new mail,Please check my Gmail for new mail,email_query,13
+114,348.0,general,repeat,please try your last sentence you said once again.,please try your last sentence you said once again.,please try your last sentence you said once again.,general_repeat,25
+71,371.0,general,negate,"i think you made some mistake, please check it.","i think you made some mistake, please check it.","i think you made some mistake, please check it.",general_negate,22
+67,25875.0,qa,currency,what is the rate for [currency_name : g. b. p.] to [currency_name : u. s. d.],what is the rate for g. b. p. to u. s. d.,What is the rate for GBP to USD?,qa_currency,47
+165,9431.0,play,music,play music from where you left off,play music from where you left off,play music from where you left off,play_music,44
+18,17311.0,alarm,query,what alarm do i have set for [date : today],what alarm do i have set for today,what alarm do i have set for today,alarm_query,0
+126,17491.0,transport,ticket,book a [transport_type : train] ticket to arrive in [place_name : cambridge] by [time : eight thirty pm] [date : today],book a train ticket to arrive in cambridge by eight thirty pm today,Book a train ticket to arrive in Cambridge by 8:30pm today,transport_ticket,61
+129,10545.0,takeaway,order,show me nearby [order_type : takeout] [business_type : restaurants],show me nearby takeout restaurants,Show me nearby takeout restuarants,takeaway_order,57
+82,2496.0,cooking,recipe,what is the best recipe for [food_type : tacos],what is the best recipe for tacos,what is the best recipe for tacos,cooking_recipe,9
+30,14.0,general,repeat,please let's start over.,please let's start over.,please let's start over.,general_repeat,25
+162,15916.0,qa,stock,what's the stock price of this item,what's the stock price of this item,What's the stock price of (insert),qa_stock,51
+65,9517.0,qa,factoid,what is hair made up of,what is hair made up of,What is hair made up of?,qa_factoid,49
+23,5712.0,lists,createoradd,remember to put carrots in there,remember to put carrots in there,remember to put carrots in there.,lists_createoradd,35
+1,14260.0,weather,query,weather [date : this week],weather this week,weather this week,weather_query,63
+130,24700.0,play,game,play [game_name : uno] together,play uno together,play x together,play_game,43
+46,10383.0,email,query,inform me of my new emails,inform me of my new emails,Inform me of my new emails,email_query,13
+100,134.0,general,confirm,could you please check and confirm the detail.,could you please check and confirm the detail.,could you please check and confirm the detail.,general_confirm,18
+57,2943.0,email,querycontact,open the [personal_info : profile] of [person : allen] from my contact,open the profile of allen from my contact,open the profile of Allen from my contact,email_querycontact,14
+36,16356.0,transport,query,are there any trips to location a provided by the [transport_type : train],are there any trips to location a provided by the train,Are there any trips to Location A provided by the train?,transport_query,59
+157,85.0,general,confirm,would you please confirm details.,would you please confirm details.,would you please confirm details.,general_confirm,18
+49,4230.0,transport,query,visit metronorth dot com to help me purchase [transport_type : train] tickets,visit metronorth dot com to help me purchase train tickets,Visit metronorth.com to help me purchase train tickets,transport_query,59
+38,22110.0,transport,query,show trains and time to [place_name : ny],show trains and time to ny,show trains and time to Ny,transport_query,59
+158,13523.0,calendar,query,pawel prepare the [event_name : meeting] with [person : john],pawel prepare the meeting with john,"Pawel, prepare the meeting with XXX",calendar_query,6
+40,12955.0,iot,cleaning,can you start the [device_type : vacuum],can you start the vacuum,Can you start the vacuum?,iot_cleaning,26
+138,9549.0,iot,cleaning,turn on vacuum cleaning,turn on vacuum cleaning,Turn on vacuum cleaning,iot_cleaning,26
+117,3021.0,iot,hue_lightup,i want to bright the [house_place : room] more,i want to bright the room more,I want to bright the room more,iot_hue_lightup,32
+48,3015.0,takeaway,query,call the [business_type : restaurant] to see if the [order_type : delivery] is on the way,call the restaurant to see if the delivery is on the way,call the restaurant to see if the delivery is on the way,takeaway_query,58
+26,12097.0,alarm,query,what time is my wakeup alarm set for,what time is my wakeup alarm set for,What time is my wakeup alarm set for?,alarm_query,0
+14,3969.0,iot,hue_lightoff,could you turn the light off,could you turn the light off,Could you turn the light off?,iot_hue_lightoff,30
+111,11729.0,takeaway,query,take out available [business_name : louies],take out available louies,"Take out available, Louies",takeaway_query,58
+85,23462.0,play,music,play music from [playlist_name : good playlist],play music from good playlist,Play sec01 music from good playlist,play_music,44
+52,5072.0,transport,ticket,can you book me a [transport_type : train] ticket to [place_name : bombay] for [date : tomorrow] in any train,can you book me a train ticket to bombay for tomorrow in any train,can you book me a train ticket  to bombay for tommorow in any train?,transport_ticket,61
+89,6186.0,qa,maths,whats two hundred divided by five,whats two hundred divided by five,Whats 200 divided by 5?,qa_maths,50
+61,18194.0,calendar,remove,take off the [event_name : doctor's appointment] on [date : march twentieth],take off the doctor's appointment on march twentieth,Take off the doctor's appointment on march 20th.,calendar_remove,7
+107,21502.0,email,query,please check all new email of [business_name : income tax department],please check all new email of income tax department,Please Check all new email of Income Tax Department.,email_query,13
+78,11070.0,datetime,query,what day does [date : april sixteenth] fall on,what day does april sixteenth fall on,What day does april 16th fall on?,datetime_query,11
+156,1991.0,calendar,query,show up the events for me [date : today],show up the events for me today,show up the events for me today.,calendar_query,6
+19,17738.0,recommendation,movies,recommend a [movie_type : romantic comedy] in me area,recommend a romantic comedy in me area,"Olly, recommend a romantic comedy in my area",recommendation_movies,54
+10,16524.0,news,query,please find me the pe most recent news on,please find me the pe most recent news on,Please find me the most recent news on,news_query,41
+146,6925.0,transport,query,find me the distance and direction by [transport_type : train] to [place_name : rccg in ikoyi lagos],find me the distance and direction by train to rccg in ikoyi lagos,Find me the distance and direction by train to RCCG in Ikoyi Lagos?,transport_query,59
+56,2917.0,iot,hue_lightoff,turn off the [house_place : room] lights,turn off the room lights,Turn off the room lights.,iot_hue_lightoff,30
+63,38.0,general,dontcare,"this does not matter, olly.","this does not matter, olly.","this does not matter, olly.",general_dontcare,19
+3,25020.0,play,music,can you play my favorite music,can you play my favorite music,PDA name: can you play my favorite music,play_music,44
+40,18478.0,email,querycontact,open [person : derek's] contact information,open derek's contact information,Open Derek's contact information,email_querycontact,14
+47,10331.0,iot,hue_lightoff,turn the lights off now,turn the lights off now,Turn the lights off now,iot_hue_lightoff,30
+151,9718.0,alarm,query,alarm status,alarm status,Alarm Status,alarm_query,0
+110,8575.0,datetime,query,what time is it in [place_name : karachi] right now,what time is it in karachi right now,What time is it in Karachi right now.,datetime_query,11
+29,22429.0,qa,factoid,where is [place_name : los angeles],where is los angeles,Where is Los Angeles?,qa_factoid,49
+0,25968.0,alarm,query,tell me time of alarm you set,tell me time of alarm you set,Tell me time of alarm you set,alarm_query,0
+53,16815.0,lists,createoradd,add wash jeans to [list_name : laundry] list,add wash jeans to laundry list,Add wash jeans to laundry list,lists_createoradd,35
+2,22934.0,qa,currency,how much is one [currency_name : u. s. d.] in [currency_name : inr],how much is one u. s. d. in inr,how much is 1 USD in INR,qa_currency,47
+22,18074.0,iot,hue_lighton,turn the lights on full bright,turn the lights on full bright,Turn the lights on full bright.,iot_hue_lighton,31
+134,22471.0,play,game,let's play [game_name : never have i ever],let's play never have i ever,Let's play never have I ever.,play_game,43
+87,11452.0,qa,definition,define [definition_word : swerving],define swerving,Define swerving.,qa_definition,48
+69,2045.0,takeaway,query,search if the [business_type : restaurant] does [order_type : take out],search if the restaurant does take out,search if the restaurant does take out,takeaway_query,58
+15,26095.0,datetime,query,what time is it in [time_zone : central] time zone,what time is it in central time zone,What time is it in Central time zone?,datetime_query,11
+163,27300.0,calendar,set,please set this date to repeat,please set this date to repeat,PDA please set this date to repeat,calendar_set,8
+91,4408.0,lists,remove,delete the last list,delete the last list,Delete the last list.,lists_remove,37
+66,611.0,iot,cleaning,turn [device_type : cleaner robot] on,turn cleaner robot on,Turn cleaner robot on,iot_cleaning,26
+133,726.0,general,negate,"stop, i think that's not the correct command.","stop, i think that's not the correct command.","stop, i think that's not the correct command.",general_negate,22
+118,10827.0,news,query,what's the news in [news_topic : politics] on [media_type : cnn],what's the news in politics on cnn,What's the news in politics on CNN?,news_query,41
+73,2293.0,datetime,query,what day is it [date : today],what day is it today,what day is it today,datetime_query,11
+68,15230.0,play,music,i would like to hear some [music_genre : rap] music,i would like to hear some rap music,I would like to hear some rap music.,play_music,44
+170,11717.0,recommendation,locations,best reviews [business_type : restaurant] in [place_name : south sacramento],best reviews restaurant in south sacramento,"Best reviews, restaurant, south sacramento",recommendation_locations,53
+27,12956.0,iot,cleaning,can you put the [device_type : vacuum] on,can you put the vacuum on,Can you put the vacuum on?,iot_cleaning,26
+45,16803.0,takeaway,query,will [business_name : arby's] offer [order_type : takeaway],will arby's offer takeaway,will arby's offer takeaway,takeaway_query,58
+116,23387.0,qa,stock,find stock price for name,find stock price for name,find stock price for name,qa_stock,51
+0,26410.0,weather,query,do i have to bring [weather_descriptor : umbrella] for [timeofday : tonight] party,do i have to bring umbrella for tonight party,Do I have to bring umbrella for tonight party,weather_query,63
+134,197.0,general,confirm,could you check instruction.,could you check instruction.,could you check instruction.,general_confirm,18
+88,26623.0,takeaway,query,status for the [food_type : pizza] [order_type : delivery] from [business_name : pizza hut],status for the pizza delivery from pizza hut,Status for the pizza delivery from Pizza Hut,takeaway_query,58
+11,311.0,general,affirm,it was wonderful.,it was wonderful.,it was wonderful.,general_affirm,16
+78,21564.0,weather,query,what is the weather going to be like on [date : march twentieth two thousand and seventeen],what is the weather going to be like on march twentieth two thousand and seventeen,"PDA, What is the weather going to be like on March 20th 2017?",weather_query,63
+144,26437.0,recommendation,locations,where is the closest kroger,where is the closest kroger,Where is the closest kroger?,recommendation_locations,53
+149,77.0,general,affirm,yeah you've understood my instructions perfectly.,yeah you've understood my instructions perfectly.,yeah you've understood my instructions perfectly.,general_affirm,16
+1,7472.0,datetime,query,date [date : today],date today,date today?,datetime_query,11
+161,20153.0,play,music,[music_genre : jazz] could be choice for me,jazz could be choice for me,JAZZ could be choice for me,play_music,44
+13,6156.0,takeaway,query,when will my food be ready,when will my food be ready,When will my food be ready?,takeaway_query,58
+68,194.0,general,affirm,get command exactly.,get command exactly.,get command exactly.,general_affirm,16
+136,16868.0,play,game,i would like to play [game_name : tetris],i would like to play tetris,I would like to play tetris.,play_game,43
+85,21804.0,qa,factoid,which are well reviewed movies by [person : emma watson],which are well reviewed movies by emma watson,Which are well reviewed movies by Emma Watson,qa_factoid,49
+102,22322.0,qa,currency,tell me the exchange rate of [currency_name : rupee] for [currency_name : dollar],tell me the exchange rate of rupee for dollar,tell me the exchange rate of rupee for dollar,qa_currency,47
+92,19544.0,audio,volume_up,turn up [media_type : music] please,turn up music please,turn up music please,audio_volume_up,5
+81,11713.0,lists,remove,clear the list,clear the list,"Olly, clear the list",lists_remove,37
+15,14557.0,lists,query,what open lists do i have,what open lists do i have,what open lists do i have?,lists_query,36
+66,3985.0,play,music,play [artist_name : hopsin] from my latest playlist,play hopsin from my latest playlist,Play Hopsin from my Latest playlist.,play_music,44
+9,25272.0,iot,cleaning,start robot vacuum,start robot vacuum,start robot vacuum,iot_cleaning,26
+10,9912.0,recommendation,locations,where is the best place to buy [business_type : party supplies] in [place_name : town],where is the best place to buy party supplies in town,Where is the best place to buy party supplies in town?,recommendation_locations,53
+24,3376.0,calendar,set,set a reminder for [person : john's] [event_name : birthday] [date : next week],set a reminder for john's birthday next week,set a reminder for john's birthday next week,calendar_set,8
+102,18088.0,takeaway,query,when is [business_name : taco bell] going to arrive,when is taco bell going to arrive,When is Taco Bell going to arrive?,takeaway_query,58
+96,26621.0,transport,taxi,can i get a [transport_type : taxi] to come to [place_name : my house] [time : in an hour],can i get a taxi to come to my house in an hour,can I get a taxi to come to my house in an hour?,transport_taxi,60
+140,396.0,general,negate,"oh no, you've done the task wrong.","oh no, you've done the task wrong.","oh no, you've done the task wrong.",general_negate,22
+82,469.0,general,repeat,please let's try it one more time again.,please let's try it one more time again.,please let's try it one more time again.,general_repeat,25
+24,24664.0,email,querycontact,what's [person : leon's] [personal_info : email],what's leon's email,What's Leon's email?,email_querycontact,14
+11,21798.0,qa,currency,how much is the [currency_name : us dollar] worth in [currency_name : canada],how much is the us dollar worth in canada,how much is the us dollar worth in canada?,qa_currency,47
+26,84.0,general,confirm,can you please check what i last said.,can you please check what i last said.,can you please check what i last said.,general_confirm,18
+27,24555.0,recommendation,events,show me nearby [event_name : musical events],show me nearby musical events,Show me nearby musical events,recommendation_events,52
+97,23097.0,audio,volume_mute,don't make any sounds,don't make any sounds,Don't make any sounds,audio_volume_mute,4
+49,5559.0,transport,ticket,ticket for [place_name : delhi],ticket for delhi,ticket for delhi,transport_ticket,61
+119,18289.0,recommendation,locations,please list [business_type : shops] within one miles from me,please list shops within one miles from me,Please list shops withing X miles from me,recommendation_locations,53
+3,9276.0,transport,taxi,please book a [transport_type : taxi] for me,please book a taxi for me,Please book a taxi for me,transport_taxi,60
+4,22967.0,audio,volume_up,please increase the volume of the current song,please increase the volume of the current song,Please increase the volume of the current song,audio_volume_up,5
+28,24497.0,email,querycontact,contacts please,contacts please,contacts please,email_querycontact,14
+87,17797.0,qa,currency,how many [currency_name : euro] in [currency_name : u. s. d.],how many euro in u. s. d.,how many (currency) in ____ usd,qa_currency,47
+84,18198.0,email,query,do i have a new email from [person : eric],do i have a new email from eric,Do I have a new email from Eric?,email_query,13
+59,3000.0,qa,maths,four divided by two equals two,four divided by two equals two,4/2=2,qa_maths,50
+82,107.0,general,confirm,i like you to confirm question please.,i like you to confirm question please.,i like you to confirm question please.,general_confirm,18
+66,15406.0,transport,taxi,please call a [transport_type : taxi] to arrive at [time : four hundred] and take me to the [place_name : manor theater],please call a taxi to arrive at four hundred and take me to the manor theater,Please call a taxi to arrive at 4:00 and take me to the Manor Theater.,transport_taxi,60
+162,24539.0,lists,remove,erase the [list_name : chore] list,erase the chore list,Erase the chore list.,lists_remove,37
+101,17828.0,iot,hue_lightup,turn up the lights in here please,turn up the lights in here please,"Turn up the lights in here, please.",iot_hue_lightup,32
+80,387.0,general,confirm,could you please confirm the details.,could you please confirm the details.,could you please confirm the details.,general_confirm,18
+60,83.0,general,negate,"i think you made mistake, please change this.","i think you made mistake, please change this.","i think you made mistake, please change this.",general_negate,22
+170,7693.0,takeaway,order,hey call the nearest [food_type : chinese] [business_type : restaurant] for a [order_type : takeaway],hey call the nearest chinese restaurant for a takeaway,"Hey, call the nearest Chinese restaurant for a takeaway",takeaway_order,57
+71,5209.0,alarm,query,what alarms do i have scheduled for [date : tomorrow],what alarms do i have scheduled for tomorrow,PDA what alarms do I have scheduled for tomorrow?,alarm_query,0
+65,3807.0,weather,query,is the weather [weather_descriptor : bad] in [place_name : new york] right now,is the weather bad in new york right now,is the weather bad in new york right now,weather_query,63
+105,25327.0,alarm,query,is there any alarm active,is there any alarm active,Is there any alarm active?,alarm_query,0
+77,18596.0,play,game,let's play a game together,let's play a game together,Let's play a game together,play_game,43
+104,340.0,general,confirm,please would you check instruction.,please would you check instruction.,please would you check instruction.,general_confirm,18
+6,528.0,general,affirm,yes you have gotten it exactly.,yes you have gotten it exactly.,yes you have gotten it exactly.,general_affirm,16
+10,7394.0,calendar,remove,i wish this event to be removed from my calendar,i wish this event to be removed from my calendar,i wish this event to be removed from my calender,calendar_remove,7
+11,8119.0,calendar,set,remind me [general_frequency : everyday] at [time : two pm] for [meal_type : lunch],remind me everyday at two pm for lunch,Remind me everyday at 2 PM for lunch,calendar_set,8
+82,9312.0,iot,hue_lightdim,down the light power,down the light power,down the light power,iot_hue_lightdim,29
+118,20128.0,iot,coffee,can you please make a coffee,can you please make a coffee,can u please make a cofee,iot_coffee,27
+2,12077.0,audio,volume_up,Speak louder please,Speak louder please,Speak louder please.,audio_volume_up,5
+97,9554.0,transport,query,how do i get to [place_name : poughkeepsie] from [place_name : new york city],how do i get to poughkeepsie from new york city,How do I get to Poughkeepsie from NYC?,transport_query,59
+11,12872.0,recommendation,events,is there a [event_name : sporting event] [date : tomorrow] in [place_name : chicago],is there a sporting event tomorrow in chicago,"Olly, is there a sporting event tomorrow in Chicago?",recommendation_events,52
+32,12782.0,lists,remove,delete my list of [list_name : appointments] for [date : tomorrow],delete my list of appointments for tomorrow,Delete my list of appointments for tomorrow,lists_remove,37
+61,2899.0,email,querycontact,is [person : alex] saved in my contacts list,is alex saved in my contacts list,Is Alex saved in my contacts list.,email_querycontact,14
+63,3212.0,transport,ticket,book me a [transport_type : train] ticket to [place_name : newcastle],book me a train ticket to newcastle,Book me a train ticket to...,transport_ticket,61
+39,18182.0,email,addcontact,add [email_address : apahelp@yahoo dot com] in my contact list,add apahelp@yahoo dot com in my contact list,Add apahelp@yahoo.com in my contact list.,email_addcontact,12
+19,14124.0,transport,ticket,i want to book rajdhani [transport_type : train] ticket from [place_name : mumbai to ahmadabad],i want to book rajdhani train ticket from mumbai to ahmadabad,i want to book Rajdhani train ticket from mumbai to Ahmadabad,transport_ticket,61
+31,5150.0,transport,query,can you get me [transport_type : train] ticket prices please,can you get me train ticket prices please,"Can you get me train ticket prices, please?",transport_query,59
+140,17318.0,qa,definition,describe a [definition_word : tomatillo],describe a tomatillo,Describe a tomatillo,qa_definition,48
+51,8917.0,qa,factoid,how old is [person : brad pitt],how old is brad pitt,How old is Brad Pitt?,qa_factoid,49
+121,9143.0,takeaway,query,charges of [order_type : delivery],charges of delivery,charges of delivery,takeaway_query,58
+109,21172.0,play,game,play game with me,play game with me,Play game with me,play_game,43
+13,25566.0,calendar,remove,remove all my engagements from calendar for [date : tomorrow],remove all my engagements from calendar for tomorrow,Remove all my engagements from calender for [date : tomorrow],calendar_remove,7
+92,2254.0,transport,ticket,can you book a [transport_type : train] ticket,can you book a train ticket,Can you book a train ticket?,transport_ticket,61
+81,25428.0,qa,factoid,what did [person : kim kardashian] wear to [place_name : london] fashion week,what did kim kardashian wear to london fashion week,What did Kim Kardashian wear to London Fashion Week?,qa_factoid,49
+1,17307.0,qa,definition,[definition_word : sanctimonious] definition,sanctimonious definition,Sanctimonious definition,qa_definition,48
+72,8518.0,transport,taxi,call [transport_agency : golden taxi] to pick me up at [time : seven pm] [date : today],call golden taxi to pick me up at seven pm today,Call Golden Taxi to pick me up at 7pm today.,transport_taxi,60
+174,303.0,general,confirm,can you please confirm detail.,can you please confirm detail.,can you please confirm detail.,general_confirm,18
+5,21693.0,play,music,[music_genre : rock],rock,1980's rock,play_music,44
+81,21510.0,audio,volume_mute,please unmute yourself,please unmute yourself,Please unmute yourself.,audio_volume_mute,4
+85,15966.0,qa,definition,what does it mean to be [definition_word : overbearing],what does it mean to be overbearing,What does it mean to be overbearing?,qa_definition,48
+148,413.0,general,confirm,would you check my last command.,would you check my last command.,would you check my last command.,general_confirm,18
+90,7201.0,transport,query,show me [date : today] [transport_type : train] time of kalka at [place_name : jodhpur],show me today train time of kalka at jodhpur,Show me today train time of kalka at Jodhpur.,transport_query,59
+106,24658.0,qa,stock,give me the opening stock price of [business_name : acer] computers,give me the opening stock price of acer computers,Give me the opening stock price of Acer computers,qa_stock,51
+126,253.0,general,dontcare,whatever is good.,whatever is good.,whatever is good.,general_dontcare,19
+77,6300.0,email,query,any incoming emails in the [time : last five minutes],any incoming emails in the last five minutes,Any incoming emails in the last five minutes?,email_query,13
+144,20567.0,qa,currency,siri what is [currency_name : dollars] in [currency_name : yen],siri what is dollars in yen,"Siri, what is $10 in Ten?",qa_currency,47
+102,11686.0,iot,hue_lightup,can you raise the lights for me please,can you raise the lights for me please,Olly can you raise the lights for me please?,iot_hue_lightup,32
+8,5605.0,transport,query,show me the [transport_type : train] schedules to the [place_name : metropolitan opera house],show me the train schedules to the metropolitan opera house,Show me the train schedules to the Metropolitan Opera House.,transport_query,59
+135,14662.0,lists,query,how many lists do i have in contacts,how many lists do i have in contacts,How many lists do I have in contacts?,lists_query,36
+161,15639.0,qa,definition,what does [definition_word : joke] mean,what does joke mean,What does (insert) mean ?,qa_definition,48
+50,7381.0,email,querycontact,give me the details of friend,give me the details of friend,give me the details of friend,email_querycontact,14
+86,16082.0,qa,stock,tell me [business_name : lexmark's] current stock price,tell me lexmark's current stock price,Tell me Lexmark's current stock price.,qa_stock,51
+142,24759.0,play,game,play games,play games,play games,play_game,43
+23,20208.0,weather,query,status of weather,status of weather,Status of weather?,weather_query,63
+58,25181.0,qa,definition,how would you describe a [definition_word : ball],how would you describe a ball,alexa how would you describe a ball?,qa_definition,48
+119,22999.0,iot,coffee,prepare a coffee,prepare a coffee,prepare a coffee,iot_coffee,27
+137,11418.0,takeaway,order,yo order take out from [business_name : jason's deli] on [business_name : sixth ave],yo order take out from jason's deli on sixth ave,Yo PDA  order take out from Jason's Deli on 6th ave,takeaway_order,57
+19,1309.0,audio,volume_up,volume up,volume up,Volume up.,audio_volume_up,5
+140,18432.0,lists,remove,trash the open list google,trash the open list google,"Trash the open list, Google.",lists_remove,37
+75,16719.0,cooking,recipe,what do you use to make [food_type : cookies],what do you use to make cookies,"PDA, what do you use to make cookies.",cooking_recipe,9
+14,14308.0,calendar,remove,please clear [person : jeff's] [event_name : birthday] from the calendar,please clear jeff's birthday from the calendar,Please clear Jeff's birthday from the calendar.,calendar_remove,7
+66,820.0,general,negate,wrong i will repeat the command now.,wrong i will repeat the command now.,wrong i will repeat the command now.,general_negate,22
+103,19257.0,qa,maths,tell me what one plus one is,tell me what one plus one is,Tell me what 1 plus 1 is,qa_maths,50
+101,302.0,general,affirm,yeap you have got my instructions exactly.,yeap you have got my instructions exactly.,yeap you have got my instructions exactly.,general_affirm,16
+101,5111.0,lists,remove,delete [person : mike stein] from contacts list,delete mike stein from contacts list,Delete Mike Stein from Contacts list,lists_remove,37
+150,7614.0,recommendation,events,which teams are playing this [time : weekend],which teams are playing this weekend,Which teams are playing this weekend?,recommendation_events,52
+49,2503.0,recommendation,events,are there [event_name : dog shows] going on near [place_name : new york city],are there dog shows going on near new york city,Are there dog shows going on near New York city?,recommendation_events,52
+20,17588.0,audio,volume_up,please unmute the settings,please unmute the settings,Please unmute the settings,audio_volume_up,5
+83,259.0,general,confirm,can you please check and confirm what just said.,can you please check and confirm what just said.,can you please check and confirm what just said.,general_confirm,18
+1,25853.0,calendar,set,notify me when the event is going to take place,notify me when the event is going to take place,Notify me when the event is going to take place,calendar_set,8
+49,275.0,general,affirm,you've understood my instructions exactly.,you've understood my instructions exactly.,you've understood my instructions exactly.,general_affirm,16
+6,5062.0,play,music,i want to listen [artist_name : arijit singh] song once again,i want to listen arijit singh song once again,I WANT TO LISTEN ARIJIT SINGH SONG ONCE AGAIN.,play_music,44
+104,5781.0,audio,volume_mute,be quiet,be quiet,PDA be quiet.,audio_volume_mute,4
+120,2102.0,iot,hue_lightoff,can you please switch off the lights,can you please switch off the lights,Can you please switch of the lights?,iot_hue_lightoff,30
+49,10700.0,calendar,remove,remove all the reminders from the calendar,remove all the reminders from the calendar,remove all the reminders from the calender,calendar_remove,7
+36,19263.0,iot,wemo_on,activate the [device_type : wemo plug socket],activate the wemo plug socket,Activate the wemo plug socket,iot_wemo_on,34
+136,17522.0,lists,remove,get rid of bananas on the list,get rid of bananas on the list,Get rid of bananas on the list,lists_remove,37
+82,19191.0,transport,query,find a [transport_type : train] going from [place_name : prague] to [place_name : brno],find a train going from prague to brno,Find a train going from Prague to Brno,transport_query,59
+145,274.0,general,repeat,i need to hear that sentence again.,i need to hear that sentence again.,i need to hear that sentence again.,general_repeat,25
+90,397.0,general,affirm,yes you get your understanding perfectly.,yes you get your understanding perfectly.,yes you get your understanding perfectly.,general_affirm,16
+12,248.0,general,affirm,yeap it is confirmed.,yeap it is confirmed.,yeap it is confirmed.,general_affirm,16
+159,193.0,general,affirm,you have got my instructions right.,you have got my instructions right.,you have got my instructions right.,general_affirm,16
+91,21325.0,qa,currency,what is the current exchange rate between the [currency_name : dollar] and the [currency_name : euro],what is the current exchange rate between the dollar and the euro,What is the current exchange rate between the dollar and the euro?,qa_currency,47
+52,24618.0,qa,currency,how many [currency_name : euros] for one [currency_name : u. s. d.],how many euros for one u. s. d.,how many EUROs for 100 USD?,qa_currency,47
+18,5027.0,news,query,i want the news about [news_topic : academy awards],i want the news about academy awards,I want the news about academy award,news_query,41
+96,21093.0,lists,query,what is included in the [list_name : tour's] list,what is included in the tour's list,What is included in the tour's list?,lists_query,36
+121,8806.0,datetime,query,what's [date : today] date,what's today date,what's today date ?,datetime_query,11
+53,9325.0,audio,volume_mute,mute the speaker please,mute the speaker please,mute the speaker please,audio_volume_mute,4
+8,24641.0,qa,currency,how much money in [currency_name : us] would i need to have a thousand [currency_name : pesos],how much money in us would i need to have a thousand pesos,How much money in US would I need to have a thousand pesos?,qa_currency,47
+5,23481.0,alarm,query,tell me when the next alarms are for,tell me when the next alarms are for,Tell me when the next alarms are for.,alarm_query,0
+35,16742.0,datetime,query,what's the time in [place_name : dubai],what's the time in dubai,What's the time in Dubai?,datetime_query,11
+13,6763.0,alarm,query,show me my alarms,show me my alarms,Show me my alarms,alarm_query,0
+165,12686.0,calendar,remove,delete my [event_name : dr k appointment] in [date : march],delete my dr k appointment in march,"PDA, delete my Dr. K appointment in March.",calendar_remove,7
+117,527.0,general,confirm,confirm detail please.,confirm detail please.,confirm detail please.,general_confirm,18
+102,26626.0,recommendation,events,i need all the local events for [place_name : this area] that are being held [time : this weekend],i need all the local events for this area that are being held this weekend,I need all the local events for this area that are being held this weekend.,recommendation_events,52
+107,136.0,general,affirm,you've understood command perfectly.,you've understood command perfectly.,you've understood command perfectly.,general_affirm,16
+12,9226.0,recommendation,locations,where is the closer [business_name : starbucks],where is the closer starbucks,Where is the closer Starbucks?,recommendation_locations,53
+10,328.0,general,confirm,did you get my last command correctly?,did you get my last command correctly?,did you get my last command correctly?,general_confirm,18
+17,3386.0,alarm,query,what time is the alarm set for [date : tomorrow],what time is the alarm set for tomorrow,what time is the alarm set for tomorrow?,alarm_query,0
+73,8071.0,recommendation,movies,check for all the movie theater prices and availability for a newly released movie in my location,check for all the movie theater prices and availability for a newly released movie in my location,Check for all the movie theater prices and availability for a newly released movie in my loicatoion?,recommendation_movies,54
+47,13823.0,iot,coffee,i'd like a coffee please,i'd like a coffee please,"olly, i'd like a coffee please",iot_coffee,27
+70,23095.0,audio,volume_mute,stay quiet,stay quiet,Stay quite,audio_volume_mute,4
+72,297.0,general,dontcare,anything is good to me.,anything is good to me.,anything is good to me.,general_dontcare,19
+41,24147.0,qa,factoid,who was [person : john dillinger],who was john dillinger,who was john dillinger,qa_factoid,49
+54,17987.0,takeaway,order,order a large [food_type : pan pizza with ham and mushrooms] from [business_name : pizza hut],order a large pan pizza with ham and mushrooms from pizza hut,Order a large pan pizza with ham and mushrooms from Pizza Hut.,takeaway_order,57
+32,4325.0,calendar,remove,i don't want to attend the [meal_type : dinner] on [date : march first] any more so could you remove it from my agenda,i don't want to attend the dinner on march first any more so could you remove it from my agenda,"I don't want to attend the dinner on March 1st anymore, so could you remove it from my agenda?",calendar_remove,7
+85,306.0,general,confirm,check and confirm that please.,check and confirm that please.,check and confirm that please.,general_confirm,18
+48,2274.0,transport,ticket,book my [transport_type : train] ticket from [place_name : las vegas] to [place_name : los angeles],book my train ticket from las vegas to los angeles,Book my train ticket from Las Vegas to Los Angeles,transport_ticket,61
+54,2800.0,calendar,set,remind me about [date : tomorrow] [event_name : meeting] at [time : ten am],remind me about tomorrow meeting at ten am,Remind me about tomorrow meeting at 10 AM.,calendar_set,8
+158,423.0,general,confirm,will you check and confirm that please.,will you check and confirm that please.,will you check and confirm that please.,general_confirm,18
+50,12697.0,calendar,query,do i have a [event_name : sales meeting] [date : today],do i have a sales meeting today,Do I have a sales meeting today?,calendar_query,6
+171,10598.0,weather,query,will it [weather_descriptor : snow] [date : next week],will it snow next week,Will it snow next week?,weather_query,63
+91,127.0,general,repeat,retry the instruction spoke please.,retry the instruction spoke please.,retry the instruction spoke please.,general_repeat,25
+12,8087.0,audio,volume_up,increase volume [change_amount : to fifty percent],increase volume to fifty percent,Increase volume to 50%,audio_volume_up,5
+61,14805.0,weather,query,what is the [weather_descriptor : temperature],what is the temperature,What is the temperature?,weather_query,63
+14,423.0,general,dontcare,any one is good to me.,any one is good to me.,any one is good to me.,general_dontcare,19
+86,18452.0,calendar,remove,can you remove that on my calendar,can you remove that on my calendar,Can you remove that on my calendar,calendar_remove,7
+161,9428.0,calendar,remove,delete all of my [event_name : appointments] with [person : dr smith] [date : this week],delete all of my appointments with dr smith this week,Delete all of my appointments with Dr. Smith this week,calendar_remove,7
+163,374.0,general,confirm,could you please confirm the instruction.,could you please confirm the instruction.,could you please confirm the instruction.,general_confirm,18
+27,19673.0,takeaway,query,what time is my [business_name : domino's] order expected to arrive,what time is my domino's order expected to arrive,What time is my Domino's order expected to arrive?,takeaway_query,58
+5,6541.0,transport,taxi,call a [transport_type : taxi],call a taxi,Call a taxi,transport_taxi,60
+93,8378.0,calendar,remove,delete all [event_name : appointments] for [date : tomorrow],delete all appointments for tomorrow,Delete all appointments for tomorrow,calendar_remove,7
+12,8347.0,qa,maths,solve the calculation,solve the calculation,solve the calculation.,qa_maths,50
+39,15068.0,iot,hue_lightup,raise [house_place : living room] lights half way,raise living room lights half way,Raise living room lights half way,iot_hue_lightup,32
+110,8741.0,lists,remove,clear this list,clear this list,Clear this list,lists_remove,37
+50,2733.0,calendar,remove,remove all the events and schedules,remove all the events and schedules,Remove all the events and schedules.,calendar_remove,7
+160,522.0,general,repeat,please speak one more time again.,please speak one more time again.,please speak one more time again.,general_repeat,25
+87,26938.0,iot,coffee,need a [coffee_type : hot] coffee,need a hot coffee,need a hot coffee,iot_coffee,27
+107,20133.0,lists,query,what's on my list to do [date : today],what's on my list to do today,What's on my list to do today?,lists_query,36
+168,19599.0,recommendation,locations,find [business_type : gluten free bakery] near me,find gluten free bakery near me,find gluten free bakery near me,recommendation_locations,53
+143,2958.0,qa,factoid,what is the plot of the most recent [person : will smith] movie,what is the plot of the most recent will smith movie,What is the plot of the most recent Will Smith movie?,qa_factoid,49
+144,20474.0,transport,query,siri find [transport_type : train] tickets to [place_name : nc],siri find train tickets to nc,"Siri, find train tickets to NC",transport_query,59
+87,26840.0,qa,factoid,how many songs did [artist_name : michael jackson] write,how many songs did michael jackson write,How many songs did Michael Jackson write?,qa_factoid,49
+101,24052.0,qa,maths,what is four plus four,what is four plus four,what is 4 plus 4,qa_maths,50
+1,26749.0,email,addcontact,add contacts n mail,add contacts n mail,add contacts n mail,email_addcontact,12
+11,10441.0,iot,hue_lightoff,could you please turn off the overhead light in the [house_place : kitchen],could you please turn off the overhead light in the kitchen,Could you please turn off the overhead light in the kitchen,iot_hue_lightoff,30
+115,693.0,lists,remove,remove eggs for the [list_name : shopping] list,remove eggs for the shopping list,Remove eggs for the shopping list,lists_remove,37
+70,16009.0,email,querycontact,how many contacts do i have in my [device_type : phone book],how many contacts do i have in my phone book,how many contacts do I have in my phone book?,email_querycontact,14
+138,470.0,general,repeat,will you speak it once again.,will you speak it once again.,will you speak it once again.,general_repeat,25
+5,12396.0,qa,maths,show me the answer for this problem two hundred and forty six plus six hundred and fifty four,show me the answer for this problem two hundred and forty six plus six hundred and fifty four,Show me the answer for this problem 246 + 654,qa_maths,50
+36,23210.0,recommendation,locations,where is the nearest [business_type : atm machine],where is the nearest atm machine,Where is the nearest ATM machine?,recommendation_locations,53
+11,23875.0,play,game,play this game with me,play this game with me,play this game with me,play_game,43
+136,71.0,general,confirm,could you check it.,could you check it.,could you check it.,general_confirm,18
+11,13218.0,iot,hue_lightoff,please turn off my [house_place : patio] lights,please turn off my patio lights,pls turn off my patio lights,iot_hue_lightoff,30
+117,11018.0,recommendation,locations,what's the best [food_type : italian] [business_type : restaurant] in [place_name : atlanta],what's the best italian restaurant in atlanta,What's the best Italian restaurant in Atlanta?,recommendation_locations,53
+133,54.0,general,repeat,will you do it again please.,will you do it again please.,will you do it again please.,general_repeat,25
+137,19936.0,transport,query,tell me the direction to [place_name : miami] from [place_name : chicago],tell me the direction to miami from chicago,Tell me the direction to Miami from Chicago.,transport_query,59
+86,20964.0,recommendation,movies,what highly rated movies are playing [date : this weekend],what highly rated movies are playing this weekend,What highly-rated movies are playing this weekend?,recommendation_movies,54
+74,5606.0,transport,query,what times do the trains run between here and the [place_name : met],what times do the trains run between here and the met,What times do the trains run between here and the Met?,transport_query,59
+0,8131.0,iot,hue_lightoff,switch off [device_type : main light],switch off main light,Switch off main light,iot_hue_lightoff,30
+38,26625.0,takeaway,query,how many minutes do i need to wait to pick up my food from [business_name : china on the go],how many minutes do i need to wait to pick up my food from china on the go,how many minutes do I need to wait to pick up my food from china on the go?,takeaway_query,58
+90,7182.0,takeaway,query,please could you tell me if [business_name : george's geek] [business_type : restaurant] can i order [order_type : takeaway] from there,please could you tell me if george's geek restaurant can i order takeaway from there,"Please could you tell me if George's Geek restaurant, can I order takeaway from there?",takeaway_query,58
+6,22115.0,play,game,launch game,launch game,Launch game,play_game,43
+77,25873.0,qa,currency,what is the exchange rate of [currency_name : u. s. d.] to [currency_name : cdn],what is the exchange rate of u. s. d. to cdn,What is the exchange rate of USD to CDN?,qa_currency,47
+16,22762.0,qa,definition,what is the definition of [definition_word : inchoate],what is the definition of inchoate,What is the definition of inchoate?,qa_definition,48
+59,18367.0,lists,remove,remove last played song,remove last played song,remove last played song,lists_remove,37
+106,9955.0,takeaway,order,order [order_type : takeout],order takeout,Order takeout,takeaway_order,57
+100,4158.0,iot,cleaning,does the [device_type : robot vacuum cleaner] have to be plugged in,does the robot vacuum cleaner have to be plugged in,Does the robot vacuum cleaner have to be plugged in?,iot_cleaning,26
+173,3264.0,cooking,recipe,what temperature should a [food_type : baked chicken] be,what temperature should a baked chicken be,What temperature should a baked chicken be?,cooking_recipe,9
+51,11901.0,cooking,recipe,what's an easy recipe to cook for food,what's an easy recipe to cook for food,What's an easy recipe to cook for food,cooking_recipe,9
+130,24386.0,lists,remove,remove vegetables from the list,remove vegetables from the list,Remove vegetables from the list,lists_remove,37
+57,19792.0,calendar,remove,delete [meal_type : lunch] [date : tomorrow],delete lunch tomorrow,Delete lunch tommorrpw,calendar_remove,7
+135,209.0,general,dontcare,don't mind for whatever.,don't mind for whatever.,don't mind for whatever.,general_dontcare,19
+5,26477.0,play,game,let's [game_name : roll the dice],let's roll the dice,Let's roll the dice.,play_game,43
+48,11168.0,transport,taxi,can you call an [transport_agency : uber] for me,can you call an uber for me,Can you call an Uber for me?,transport_taxi,60
+99,19758.0,qa,currency,what is the [currency_name : us dollar] equivalent of one [currency_name : euro],what is the us dollar equivalent of one euro,what is the u.s. dollar exuivalent of 1 euro,qa_currency,47
+65,27016.0,takeaway,order,hey order two [food_type : wings with french fries] from the [business_name : chinese food store],hey order two wings with french fries from the chinese food store,"Hey Olly, order two wings with french fries from the Chinese food store.",takeaway_order,57
+28,10261.0,cooking,recipe,find me a recipe of [food_type : spaghetti],find me a recipe of spaghetti,Find me a recipe of spaghetti,cooking_recipe,9
+127,25828.0,lists,createoradd,please create a new list for me,please create a new list for me,Please create a new list for me,lists_createoradd,35
+62,13320.0,play,music,i would like to hear [song_name : heathens] by [artist_name : twenty one pilots],i would like to hear heathens by twenty one pilots,I would like to hear Heathens by Twenty one Pilots.,play_music,44
+30,13217.0,iot,hue_lighton,please turn on my [house_place : balcony] lights,please turn on my balcony lights,pls turn on my balcony lights,iot_hue_lighton,31
+9,21923.0,datetime,query,which date is on next [date : monday],which date is on next monday,which date is on next monday,datetime_query,11
+6,365.0,general,repeat,retry please.,retry please.,retry please.,general_repeat,25
+45,15904.0,qa,maths,solve this equation one plus one,solve this equation one plus one,Solve this equation: 1+ 1.,qa_maths,50
+139,14343.0,transport,query,whats the travel time from here to [place_name : dallas] by [transport_type : train],whats the travel time from here to dallas by train,whats the travel time from here to dallas by train?,transport_query,59
+68,7943.0,iot,cleaning,start my [device_type : robot vacuum cleaner],start my robot vacuum cleaner,Start my robot vacuum cleaner,iot_cleaning,26
+131,480.0,general,confirm,please will you check details.,please will you check details.,please will you check details.,general_confirm,18
+171,14000.0,transport,ticket,get me a [transport_type : train] ticket from [place_name : mumbai to goa],get me a train ticket from mumbai to goa,Get me a train ticket from mumbai to goa,transport_ticket,61
+72,9644.0,iot,hue_lightdim,lower [house_place : hallway] lights,lower hallway lights,lower hallway lights,iot_hue_lightdim,29
+124,5032.0,datetime,query,[date : today] is [date : monday] is it,today is monday is it,"TODAY IS MONDAY, IS IT ?",datetime_query,11
+2,4225.0,recommendation,locations,is there a [business_type : sports bar] near [place_name : kansas city plaza] area,is there a sports bar near kansas city plaza area,Is there a sports bar near Kansas City Plaza area?,recommendation_locations,53
+6,13682.0,iot,hue_lightup,i would like all the lights on when i enter,i would like all the lights on when i enter,I would like all the lights on when I enter.,iot_hue_lightup,32
+69,17320.0,datetime,query,what is the current time in [place_name : delhi],what is the current time in delhi,What is the current time in Delhi?,datetime_query,11
+72,15590.0,qa,currency,what's the exchange rates,what's the exchange rates,What's the exchange rates,qa_currency,47
+11,16194.0,calendar,remove,remove my [meal_type : dinner] event for [date : monday],remove my dinner event for monday,Remove my dinner event for Monday.,calendar_remove,7
+59,1958.0,news,query,what is new,what is new,what is new?,news_query,41
+59,13339.0,transport,query,go to [place_name : agha station],go to agha station,go to agha station,transport_query,59
+139,6466.0,email,query,has [person : amy] sent me any new emails,has amy sent me any new emails,Has Amy sent me any new emails?,email_query,13
+97,20817.0,iot,hue_lightdim,lower the intensity of light,lower the intensity of light,lower the intensity of light,iot_hue_lightdim,29
+76,27334.0,qa,currency,please check exchange rates,please check exchange rates,PDA please check exchange rates,qa_currency,47
+86,19351.0,qa,currency,show me the exchange rate between [currency_name : czk] and [currency_name : dollar],show me the exchange rate between czk and dollar,Show me the exchange rate between czk and dollar,qa_currency,47
+127,18906.0,calendar,remove,remove events from calendar,remove events from calendar,Remove events from calendar,calendar_remove,7
+65,16242.0,email,querycontact,is [person : bills] [personal_info : pager number] in my contacts,is bills pager number in my contacts,Is Bills pager number in my contacts?,email_querycontact,14
+49,93.0,general,dontcare,wouldn't mind for anything.,wouldn't mind for anything.,wouldn't mind for anything.,general_dontcare,19
+19,10373.0,audio,volume_mute,please be silent until i tell you not to be,please be silent until i tell you not to be,Please be silent until I tell you not to be,audio_volume_mute,4
+101,3604.0,iot,cleaning,robot vacuum the [house_place : living room] now,robot vacuum the living room now,"Robot, vacuum the living room now",iot_cleaning,26
+66,11326.0,iot,wemo_on,turn on [device_type : smart socket] in [house_place : dining room],turn on smart socket in dining room,turn on smart socket in dining room,iot_wemo_on,34
+96,16801.0,takeaway,query,does [business_name : arby's] do [order_type : takeaway],does arby's do takeaway,does Arby's do takeaway,takeaway_query,58
+164,,weather,query,can i go outing without any [weather_descriptor : raincoat],can i go outing without any raincoat,,weather_query,63
+28,20119.0,iot,hue_lightup,brighten the lights a little bit,brighten the lights a little bit,Brighten the lights a little bit.,iot_hue_lightup,32
+116,19105.0,calendar,remove,erase events,erase events,Erase events.,calendar_remove,7
+57,27399.0,lists,query,check my list,check my list,Check my list,lists_query,36
+112,8177.0,qa,maths,what is the root of six hundred and twenty five,what is the root of six hundred and twenty five,what is the root of 625.,qa_maths,50
+16,20226.0,calendar,query,what is the plan for [timeofday : tonight],what is the plan for tonight,What is the plan for tonight?,calendar_query,6
+27,17883.0,iot,coffee,"I'll take my coffee, [coffee_type : black]","I'll take my coffee, black","Ill take my coffee, black Olly.",iot_coffee,27
+9,462.0,general,confirm,please can you confirm it.,please can you confirm it.,please can you confirm it.,general_confirm,18
+92,18287.0,lists,remove,please remove the [list_name : grocery] list from my [list_name : set of lists],please remove the grocery list from my set of lists,Please remove the grocery list from my set of lists.,lists_remove,37
+2,26140.0,play,game,can we play [game_name : twenty questions],can we play twenty questions,Can we play Twenty Questions?,play_game,43
+142,3281.0,news,query,tell me if an [news_topic : earthquake] happens in the world,tell me if an earthquake happens in the world,Tell me if an earthquake happens in the world,news_query,41
+151,715.0,takeaway,order,order me a [food_type : byron] from [business_name : deliveroo],order me a byron from deliveroo,Order me a Byron from Deliveroo,takeaway_order,57
+10,548.0,general,repeat,can you try the last one spoken once again.,can you try the last one spoken once again.,can you try the last one spoken once again.,general_repeat,25
+68,331.0,general,negate,i do not think that was correct.,i do not think that was correct.,i do not think that was correct.,general_negate,22
+163,17761.0,cooking,recipe,can you pull up a recipe for [food_type : spaghetti],can you pull up a recipe for spaghetti,Olly can you pull up a recipe for spaghetti?,cooking_recipe,9
+7,9788.0,email,query,what did the [business_name : clinic] say about my exams,what did the clinic say about my exams,What did the clinic say about my exams,email_query,13
+11,2754.0,news,query,what is new news for [date : today],what is new news for today,what is new news for today,news_query,41
+16,12079.0,qa,maths,whats ten percent off forty dollars,whats ten percent off forty dollars,Whats 10 percent  off 40 dollars,qa_maths,50
+13,22942.0,music,likeness,the song in background is cool,the song in background is cool,the song in background is cool,music_likeness,38
+76,560.0,alarm,remove,stop [time : seven am] alarm,stop seven am alarm,Stop 7am alarm,alarm_remove,1
+111,13018.0,news,query,please advise what the current news is on [media_type : fox news],please advise what the current news is on fox news,Please advise what the current news is on Fox News?,news_query,41
+145,18395.0,lists,query,can i have my list,can i have my list,Can I have my list,lists_query,36
+146,561.0,alarm,query,what alarms i have set,what alarms i have set,what alarms I have set?,alarm_query,0
+72,18164.0,qa,definition,define [definition_word : love] without invoking the term love,define love without invoking the term love,Define love without invoking the term love.,qa_definition,48
+26,10550.0,audio,volume_up,raise the volume [change_amount : to fifty],raise the volume to fifty,Raise the volume to max,audio_volume_up,5
+170,2137.0,lists,remove,get rid of item on the list,get rid of item on the list,get rid of item on the list,lists_remove,37
+5,1789.0,lists,remove,take bread out from the [list_name : shopping] list,take bread out from the shopping list,take bread out from the shopping list,lists_remove,37
+3,9168.0,iot,coffee,start coffee at [time : six am],start coffee at six am,Olly start coffee at 6am,iot_coffee,27
+61,85.0,takeaway,query,most rated [order_type : delivery] options for [food_type : chinese] food,most rated delivery options for chinese food,"olly, list most rated deliveroo options for chinese food",takeaway_query,58
+1,10563.0,play,music,play new [artist_name : rihanna] song,play new rihanna song,Play new Rihanna song,play_music,44
+17,3532.0,alarm,remove,remove [alarm_type : wake up] calls for [date : this week],remove wake up calls for this week,remove wake-up calls for this week,alarm_remove,1
+5,12374.0,calendar,query,tell me the [event_name : meetings] i have for the [date : week],tell me the meetings i have for the week,Tell me the meetings I have for the week,calendar_query,6
+45,253.0,general,repeat,say that again.,say that again.,say that again.,general_repeat,25
+122,185.0,general,affirm,yeap good.,yeap good.,yeap good.,general_affirm,16
+39,3971.0,iot,wemo_on,please turn on my [device_type : smart plug socket],please turn on my smart plug socket,Please turn on my smart plug socket.,iot_wemo_on,34
+87,10009.0,lists,remove,remove that item,remove that item,Remove that item,lists_remove,37
+59,16708.0,qa,factoid,what is the highest mountain in the [place_name : world],what is the highest mountain in the world,What is the highest mountain in the world?,qa_factoid,49
+64,18806.0,qa,currency,exchange [currency_name : euro] to [currency_name : dollar],exchange euro to dollar,exchange euro to dollar,qa_currency,47
+15,260.0,general,confirm,please confirm my last instruction.,please confirm my last instruction.,please confirm my last instruction.,general_confirm,18
+8,16891.0,news,query,what is the latest news from [media_type : cbs],what is the latest news from cbs,WHat is the latest news from CBS?,news_query,41
+0,7094.0,iot,cleaning,by [time : ten] to [time : eleven am] [general_frequency : daily] start my [device_type : vacuum cleaner],by ten to eleven am daily start my vacuum cleaner,By 10 to 11 am daily start my vacuum cleaner.,iot_cleaning,26
+134,13603.0,lists,createoradd,make a new list for me,make a new list for me,make a new list for me,lists_createoradd,35
+85,2941.0,email,querycontact,please give me [personal_info : details] of [person : allen] from my contact,please give me details of allen from my contact,please give me details of Allen from my contact,email_querycontact,14
+161,17364.0,email,query,get contact,get contact,get contact,email_query,13
+149,19890.0,play,music,play the [song_name : barney theme] song,play the barney theme song,"Echo, play the Barney theme song.",play_music,44
+3,6198.0,cooking,recipe,tell how [ingredient : vegetable] is cooked,tell how vegetable is cooked,"Olly, tell how vegetable is cooked",cooking_recipe,9
+108,12647.0,weather,query,is it going to [weather_descriptor : snow],is it going to snow,Is it going to snow?,weather_query,63
+74,16399.0,lists,createoradd,create a new list please,create a new list please,"Create a new list, please",lists_createoradd,35
+75,3665.0,datetime,query,give me the current time,give me the current time,Give me the current time,datetime_query,11
+174,27135.0,qa,currency,how much money is one [currency_name : dollars] worth in [currency_name : denmark],how much money is one dollars worth in denmark,How much money is 100 [currency_source : dollars] worth in denmark?,qa_currency,47
+135,26820.0,play,game,can you find [game_name : animal crossing],can you find animal crossing,Can you find Animal Crossing,play_game,43
+91,25143.0,takeaway,order,put an order in for two [food_type : pizzas] from [business_name : dominoes],put an order in for two pizzas from dominoes,alexa put an order in for 2 pizzas from dominoes,takeaway_order,57
+29,2915.0,calendar,remove,clean my calendar,clean my calendar,clean my calender,calendar_remove,7
+92,5792.0,datetime,query,what day of the week is the [date : first of march],what day of the week is the first of march,What day of the week is the 1st of March?,datetime_query,11
+161,18781.0,recommendation,locations,please recommend a [business_type : restaurant] in [place_name : seattle],please recommend a restaurant in seattle,"Olly, please recommend a restaurant in Seattle.",recommendation_locations,53
+139,19161.0,transport,ticket,can i get a [transport_type : train] ticket to,can i get a train ticket to,Can I get a train ticket to...,transport_ticket,61
+1,9274.0,transport,taxi,call a [transport_type : taxi] for me,call a taxi for me,Call a taxi for me,transport_taxi,60
+85,15367.0,lists,remove,remove my [list_name : list of notes] from [date : last week],remove my list of notes from last week,Remove my list of notes from last week.,lists_remove,37
+71,21179.0,qa,definition,describe the [definition_word : computer] to me,describe the computer to me,"Olly, describe the computer to me?",qa_definition,48
+31,17437.0,qa,factoid,tell me about [person : sean connery],tell me about sean connery,Tell me about Sean Connery,qa_factoid,49
+32,320.0,general,negate,thanks but i think this was not the correct command.,thanks but i think this was not the correct command.,thanks but i think this was not the correct command.,general_negate,22
+3,6231.0,iot,hue_lightup,can you adjust the lighting for me to be brighter,can you adjust the lighting for me to be brighter,Can you adjust the lighting for me to be brighter?,iot_hue_lightup,32
+68,504.0,general,repeat,tell me what i said one more time again please.,tell me what i said one more time again please.,tell me what i said one more time again please.,general_repeat,25
+87,21580.0,transport,taxi,book an [transport_agency : uber] for me,book an uber for me,Book an uber for me.,transport_taxi,60
+3,6269.0,iot,cleaning,activate the [device_type : vacuum],activate the vacuum,Activate the vacuum,iot_cleaning,26
+173,21854.0,iot,hue_lightoff,turn off the nearest light to me,turn off the nearest light to me,Turn off the nearest light to me,iot_hue_lightoff,30
+0,23702.0,calendar,query,when is the [event_name : school dance junction] marked,when is the school dance junction marked,When is the school dance junction marked,calendar_query,6
+79,3670.0,lists,createoradd,i want to make this [time : week's] [list_name : shopping] list,i want to make this week's shopping list,I want to make this week's shopping list,lists_createoradd,35
+130,21834.0,calendar,remove,please delete all [event_name : meeting] [time : after seven am],please delete all meeting after seven am,Please delete all meeting after 7 AM,calendar_remove,7
+121,26.0,general,dontcare,"would not mind to select any one, olly.","would not mind to select any one, olly.","would not mind to select any one, olly.",general_dontcare,19
+13,24084.0,calendar,set,i need to set up a [event_name : meeting] with [relation : the ceo] [date : tomorrow],i need to set up a meeting with the ceo tomorrow,"Ok Google, I need to set up a meeting with the CEO [date : tomorrow]",calendar_set,8
+65,20215.0,lists,query,please read me my current lists,please read me my current lists,"Olly, please read me my current lists.",lists_query,36
+33,3351.0,weather,query,how me the [weather_descriptor : highest] weather [date : this week],how me the highest weather this week,show me the highest weather this week,weather_query,63
+22,14529.0,alarm,query,what is the [alarm_type : wake up] time for my alarm i have set for the flight [date : this weekend],what is the wake up time for my alarm i have set for the flight this weekend,What is the wake up time for my alarm I have set for the flight this weekend?,alarm_query,0
+116,10899.0,weather,query,is it colder than [date : yesterday],is it colder than yesterday,Is it colder than yesterday?,weather_query,63
+77,129.0,general,confirm,can you please check and confirm the detail.,can you please check and confirm the detail.,can you please check and confirm the detail.,general_confirm,18
+29,86.0,general,confirm,check that.,check that.,check that.,general_confirm,18
+125,27389.0,takeaway,query,can i get [order_type : delivery] from here,can i get delivery from here,Can I get delivery from here?,takeaway_query,58
+38,7152.0,iot,hue_lightoff,i want the light in the [house_place : kitchen] powered off,i want the light in the kitchen powered off,I want the light in the kitchen powered off.,iot_hue_lightoff,30
+149,23208.0,takeaway,order,find food and order,find food and order,find food and order,takeaway_order,57
+12,13937.0,lists,remove,remove [meal_type : lunch] with [relation : co workers] on [date : thursday],remove lunch with co workers on thursday,Remove lunch with co workers on Thursday,lists_remove,37
+73,55.0,general,dontcare,anything would be okay with me.,anything would be okay with me.,anything would be okay with me.,general_dontcare,19
+61,1807.0,cooking,recipe,how do i [cooking_type : cook] a [food_type : pasta],how do i cook a pasta,Olly How do I cook a pasta?,cooking_recipe,9
+32,12341.0,alarm,remove,cancel alarm for [date : tomorrow],cancel alarm for tomorrow,cancel alarm for tomorrow,alarm_remove,1
+166,19371.0,news,query,get me fresh news,get me fresh news,Get me fresh news.,news_query,41
+145,20202.0,weather,query,how [weather_descriptor : cold] is [date : today],how cold is today,How cold is today?,weather_query,63
+33,229.0,general,confirm,please check and confirm detail.,please check and confirm detail.,please check and confirm detail.,general_confirm,18
+44,9093.0,iot,cleaning,vacuum the [house_place : living room] in [time : ten minutes],vacuum the living room in ten minutes,vacuum the living room in 10 minutes,iot_cleaning,26
+154,21223.0,play,music,i want to listen to [music_genre : classical] music,i want to listen to classical music,I want to listen to classical music,play_music,44
+1,4327.0,takeaway,query,find a [food_type : pizza] [business_type : restaurant] open until [time : noon],find a pizza restaurant open until noon,Find a pizza restaurant open until noon,takeaway_query,58
+123,20.0,general,dontcare,does not matter.,does not matter.,does not matter.,general_dontcare,19
+51,24689.0,qa,definition,can you tell me what [definition_word : the white house] is,can you tell me what the white house is,"Ok Google,  can you tell me what the White House is?",qa_definition,48
+135,176.0,general,confirm,i like you to check it please.,i like you to check it please.,i like you to check it please.,general_confirm,18
+16,17908.0,transport,ticket,find me a [transport_type : train] ticket to [place_name : boston],find me a train ticket to boston,find me a train ticket to boston,transport_ticket,61
+3,9404.0,calendar,set,remind me the upcoming [event_name : meeting] at [time : four am] [date : today],remind me the upcoming meeting at four am today,Remind me the upcoming meeting at 4 AM today,calendar_set,8
+56,4187.0,iot,hue_lightup,brighten the lights in the [house_place : hallway],brighten the lights in the hallway,Brighten the lights in the hallway,iot_hue_lightup,32
+6,15821.0,lists,remove,remove my [list_name : grocery] list,remove my grocery list,remove my grocery list,lists_remove,37
+59,277.0,general,affirm,you've done the command correcly.,you've done the command correcly.,you've done the command correcly.,general_affirm,16
+16,14279.0,lists,query,what is on my playlist,what is on my playlist,what is on my playlist?,lists_query,36
+9,5239.0,transport,ticket,please book a [transport_type : train] ticket from [place_name : london] to [place_name : manchester],please book a train ticket from london to manchester,Please book a train ticket from London to Manchester,transport_ticket,61
+119,23817.0,play,music,play for me [music_genre : jazz] music,play for me jazz music,Play for me Jazz music,play_music,44
+118,25627.0,calendar,remove,get rid of the first three events in my calendar,get rid of the first three events in my calendar,Get rid of,calendar_remove,7
+127,19481.0,qa,factoid,tell me about [person : alexander the great],tell me about alexander the great,Tell me about ...,qa_factoid,49
+111,8416.0,lists,query,what is on my [list_name : to do] list [date : today],what is on my to do list today,What is on my to-do list today?,lists_query,36
+7,10754.0,iot,hue_lightoff,power off the current,power off the current,power off the current,iot_hue_lightoff,30
+145,152.0,general,affirm,yeah you get command exactly.,yeah you get command exactly.,yeah you get command exactly.,general_affirm,16
+150,4782.0,lists,remove,remove the [list_name : bank transaction] list,remove the bank transaction list,remove the bank transction list,lists_remove,37
+153,9142.0,takeaway,query,does [business_type : restaurant] has home [order_type : delivery],does restaurant has home delivery,does restaurant has home delivery,takeaway_query,58
+14,12806.0,iot,hue_lightoff,turn down the lights to medium,turn down the lights to medium,Turn down the lights to medium,iot_hue_lightoff,30
+169,17518.0,qa,factoid,when is the next lakers game,when is the next lakers game,When is the next Lakers game?,qa_factoid,49
+138,532.0,general,affirm,yeap fantastic response.,yeap fantastic response.,yeap fantastic response.,general_affirm,16
+62,5659.0,iot,hue_lightup,please brighten the lights,please brighten the lights,Please brighten the lights,iot_hue_lightup,32
+65,9137.0,calendar,set,add [event_name : dentist appointment] for [date : friday] at [time : five],add dentist appointment for friday at five,Add dentist appointment for Friday at 5,calendar_set,8
+0,512.0,general,repeat,would you do it again.,would you do it again.,would you do it again.,general_repeat,25
+113,8724.0,takeaway,query,is [meal_type : dinner] ready yet,is dinner ready yet,is dinner ready yet?,takeaway_query,58
+3,1943.0,iot,hue_lightup,increase brightness [change_amount : by twenty percent],increase brightness by twenty percent,increase brightness by 20 percent,iot_hue_lightup,32
+78,23656.0,email,query,read me new emails,read me new emails,Read me new emails,email_query,13
+161,173.0,general,repeat,let's try again please.,let's try again please.,let's try again please.,general_repeat,25
+171,16748.0,iot,coffee,i want some coffee,i want some coffee,I want some coffee,iot_coffee,27
+95,19282.0,alarm,query,is my alarm set,is my alarm set,Is my alarm set?,alarm_query,0
+62,11033.0,calendar,set,add event [event_name : baseball practice] [time : five pm] [timeofday : tonight],add event baseball practice five pm tonight,"Add event: Baseball practice, 5pm tonight",calendar_set,8
+172,24202.0,qa,stock,whats the current price of [business_name : mcdonalds] stock,whats the current price of mcdonalds stock,whats the current price of mcdonalds stock,qa_stock,51
+104,21511.0,calendar,remove,please delete all calendar events,please delete all calendar events,Please delete all calendar events,calendar_remove,7
+53,17613.0,alarm,remove,set off this alarm,set off this alarm,Set off this alarm,alarm_remove,1
+159,23049.0,calendar,remove,i want all my events deleted,i want all my events deleted,I want all my events deleted.,calendar_remove,7
+158,8579.0,recommendation,events,tell me all the current events in my [place_name : hometown],tell me all the current events in my hometown,Tell me all the current events in my hometown.,recommendation_events,52
+122,26312.0,play,game,could you harvest the crops in [game_name : farmvile],could you harvest the crops in farmvile,Could you harvest the crops in farmvile?,play_game,43
+15,9443.0,takeaway,order,find me the nearest [food_type : chinese] for [order_type : delivery],find me the nearest chinese for delivery,find me the nearest Chinese for delivery,takeaway_order,57
+72,24144.0,recommendation,events,events upcoming,events upcoming,events upcoming,recommendation_events,52
+5,8960.0,recommendation,movies,what is the highest rated movie [date : this week],what is the highest rated movie this week,What is the highest rated movie this week,recommendation_movies,54
+2,6841.0,transport,taxi,call [transport_type : yellow cab],call yellow cab,Call Yellow Cab,transport_taxi,60
+5,9980.0,cooking,recipe,how to cook that meal,how to cook that meal,How to cook that meal,cooking_recipe,9
+72,18945.0,iot,hue_lightup,please turn the lights brighter,please turn the lights brighter,Please turn the lights brighter.,iot_hue_lightup,32
+53,8015.0,qa,definition,explain [definition_word : photosynthesis],explain photosynthesis,Explain Photosynthesis,qa_definition,48
+26,5170.0,weather,query,what is weather [date : today],what is weather today,what is weather today?,weather_query,63
+123,19616.0,datetime,query,what is [date : today's] day,what is today's day,what is today's day,datetime_query,11
+132,566.0,calendar,remove,please clean my calendar,please clean my calendar,"Please, clean my calendar",calendar_remove,7
+126,20203.0,weather,query,what is the weather for [date : this week],what is the weather for this week,What is the weather for this week?,weather_query,63
+8,2859.0,iot,cleaning,please start [device_type : vacuum cleaner],please start vacuum cleaner,please start vacuum cleaner,iot_cleaning,26
+4,3759.0,music,likeness,make this my favorite,make this my favorite,make this my favorite,music_likeness,38
+130,12067.0,takeaway,order,please order me some [order_type : takeout],please order me some takeout,please order me some takeout,takeaway_order,57
+78,9739.0,iot,cleaning,start [device_type : robot vacuum cleaner],start robot vacuum cleaner,Start Robot Vacuum cleaner.,iot_cleaning,26
+37,14372.0,alarm,remove,please remove the alarm that is set for [date : weekdays] at [time : nine],please remove the alarm that is set for weekdays at nine,Please remove the alarm that is set for weekdays at 9.,alarm_remove,1
+163,26221.0,qa,factoid,when's [person : mark lanegan's] next album out,when's mark lanegan's next album out,When's Mark Lanegan's next album out?,qa_factoid,49
+25,4372.0,takeaway,order,call [business_name : eastwind] and order [food_type : lomaine] [order_type : to go],call eastwind and order lomaine to go,Call Eastwind and order lomaine to go.,takeaway_order,57
+23,16830.0,iot,hue_lightup,bring up all the [device_type : runner] lights,bring up all the runner lights,Bring up all the runner lights,iot_hue_lightup,32
+94,20976.0,audio,volume_up,more volume please,more volume please,More volume please,audio_volume_up,5
+97,13433.0,email,querycontact,can you tell me the contact information of jo,can you tell me the contact information of jo,can u tell me the contact information of jo,email_querycontact,14
+95,18469.0,qa,factoid,how old is [person : tom hanks],how old is tom hanks,How old is Tom Hanks?,qa_factoid,49
+139,19415.0,takeaway,order,call [business_name : pf chang's] to order me [food_type : egg foo young],call pf chang's to order me egg foo young,Call PF Chang's to order me Egg Foo Young.,takeaway_order,57
+124,6218.0,iot,hue_lightoff,turn off the [device_type : lamps],turn off the lamps,Turn off the lamps.,iot_hue_lightoff,30
+85,5413.0,takeaway,query,does [business_name : panda garden] [order_type : deliver],does panda garden deliver,"Olly, does Panda Garden deliver?",takeaway_query,58
+37,17242.0,iot,hue_lightdim,lower the lights in the [house_place : house] please,lower the lights in the house please,Lower the lights in the house please,iot_hue_lightdim,29
+8,18490.0,audio,volume_mute,set to mute,set to mute,set to mute,audio_volume_mute,4
+2,188.0,general,confirm,please check last thing i said.,please check last thing i said.,please check last thing i said.,general_confirm,18
+96,11779.0,alarm,remove,reset alarm,reset alarm,reset alarm,alarm_remove,1
+92,26542.0,qa,currency,[currency_name : dollar] rate,dollar rate,Doller rate,qa_currency,47
+112,3854.0,iot,hue_lightup,please increase the brightness in this [house_place : room],please increase the brightness in this room,"Cortana, please increase the brightness in this room.",iot_hue_lightup,32
+91,15702.0,cooking,recipe,how many [food_type : eggs] should i put in my [food_type : cake] mixture,how many eggs should i put in my cake mixture,How many eggs should I put in my cake mix?,cooking_recipe,9
+86,19175.0,takeaway,query,does the [business_type : restaurant] have [order_type : carryout],does the restaurant have carryout,Does the restaurant have carryout?,takeaway_query,58
+29,7661.0,transport,query,how do i get to [place_name : brighton],how do i get to brighton,How do I get to Brighton?,transport_query,59
+125,201.0,general,confirm,would you check my last question please.,would you check my last question please.,would you check my last question please.,general_confirm,18
+147,26636.0,transport,taxi,check all [transport_type : cab] companies and get a time booked for [time : three pm],check all cab companies and get a time booked for three pm,Check all cab companies and get a time booked for 3 pm.,transport_taxi,60
+70,279.0,general,affirm,yes answer was amazing.,yes answer was amazing.,yes answer was amazing.,general_affirm,16
+84,27368.0,takeaway,order,please order my favorite dish from my favorite [business_type : restaurant],please order my favorite dish from my favorite restaurant,PDA please order my favorite dish from my favorite restaurant,takeaway_order,57
+21,17329.0,news,query,keep me updated on the [news_topic : election] results,keep me updated on the election results,Keep me updated on the election results,news_query,41
+17,2382.0,iot,hue_lighton,lights out,lights out,lights out,iot_hue_lighton,31
+63,15725.0,takeaway,order,i want to order some [food_type : chinese] food [timeofday : tonight] what's delivering to me,i want to order some chinese food tonight what's delivering to me,I want to order some chinese food tonight what's delivering to me?,takeaway_order,57
+157,17868.0,cooking,recipe,what does [drink_type : rice wine] go with,what does rice wine go with,What does rice wine go with?,cooking_recipe,9
+151,22058.0,email,query,list all emails with subject contract,list all emails with subject contract,list all emails with subject contract,email_query,13
+62,7986.0,iot,wemo_on,enable [device_type : wemo],enable wemo,Enable wemo,iot_wemo_on,34
+74,12847.0,calendar,query,do i have a [event_name : doctors appointment] [date : today],do i have a doctors appointment today,Do I have a doctors appointment today?,calendar_query,6
+120,10188.0,qa,maths,what is two plus four,what is two plus four,What is 2 plus 4?,qa_maths,50
+57,12018.0,transport,query,train to [place_name : athens] how to,train to athens how to,Train to Athens. How to?,transport_query,59
+71,286.0,general,dontcare,i don't really care.,i don't really care.,i don't really care.,general_dontcare,19
+0,22892.0,lists,createoradd,create a list of [general_frequency : monthly] [list_name : groceries] to be bought,create a list of monthly groceries to be bought,Create a list of monthly groceries to be bought,lists_createoradd,35
+59,3684.0,alarm,remove,turn off any [timeofday : morning] alarms [date : after Friday],turn off any morning alarms after Friday,Turn off any morning alarms after Friday,alarm_remove,1
+10,7150.0,iot,hue_lightoff,turn off the upstairs [house_place : bathroom] light,turn off the upstairs bathroom light,Turn off the upstairs bathroom light.,iot_hue_lightoff,30
+161,12405.0,lists,remove,erase item please from my list,erase item please from my list,Erase item x from my list,lists_remove,37
+133,26977.0,alarm,query,what home alarms have been set,what home alarms have been set,What home alarms have been set?,alarm_query,0
+128,22882.0,audio,volume_mute,mute for [time : one hour],mute for one hour,mute for 1 hour,audio_volume_mute,4
+170,24325.0,cooking,recipe,what is the cooking time for [food_type : boiled eggs],what is the cooking time for boiled eggs,What is the proper cooking time for boiled eggs?,cooking_recipe,9
+79,13239.0,takeaway,order,[business_name : macdonald shops],macdonald shops,macdonald shops,takeaway_order,57
+89,43.0,general,affirm,yes that's fantastic.,yes that's fantastic.,yes that's fantastic.,general_affirm,16
+9,11750.0,iot,wemo_on,turn on socket,turn on socket,turn on socket,iot_wemo_on,34
+43,8371.0,lists,createoradd,add eggs to my [list_name : grocery] list,add eggs to my grocery list,Add eggs to my grocery list.,lists_createoradd,35
+113,25361.0,weather,query,is [place_name : mysore] going to be [weather_descriptor : very hot and humid] [date : today] whats the weather status,is mysore going to be very hot and humid today whats the weather status,"Is Mysore going to be very hot and humid today, whats the weather status",weather_query,63
+1,21590.0,email,querycontact,when was the last time that i spoke to [person : john],when was the last time that i spoke to john,When was the last time that I spoke to John?,email_querycontact,14
+7,10086.0,audio,volume_mute,i need you to be quiet [time : until tomorrow],i need you to be quiet until tomorrow,I need you to be quiet until tomorrow.,audio_volume_mute,4
+95,296.0,general,repeat,what is that once again.,what is that once again.,what is that once again.,general_repeat,25
+107,169.0,general,confirm,could you please check and confirm details.,could you please check and confirm details.,could you please check and confirm details.,general_confirm,18
+122,7947.0,qa,maths,sum of five and two,sum of five and two,sum of five and two,qa_maths,50
+126,390.0,general,confirm,will you confirm that please.,will you confirm that please.,will you confirm that please.,general_confirm,18
+112,2570.0,iot,hue_lightoff,by remote sensor,by remote sensor,by remote sensor,iot_hue_lightoff,30
+74,25987.0,takeaway,order,place an order for a [food_type : pepperoni pizza] at [business_name : papa johns],place an order for a pepperoni pizza at papa johns,Place an order for a pepperoni pizza at Papa Johns.,takeaway_order,57
+22,8.0,email,addcontact,create new contact with [personal_info : email],create new contact with email,create new contact with email,email_addcontact,12
+167,555.0,general,repeat,can you retry please.,can you retry please.,can you retry please.,general_repeat,25
+65,9328.0,recommendation,movies,what are new [movie_type : drama] movies opening this [time : weekend],what are new drama movies opening this weekend,"Olly, what are new drama movies opening this weekend",recommendation_movies,54
+3,2173.0,alarm,remove,remove the first alarm,remove the first alarm,Remove the first alarm,alarm_remove,1
+19,7276.0,news,query,how is [news_topic : president's trump office proceeding],how is president's trump office proceeding,how is president's trump office proceeding?,news_query,41
+72,23672.0,email,querycontact,check for this mail in my contact if not then add it,check for this mail in my contact if not then add it,"check for this mail in my contact,if not then add it",email_querycontact,14
+123,10551.0,audio,volume_mute,mute volume now,mute volume now,Mute volume now,audio_volume_mute,4
+82,20752.0,qa,factoid,Show geographic location of [place_name : pyramids],Show geographic location of pyramids,show geographic location of piramids,qa_factoid,49
+149,23043.0,lists,createoradd,[list_name : buying of groceries] new list,buying of groceries new list,buying of groceries new lsit,lists_createoradd,35
+137,682.0,recommendation,events,what bands are playing close by,what bands are playing close by,what bands are playing close by,recommendation_events,52
+4,25949.0,transport,ticket,reserve a seat for me on the [transport_type : train] [date : march twentieth],reserve a seat for me on the train march twentieth,Reserve a seat for me on the train March 20th.,transport_ticket,61
+29,16376.0,music,likeness,i like [music_genre : soft rock] music,i like soft rock music,I like soft rock music,music_likeness,38
+123,26039.0,qa,stock,how much does [business_name : bde] cost,how much does bde cost,How much does BDE cost?,qa_stock,51
+134,4.0,general,repeat,will you tell me again please.,will you tell me again please.,will you tell me again please.,general_repeat,25
+113,18276.0,alarm,query,how many alarms are currently on my phone,how many alarms are currently on my phone,How many alarms are currently on my phone,alarm_query,0
+165,428.0,general,repeat,sorry.,sorry.,sorry.,general_repeat,25
+174,18754.0,qa,factoid,what is the temperature in [place_name : indianapolis indiana],what is the temperature in indianapolis indiana,"What is the temperature in Indianapolis, Indiana?",qa_factoid,49
+173,181.0,general,negate,"uh no, i think you have done task in wrong manner.","uh no, i think you have done task in wrong manner.","uh no, i think you have done task in wrong manner.",general_negate,22
+79,8425.0,weather,query,it is [weather_descriptor : cloudy] [date : today],it is cloudy today,it is cloudy today.,weather_query,63
+74,12323.0,iot,hue_lightdim,lower lights in my [house_place : room],lower lights in my room,Lower lights in my room,iot_hue_lightdim,29
+90,3200.0,audio,volume_up,increase the volume so that i can hear it in other room,increase the volume so that i can hear it in other room,Increase the volume so that i can hear it in other room,audio_volume_up,5
+129,13749.0,iot,cleaning,company coming over turn on the [device_type : vacuum cleaner] right now,company coming over turn on the vacuum cleaner right now,Company coming over Echo turn on the vacuum cleaner right now.,iot_cleaning,26
+28,20884.0,calendar,query,any upcoming events,any upcoming events,any upcoming events?,calendar_query,6
+129,391.0,general,negate,thanks but it's not the correct command.,thanks but it's not the correct command.,thanks but it's not the correct command.,general_negate,22
+0,11884.0,takeaway,order,order me some [business_name : chipotle],order me some chipotle,Order me some chipotle,takeaway_order,57
+31,23925.0,qa,stock,tell me summary forecast [business_name : microsoft] stock forecast to thirty days ahead,tell me summary forecast microsoft stock forecast to thirty days ahead,Tell me summary forecast Microsoft stock forecast to 30 days ahead,qa_stock,51
+12,27134.0,qa,currency,how much is fifty [currency_name : us dollars] with in [currency_name : china],how much is fifty us dollars with in china,How much is 50 US [currency_source : dollars] with in china?,qa_currency,47
+32,11688.0,iot,hue_lightup,retrieve the light for me,retrieve the light for me,Olly retrieve the light for me.,iot_hue_lightup,32
+12,22245.0,recommendation,events,is there anything happening nearby,is there anything happening nearby,Is there anything happening nearby?,recommendation_events,52
+17,466.0,general,confirm,will you check and confirm the instruction please.,will you check and confirm the instruction please.,will you check and confirm the instruction please.,general_confirm,18
+149,14511.0,lists,query,read me back whats on my [list_name : shopping] list,read me back whats on my shopping list,read me back whats on my shopping list,lists_query,36
+142,904.0,general,negate,"oh no, i think you have done a task wrong.","oh no, i think you have done a task wrong.","oh no, i think you have done a task wrong.",general_negate,22
+146,8799.0,datetime,query,tell me the time now,tell me the time now,Tell me the time now.,datetime_query,11
+6,13559.0,datetime,query,what is the time in [place_name : beijing],what is the time in beijing,What is the time in Beijing,datetime_query,11
+19,4385.0,iot,cleaning,activate the [device_type : robot vacuum],activate the robot vacuum,Activate the robot vacuum,iot_cleaning,26
+97,17816.0,calendar,set,please block off [date : friday] at [time : eight am] on my calendar,please block off friday at eight am on my calendar,Please block off Friday at 8 am on my calendar.,calendar_set,8
+20,9498.0,lists,remove,delete the item two from the list,delete the item two from the list,delete the item(computer) from the list,lists_remove,37
+150,16813.0,lists,createoradd,add milk to [list_name : grocery] list,add milk to grocery list,Add milk to grocery list,lists_createoradd,35
+73,393.0,general,confirm,could you confirm the question please.,could you confirm the question please.,could you confirm the question please.,general_confirm,18
+5,17399.0,qa,definition,what do you know about [definition_word : the statue of liberty],what do you know about the statue of liberty,What do you know about the statue of Liberty,qa_definition,48
+173,408.0,general,affirm,yeap that's correct.,yeap that's correct.,yeap that's correct.,general_affirm,16
+127,13035.0,audio,volume_mute,quiet time,quiet time,Quiet time,audio_volume_mute,4
+5,11287.0,iot,hue_lightoff,please turn off the lights in the [house_place : kitchen],please turn off the lights in the kitchen,Please turn off the lights in the kitchen.,iot_hue_lightoff,30
+98,19683.0,iot,hue_lightoff,switch the lights to off,switch the lights to off,Switch the lights to off.,iot_hue_lightoff,30
+94,25515.0,qa,factoid,find twitter handle of [person : tom cruise],find twitter handle of tom cruise,Find Twitter handle of Tom Cruise,qa_factoid,49
+27,7771.0,calendar,query,search schedules for [date : this week],search schedules for this week,search schedules for this week,calendar_query,6
+112,2702.0,calendar,query,is there any program for [date : tomorrow] [timeofday : evening],is there any program for tomorrow evening,Is there any program for tomorrow evening.,calendar_query,6
+124,22504.0,qa,stock,what is the stock price of [business_name : hdfc],what is the stock price of hdfc,What is the stock price of HDFC ?,qa_stock,51
+59,26535.0,calendar,remove,delete the events from the calendar on [date : twenty eighth march],delete the events from the calendar on twenty eighth march,"Alexa, delete the events from the calendar on 28th march",calendar_remove,7
+5,218.0,general,repeat,can you tell me what said once more.,can you tell me what said once more.,can you tell me what said once more.,general_repeat,25
+41,175.0,general,negate,thanks but you have got it incorrect.,thanks but you have got it incorrect.,thanks but you have got it incorrect.,general_negate,22
+86,11906.0,takeaway,order,i want to eat two [food_type : pita gyros] please and some [drink_type : diet coke],i want to eat two pita gyros please and some diet coke,I want to eat two pita gyros please! And some Diet Coke!,takeaway_order,57
+21,2530.0,lists,remove,remove a list of employees,remove a list of employees,Remove a list of employees.,lists_remove,37
+16,6385.0,calendar,set,activate a one week notification before my [event_name : anniversary] please,activate a one week notification before my anniversary please,Activate a 1 week notification before my anniversary please.,calendar_set,8
+42,16352.0,calendar,remove,cancel all my [event_name : appointments],cancel all my appointments,Cancel all my appointments.,calendar_remove,7
+116,4052.0,takeaway,query,i want to know if the [business_name : olive garden] provides [order_type : takeaway],i want to know if the olive garden provides takeaway,I want to know if The Olive Garden provides takeaway.,takeaway_query,58
+53,63.0,general,dontcare,"wouldn't mind to select any one, olly.","wouldn't mind to select any one, olly.","wouldn't mind to select any one, olly.",general_dontcare,19
+16,8680.0,lists,createoradd,add item,add item,add item,lists_createoradd,35
+17,18663.0,email,querycontact,what is [relation : my daughter's] [personal_info : phone number],what is my daughter's phone number,What is my daughter's phone number.,email_querycontact,14
+21,16581.0,calendar,query,which day [date : this week] do i have plans,which day this week do i have plans,Which day this week do I have plans?,calendar_query,6
+146,12630.0,news,query,read me the front page of the [media_type : new york times],read me the front page of the new york times,Read me the front page of the New York Times.,news_query,41
+171,424.0,general,dontcare,"i do not really mind, olly.","i do not really mind, olly.","i do not really mind, olly.",general_dontcare,19
+64,16389.0,iot,hue_lightup,up the brightness on these lights,up the brightness on these lights,Up the brightness on these lights.,iot_hue_lightup,32
+20,614.0,general,negate,thanks but i think that was not the correct command.,thanks but i think that was not the correct command.,thanks but i think that was not the correct command.,general_negate,22
+75,13514.0,iot,hue_lightoff,turn off all the lights,turn off all the lights,turn off all the lights,iot_hue_lightoff,30
+3,23505.0,alarm,query,see see for me the alarms that you have set [date : tomorrow] [timeofday : morning],see see for me the alarms that you have set tomorrow morning,See see for me the alarms that you have set [date : tomorrow] morning.,alarm_query,0
+34,25770.0,recommendation,movies,[movie_name : fast and the furious],fast and the furious,fast and the furious,recommendation_movies,54
+60,9432.0,play,music,play [song_name : green day],play green day,play greenday,play_music,44
+79,26662.0,calendar,set,please add [event_name : dinner with mary] to my calendar on [date : saturday],please add dinner with mary to my calendar on saturday,Please add dinner with Mary to my calendar on Saturday.,calendar_set,8
+14,27006.0,play,music,play [artist_name : marvin gaye] [song_name : i want you],play marvin gaye i want you,Play Marvin Gaye I Want You,play_music,44
+43,11252.0,transport,taxi,call a [transport_agency : uber] in [time : thirty minutes],call a uber in thirty minutes,olly call a uber in 30 minutes,transport_taxi,60
+158,389.0,general,dontcare,"i do not really care, olly.","i do not really care, olly.","i do not really care, olly.",general_dontcare,19
+74,1797.0,transport,taxi,i need a [transport_type : cab] in [time : thirty minutes],i need a cab in thirty minutes,Olly I need a cab in 30 mins,transport_taxi,60
+6,18606.0,qa,stock,list me the stock of [business_name : apple] right now,list me the stock of apple right now,List me the stock of apple right now,qa_stock,51
+23,114.0,general,affirm,yeah you have gotten my instructions perfectly.,yeah you have gotten my instructions perfectly.,yeah you have gotten my instructions perfectly.,general_affirm,16
