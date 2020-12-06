@@ -18,8 +18,8 @@ glog = logging.getLogger(__name__)
 
 
 if __name__ == '__main__':
-    train_df = pd.read_csv('stack-exchange/train-stackexchange_with_sts_synthetic.csv')
-    test_df = pd.read_csv('stack-exchange/test-stackexchange_with_sts_synthetic.csv')
+    train_df = pd.read_csv('datasets/stack-exchange/train-stackexchange_with_sts_synthetic.csv')
+    test_df = pd.read_csv('datasets/stack-exchange/test-stackexchange_with_sts_synthetic.csv')
 
     train_df = train_df[['text', 'intent', 'scores']]
     test_df = test_df[['text', 'intent', 'scores']]
@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
     # train_df = pd.concat([train_df, eval_df])
     num_samples = 50000
-    file_suffix = 'stack-exchange'
+    file_suffix = 'datasets/stack-exchange'
     if not os.path.isfile('train_a_encoded_{}.txt'.format(file_suffix)):
         start_time = time.time()
         sbert_model = 'distiluse-base-multilingual-cased'

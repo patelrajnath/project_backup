@@ -17,15 +17,15 @@ from models.model_utils import save_state, hparamset, set_seed
 glog = logging.getLogger(__name__)
 
 if __name__ == '__main__':
-    train_df = pd.read_csv('sample-data/STS-B/train.tsv', sep='\t', error_bad_lines=False)
-    test_df = pd.read_csv('sample-data/STS-B/dev.tsv', sep='\t', error_bad_lines=False)
+    train_df = pd.read_csv('datasets/STS-B/train.tsv', sep='\t', error_bad_lines=False)
+    test_df = pd.read_csv('datasets/STS-B/dev.tsv', sep='\t', error_bad_lines=False)
 
     train_df = train_df.rename(columns={'sentence1': 'text_a',
                                         'sentence2': 'text_b', 'score': 'labels'}).dropna()
     test_df = test_df.rename(columns={'sentence1': 'text_a',
                                       'sentence2': 'text_b', 'score': 'labels'}).dropna()
     num_samples = 50000
-    file_suffix = 'sts-b'
+    file_suffix = 'datasets/STS-B'
     if not os.path.isfile('train_a_encoded_{}.txt'.format(file_suffix)):
         start_time = time.time()
         sbert_model = 'distiluse-base-multilingual-cased'

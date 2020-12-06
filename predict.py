@@ -23,25 +23,12 @@ if __name__ == '__main__':
     laser_encoder = LaserEncoderClient()
     encoder_client = CombinedEncoderClient([laser_encoder, sbert_encoder, sbert_encoder2, sbert_encoder3])
 
-    train_df = pd.read_csv('sample-data/STS-B/train.tsv', sep='\t', error_bad_lines=False)
-    eval_df = pd.read_csv('sample-data/STS-B/dev.tsv', sep='\t', error_bad_lines=False)
-
-    wallet_train_df = pd.read_csv('sample-data/200410_train_stratshuf_english_with_sts_synthesis.csv')
-    wallet_eval_df = pd.read_csv('sample-data/200410_test_stratshuf_chinese_200410_english_with_sts_synthesis.csv')
+    train_df = pd.read_csv('datasets/STS-B/train.tsv', sep='\t', error_bad_lines=False)
+    test_df = pd.test_df('datasets/STS-B/dev.tsv', sep='\t', error_bad_lines=False)
 
     train_df = train_df.rename(columns={'sentence1': 'text_a', 'sentence2': 'text_b', 'score': 'labels'}).dropna()
-    eval_df = eval_df.rename(columns={'sentence1': 'text_a', 'sentence2': 'text_b', 'score': 'labels'}).dropna()
+    test_df = test_df.rename(columns={'sentence1': 'text_a', 'sentence2': 'text_b', 'score': 'labels'}).dropna()
 
-    wallet_train_df = wallet_train_df.rename(
-        columns={'text': 'text_a', 'intent': 'text_b', 'scores': 'labels'}).dropna()
-    wallet_eval_df = wallet_eval_df.rename(columns={'text': 'text_a', 'intent': 'text_b', 'scores': 'labels'}).dropna()
-
-    # train_df = pd.concat([wallet_train_df, train_df])
-    # train_df = pd.concat([wallet_train_df])
-    # train_df = wallet_train_df
-    test_df = eval_df
-
-    # eval_df = pd.concat([wallet_eval_df, eval_df])
     num_samples = 50
     text_a = test_df.text_a.tolist()[:num_samples]
     text_b = test_df.text_b.tolist()[:num_samples]
@@ -49,9 +36,9 @@ if __name__ == '__main__':
     start_time = time.time()
     text_enc_a = encoder_client.encode_sentences(text_a)
     text_enc_b = encoder_client.encode_sentences(text_b)
+
     hparams = hparamset()
     hparams.input_size = text_enc_b.shape[1]
-
     model = MultilingualSTS(hparams)
     load_model_state("model.pt", model)
 
