@@ -10,7 +10,7 @@ from data.batcher import SamplingBatcherSTS
 import numpy as np
 
 from models.classifier import MultilingualSTS
-from models.encoders import SbertEncoderClient, LaserEncoderClient, CombinedEncoderClient, encode_multiple_text_list
+from models.encoders import encode_multiple_text_list
 from models.eval import pearson_corr, spearman_corr
 from models.model_utils import save_state, hparamset, set_seed
 
@@ -49,26 +49,26 @@ if __name__ == '__main__':
     hparams = hparamset()
     test_scores = test_df.labels.tolist()[:num_samples]
     train_scores = train_df.labels.tolist()[:num_samples]
-    text_a_encoded = np.loadtxt('train_a_encoded_{}.txt'.format(file_suffix))
-    text_b_encoded = np.loadtxt('train_b_encoded_{}.txt'.format(file_suffix))
-    text_enc_a = np.loadtxt('test_a_encoded_{}.txt'.format(file_suffix))
-    text_enc_b = np.loadtxt('test_b_encoded_{}.txt'.format(file_suffix))
+    train_a_encoded = np.loadtxt('train_a_encoded_{}.txt'.format(file_suffix))
+    train_b_encoded = np.loadtxt('train_b_encoded_{}.txt'.format(file_suffix))
+    test_a_encoded = np.loadtxt('test_a_encoded_{}.txt'.format(file_suffix))
+    test_b_encoded = np.loadtxt('test_b_encoded_{}.txt'.format(file_suffix))
 
-    text_a_encoded = text_a_encoded.astype(np.float32)
-    text_b_encoded = text_b_encoded.astype(np.float32)
-    text_enc_a = text_enc_a.astype(np.float32)
-    text_enc_b = text_enc_b.astype(np.float32)
+    train_a_encoded = train_a_encoded.astype(np.float32)
+    train_b_encoded = train_b_encoded.astype(np.float32)
+    test_a_encoded = test_a_encoded.astype(np.float32)
+    test_b_encoded = test_b_encoded.astype(np.float32)
 
     train_scores = np.asarray(train_scores, dtype=np.float32)
     test_scores = np.asarray(test_scores, dtype=np.float32)
-    n_samples = text_a_encoded.shape[0]
-    hparams.input_size = text_a_encoded.shape[1]
+    n_samples = train_a_encoded.shape[0]
+    hparams.input_size = train_a_encoded.shape[1]
 
     def train_model():
         set_seed(hparams.seed)
 
         start_time = time.time()
-        batcher = SamplingBatcherSTS(text_a_encoded, text_b_encoded, train_scores,
+        batcher = SamplingBatcherSTS(train_a_encoded, train_b_encoded, train_scores,
                                      batch_size=hparams.batch_size)
 
         use_cuda = torch.cuda.is_available()
@@ -108,8 +108,8 @@ if __name__ == '__main__':
             with torch.no_grad():
                 model.eval()
                 score_tensor = from_numpy(test_scores).to(device)
-                test_a_tensor = from_numpy(text_enc_a).to(device)
-                test_b_tensor = from_numpy(text_enc_b).to(device)
+                test_a_tensor = from_numpy(test_a_encoded).to(device)
+                test_b_tensor = from_numpy(test_b_encoded).to(device)
                 test_predict = model(test_a_tensor, test_b_tensor)
                 valid_acc_pearson = pearson_corr(test_predict.cpu().data, score_tensor.cpu().data)
                 valid_acc_spearman = spearman_corr(test_predict.cpu().data, score_tensor.cpu().data)
@@ -119,8 +119,8 @@ if __name__ == '__main__':
 
         with torch.no_grad():
             model.eval()
-            test_a_tensor = from_numpy(text_enc_a).to(device)
-            test_b_tensor = from_numpy(text_enc_b).to(device)
+            test_a_tensor = from_numpy(test_a_encoded).to(device)
+            test_b_tensor = from_numpy(test_b_encoded).to(device)
             test_predict = model(test_a_tensor, test_b_tensor)
             score_tensor = from_numpy(test_scores).to(device)
             print(pearson_corr(test_predict.cpu().data, score_tensor.cpu().data))

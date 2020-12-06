@@ -11,7 +11,7 @@ from data.batcher import SamplingBatcher
 import numpy as np
 
 from models.classifier import MultilingualClassifier
-from models.encoders import SbertEncoderClient, LaserEncoderClient, CombinedEncoderClient, encode_multiple_text_list
+from models.encoders import encode_multiple_text_list
 from models.model_utils import save_state, hparamset, set_seed
 
 glog = logging.getLogger(__name__)

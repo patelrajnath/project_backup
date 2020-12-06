@@ -10,7 +10,7 @@ from data.batcher import SamplingBatcherSTSClassification
 import numpy as np
 
 from models.classifier import MultilingualSTS
-from models.encoders import SbertEncoderClient, LaserEncoderClient, CombinedEncoderClient, encode_multiple_text_list
+from models.encoders import encode_multiple_text_list
 from models.eval import pearson_corr, spearman_corr
 from models.model_utils import save_state, hparamset, set_seed
 
