@@ -1,4 +1,6 @@
 import abc
+import time
+
 import numpy as np
 from laserembeddings import Laser
 from tqdm import tqdm
@@ -122,3 +124,33 @@ def l2_normalize(encodings):
     """L2 normalizes the given matrix of encodings."""
     norms = np.linalg.norm(encodings, ord=2, axis=-1, keepdims=True)
     return encodings / norms
+
+
+def encode_multiple_text_list(text_list):
+    sbert_model = 'distiluse-base-multilingual-cased'
+    sbert_model2 = 'xlm-r-100langs-bert-base-nli-stsb-mean-tokens'
+    sbert_model3 = 'distilbert-multilingual-nli-stsb-quora-ranking'
+    sbert_encoder = SbertEncoderClient(sbert_model)
+    sbert_encoder2 = SbertEncoderClient(sbert_model2)
+    sbert_encoder3 = SbertEncoderClient(sbert_model3)
+    laser_encoder = LaserEncoderClient()
+    encoder_client = CombinedEncoderClient([laser_encoder, sbert_encoder,
+                                            sbert_encoder2, sbert_encoder3])
+    text_all = list()
+    for t in text_list:
+        text_all += t
+    text_all_unique = list(set(text_all))
+    text_all_unique_encoded = encoder_client.encode_sentences(text_all_unique)
+
+    text_encoding_map = dict()
+    for text, encoding in zip(text_all_unique, text_all_unique_encoded):
+        text_encoding_map[text] = encoding
+
+    text_list_encoded = []
+    for t in text_list:
+        t_encoded = list()
+        for a in t:
+            t_encoded.append(text_encoding_map[a])
+        text_list_encoded.append(np.asarray(t_encoded))
+
+    return text_list_encoded

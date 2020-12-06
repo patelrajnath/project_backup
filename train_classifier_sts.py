@@ -10,7 +10,7 @@ from data.batcher import SamplingBatcherSTSClassification
 import numpy as np
 
 from models.classifier import MultilingualSTS
-from models.encoders import SbertEncoderClient, LaserEncoderClient, CombinedEncoderClient
+from models.encoders import SbertEncoderClient, LaserEncoderClient, CombinedEncoderClient, encode_multiple_text_list
 from models.eval import pearson_corr, spearman_corr
 from models.model_utils import save_state, hparamset, set_seed
 
@@ -34,47 +34,14 @@ if __name__ == '__main__':
     file_suffix = 'stack-exchange_test'
     if not os.path.isfile('train_a_encoded_{}.txt'.format(file_suffix)):
         start_time = time.time()
-        sbert_model = 'distiluse-base-multilingual-cased'
-        sbert_model2 = 'xlm-r-100langs-bert-base-nli-stsb-mean-tokens'
-        sbert_model3 = 'distilbert-multilingual-nli-stsb-quora-ranking'
-        sbert_encoder = SbertEncoderClient(sbert_model)
-        sbert_encoder2 = SbertEncoderClient(sbert_model2)
-        sbert_encoder3 = SbertEncoderClient(sbert_model3)
-        laser_encoder = LaserEncoderClient()
-        encoder_client = CombinedEncoderClient([laser_encoder, sbert_encoder,
-                                                sbert_encoder2, sbert_encoder3])
         train_a = train_df.text_a.tolist()[:num_samples]
         train_b = train_df.text_b.tolist()[:num_samples]
         test_a = test_df.text_a.tolist()[:num_samples]
         test_b = test_df.text_b.tolist()[:num_samples]
 
-        text_all = train_a + train_b + test_a + test_b
-        text_all_unique = list(set(text_all))
-        text_all_unique_encoded = encoder_client.encode_sentences(text_all_unique)
-        print(type(text_all_unique_encoded))
-        text_encoding_map = dict()
-        for text, encoding in zip(text_all_unique, text_all_unique_encoded):
-            text_encoding_map[text] = encoding
-        train_a_encoded = []
-        train_b_encoded = []
-        for a, b in zip(train_a, train_b):
-            train_a_encoded.append(text_encoding_map[a])
-            train_b_encoded.append(text_encoding_map[b])
-        train_a_encoded = np.asarray(train_a_encoded)
-        train_b_encoded = np.asarray(train_b_encoded)
-
-        test_a_encoded = []
-        test_b_encoded = []
-        for a, b in zip(test_a, test_b):
-            test_a_encoded.append(text_encoding_map.get(a))
-            test_b_encoded.append(text_encoding_map.get(b))
-        test_a_encoded = np.asarray(test_a_encoded)
-        test_b_encoded = np.asarray(test_b_encoded)
-
-        # train_a_encoded = encoder_client.encode_sentences(train_a)
-        # train_b_encoded = encoder_client.encode_sentences(train_b)
-        # test_a_encoded = encoder_client.encode_sentences(test_a)
-        # test_b_encoded = encoder_client.encode_sentences(test_b)
+        # The encoding method returns list of text in the same order as given in the input
+        train_a_encoded, train_b_encoded, test_a_encoded, test_b_encoded =\
+            encode_multiple_text_list([train_a, train_b, test_a, test_b])
 
         np.savetxt('train_a_encoded_{}.txt'.format(file_suffix), train_a_encoded, fmt="%.8g")
         np.savetxt('train_b_encoded_{}.txt'.format(file_suffix), train_b_encoded, fmt="%.8g")

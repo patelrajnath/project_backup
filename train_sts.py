@@ -10,7 +10,7 @@ from data.batcher import SamplingBatcherSTS
 import numpy as np
 
 from models.classifier import MultilingualSTS
-from models.encoders import SbertEncoderClient, LaserEncoderClient, CombinedEncoderClient
+from models.encoders import SbertEncoderClient, LaserEncoderClient, CombinedEncoderClient, encode_multiple_text_list
 from models.eval import pearson_corr, spearman_corr
 from models.model_utils import save_state, hparamset, set_seed
 
@@ -25,30 +25,25 @@ if __name__ == '__main__':
     test_df = test_df.rename(columns={'sentence1': 'text_a',
                                       'sentence2': 'text_b', 'score': 'labels'}).dropna()
     num_samples = 50000
-    file_suffix = 'datasets/STS-B'
-    if not os.path.isfile('train_a_encoded_{}.txt'.format(file_suffix)):
+    file_suffix = 'sts-b'
+    if not os.path.isfile('train_a_encoded_{}.txt'.format(file_suffix)) and \
+            not os.path.isfile('train_b_encoded_{}.txt'.format(file_suffix)) and \
+            not os.path.isfile('test_a_encoded_{}.txt'.format(file_suffix)) and \
+            not os.path.isfile('test_b_encoded_{}.txt'.format(file_suffix)):
         start_time = time.time()
-        sbert_model = 'distiluse-base-multilingual-cased'
-        sbert_model2 = 'xlm-r-100langs-bert-base-nli-stsb-mean-tokens'
-        sbert_model3 = 'distilbert-multilingual-nli-stsb-quora-ranking'
-        sbert_encoder = SbertEncoderClient(sbert_model)
-        sbert_encoder2 = SbertEncoderClient(sbert_model2)
-        sbert_encoder3 = SbertEncoderClient(sbert_model3)
-        laser_encoder = LaserEncoderClient()
-        encoder_client = CombinedEncoderClient([laser_encoder, sbert_encoder,
-                                                sbert_encoder2, sbert_encoder3])
-        train_a = train_df.test_a.tolist()[:num_samples]
-        train_b = train_df.test_b.tolist()[:num_samples]
-        text_a_encoded = encoder_client.encode_sentences(train_a)
-        text_b_encoded = encoder_client.encode_sentences(train_b)
-        text_a = test_df.test_a.tolist()[:num_samples]
-        text_b = test_df.test_b.tolist()[:num_samples]
-        text_enc_a = encoder_client.encode_sentences(text_a)
-        text_enc_b = encoder_client.encode_sentences(text_b)
-        np.savetxt('train_a_encoded_{}.txt'.format(file_suffix), text_a_encoded, fmt="%.8g")
-        np.savetxt('train_b_encoded_{}.txt'.format(file_suffix), text_b_encoded, fmt="%.8g")
-        np.savetxt('test_a_encoded_{}.txt'.format(file_suffix), text_enc_a, fmt="%.8g")
-        np.savetxt('test_b_encoded_{}.txt'.format(file_suffix), text_enc_b, fmt="%.8g")
+        train_a = train_df.text_a.tolist()[:num_samples]
+        train_b = train_df.text_b.tolist()[:num_samples]
+        test_a = test_df.text_a.tolist()[:num_samples]
+        test_b = test_df.text_b.tolist()[:num_samples]
+
+        # The encoding method returns list of text in the same order as given in the input
+        train_a_encoded, train_b_encoded, test_a_encoded, test_b_encoded = \
+            encode_multiple_text_list([train_a, train_b, test_a, test_b])
+
+        np.savetxt('train_a_encoded_{}.txt'.format(file_suffix), train_a_encoded, fmt="%.8g")
+        np.savetxt('train_b_encoded_{}.txt'.format(file_suffix), train_b_encoded, fmt="%.8g")
+        np.savetxt('test_a_encoded_{}.txt'.format(file_suffix), test_a_encoded, fmt="%.8g")
+        np.savetxt('test_b_encoded_{}.txt'.format(file_suffix), test_b_encoded, fmt="%.8g")
         print('Encoding time:{}'.format(time.time() - start_time))
 
     hparams = hparamset()
