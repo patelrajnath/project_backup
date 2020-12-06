@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
     # train_df = pd.concat([train_df, eval_df])
     num_samples = 50000
-    file_suffix = 'datasets/stack-exchange'
+    file_suffix = 'stack-exchange_test'
     if not os.path.isfile('train_a_encoded_{}.txt'.format(file_suffix)):
         start_time = time.time()
         sbert_model = 'distiluse-base-multilingual-cased'
@@ -45,42 +45,67 @@ if __name__ == '__main__':
                                                 sbert_encoder2, sbert_encoder3])
         train_a = train_df.text_a.tolist()[:num_samples]
         train_b = train_df.text_b.tolist()[:num_samples]
-        text_a_encoded = encoder_client.encode_sentences(train_a)
-        text_b_encoded = encoder_client.encode_sentences(train_b)
-        text_a = test_df.text_a.tolist()[:num_samples]
-        text_b = test_df.text_b.tolist()[:num_samples]
-        text_enc_a = encoder_client.encode_sentences(text_a)
-        text_enc_b = encoder_client.encode_sentences(text_b)
-        np.savetxt('train_a_encoded_{}.txt'.format(file_suffix), text_a_encoded, fmt="%.8g")
-        np.savetxt('train_b_encoded_{}.txt'.format(file_suffix), text_b_encoded, fmt="%.8g")
-        np.savetxt('test_a_encoded_{}.txt'.format(file_suffix), text_enc_a, fmt="%.8g")
-        np.savetxt('test_b_encoded_{}.txt'.format(file_suffix), text_enc_b, fmt="%.8g")
+        test_a = test_df.text_a.tolist()[:num_samples]
+        test_b = test_df.text_b.tolist()[:num_samples]
+
+        text_all = train_a + train_b + test_a + test_b
+        text_all_unique = list(set(text_all))
+        text_all_unique_encoded = encoder_client.encode_sentences(text_all_unique)
+        print(type(text_all_unique_encoded))
+        text_encoding_map = dict()
+        for text, encoding in zip(text_all_unique, text_all_unique_encoded):
+            text_encoding_map[text] = encoding
+        train_a_encoded = []
+        train_b_encoded = []
+        for a, b in zip(train_a, train_b):
+            train_a_encoded.append(text_encoding_map[a])
+            train_b_encoded.append(text_encoding_map[b])
+        train_a_encoded = np.asarray(train_a_encoded)
+        train_b_encoded = np.asarray(train_b_encoded)
+
+        test_a_encoded = []
+        test_b_encoded = []
+        for a, b in zip(test_a, test_b):
+            test_a_encoded.append(text_encoding_map.get(a))
+            test_b_encoded.append(text_encoding_map.get(b))
+        test_a_encoded = np.asarray(test_a_encoded)
+        test_b_encoded = np.asarray(test_b_encoded)
+
+        # train_a_encoded = encoder_client.encode_sentences(train_a)
+        # train_b_encoded = encoder_client.encode_sentences(train_b)
+        # test_a_encoded = encoder_client.encode_sentences(test_a)
+        # test_b_encoded = encoder_client.encode_sentences(test_b)
+
+        np.savetxt('train_a_encoded_{}.txt'.format(file_suffix), train_a_encoded, fmt="%.8g")
+        np.savetxt('train_b_encoded_{}.txt'.format(file_suffix), train_b_encoded, fmt="%.8g")
+        np.savetxt('test_a_encoded_{}.txt'.format(file_suffix), test_a_encoded, fmt="%.8g")
+        np.savetxt('test_b_encoded_{}.txt'.format(file_suffix), test_b_encoded, fmt="%.8g")
         print('Encoding time:{}'.format(time.time() - start_time))
 
     hparams = hparamset()
     test_scores = test_df.labels.tolist()[:num_samples]
     train_scores = train_df.labels.tolist()[:num_samples]
-    text_a_encoded = np.loadtxt('train_a_encoded_{}.txt'.format(file_suffix))
-    text_b_encoded = np.loadtxt('train_b_encoded_{}.txt'.format(file_suffix))
-    text_enc_a = np.loadtxt('test_a_encoded_{}.txt'.format(file_suffix))
-    text_enc_b = np.loadtxt('test_b_encoded_{}.txt'.format(file_suffix))
+    train_a_encoded = np.loadtxt('train_a_encoded_{}.txt'.format(file_suffix))
+    train_b_encoded = np.loadtxt('train_b_encoded_{}.txt'.format(file_suffix))
+    test_a_encoded = np.loadtxt('test_a_encoded_{}.txt'.format(file_suffix))
+    test_b_encoded = np.loadtxt('test_b_encoded_{}.txt'.format(file_suffix))
 
-    text_a_encoded = text_a_encoded.astype(np.float32)
-    text_b_encoded = text_b_encoded.astype(np.float32)
-    text_enc_a = text_enc_a.astype(np.float32)
-    text_enc_b = text_enc_b.astype(np.float32)
+    train_a_encoded = train_a_encoded.astype(np.float32)
+    train_b_encoded = train_b_encoded.astype(np.float32)
+    test_a_encoded = test_a_encoded.astype(np.float32)
+    test_b_encoded = test_b_encoded.astype(np.float32)
 
     train_scores = np.asarray(train_scores, dtype=np.float32)
     test_scores = np.asarray(test_scores, dtype=np.float32)
-    n_samples = text_a_encoded.shape[0]
-    hparams.input_size = text_a_encoded.shape[1]
+    n_samples = train_a_encoded.shape[0]
+    hparams.input_size = train_a_encoded.shape[1]
 
     def train_model():
         set_seed(hparams.seed)
 
         start_time = time.time()
-        batcher = SamplingBatcherSTSClassification(text_a_encoded, text_b_encoded, train_scores,
-                                     batch_size=hparams.batch_size)
+        batcher = SamplingBatcherSTSClassification(train_a_encoded, train_b_encoded, train_scores,
+                                                   batch_size=hparams.batch_size)
 
         use_cuda = torch.cuda.is_available()
         device = torch.device("cuda:0" if use_cuda else "cpu")
@@ -120,8 +145,8 @@ if __name__ == '__main__':
                 with torch.no_grad():
                     model.eval()
                     score_tensor = from_numpy(test_scores).to(device)
-                    test_a_tensor = from_numpy(text_enc_a).to(device)
-                    test_b_tensor = from_numpy(text_enc_b).to(device)
+                    test_a_tensor = from_numpy(test_a_encoded).to(device)
+                    test_b_tensor = from_numpy(test_b_encoded).to(device)
                     test_predict = model(test_a_tensor, test_b_tensor)
                     valid_acc_pearson = pearson_corr(test_predict.cpu().data, score_tensor.cpu().data)
                     valid_acc_spearman = spearman_corr(test_predict.cpu().data, score_tensor.cpu().data)
@@ -137,8 +162,8 @@ if __name__ == '__main__':
         save_state("model-sts_{}.pt".format(file_suffix), model, criterion, optimizer, num_updates=updates)
         with torch.no_grad():
             model.eval()
-            test_a_tensor = from_numpy(text_enc_a).to(device)
-            test_b_tensor = from_numpy(text_enc_b).to(device)
+            test_a_tensor = from_numpy(test_a_encoded).to(device)
+            test_b_tensor = from_numpy(test_b_encoded).to(device)
             test_predict = model(test_a_tensor, test_b_tensor)
             score_tensor = from_numpy(test_scores).to(device)
             print(pearson_corr(test_predict.cpu().data, score_tensor.cpu().data))

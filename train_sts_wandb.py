@@ -38,12 +38,12 @@ if __name__ == '__main__':
         laser_encoder = LaserEncoderClient()
         encoder_client = CombinedEncoderClient([laser_encoder, sbert_encoder,
                                                 sbert_encoder2, sbert_encoder3])
-        train_a = train_df.text_a.tolist()[:num_samples]
-        train_b = train_df.text_b.tolist()[:num_samples]
+        train_a = train_df.test_a.tolist()[:num_samples]
+        train_b = train_df.test_b.tolist()[:num_samples]
         text_a_encoded = encoder_client.encode_sentences(train_a)
         text_b_encoded = encoder_client.encode_sentences(train_b)
-        text_a = test_df.text_a.tolist()[:num_samples]
-        text_b = test_df.text_b.tolist()[:num_samples]
+        text_a = test_df.test_a.tolist()[:num_samples]
+        text_b = test_df.test_b.tolist()[:num_samples]
         text_enc_a = encoder_client.encode_sentences(text_a)
         text_enc_b = encoder_client.encode_sentences(text_b)
         np.savetxt('train_a_encoded_{}.txt'.format(file_suffix), text_a_encoded, fmt="%.8g")

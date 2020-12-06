@@ -30,8 +30,8 @@ if __name__ == '__main__':
     test_df = test_df.rename(columns={'sentence1': 'text_a', 'sentence2': 'text_b', 'score': 'labels'}).dropna()
 
     num_samples = 50
-    text_a = test_df.text_a.tolist()[:num_samples]
-    text_b = test_df.text_b.tolist()[:num_samples]
+    text_a = test_df.test_a.tolist()[:num_samples]
+    text_b = test_df.test_b.tolist()[:num_samples]
     test_scores = torch.FloatTensor(test_df.labels.tolist()[:num_samples])
     start_time = time.time()
     text_enc_a = encoder_client.encode_sentences(text_a)
