@@ -1,4 +1,6 @@
 import logging
+import os
+import time
 
 import torch
 import wandb
@@ -10,37 +12,37 @@ from data.batcher import SamplingBatcher
 import numpy as np
 
 from models.classifier import MultilingualClassifier
+from models.encoders import SbertEncoderClient, LaserEncoderClient, CombinedEncoderClient
 from models.model_utils import save_state, hparamset, set_seed
 
 glog = logging.getLogger(__name__)
 
 if __name__ == '__main__':
-    train_df = pd.read_csv('sample-data/HuaweiWallet/200909_train_huawei_wallet_60strat_min3_manyanswers.csv')
-    test_df = pd.read_csv('sample-data/HuaweiWallet/200909_test_huawei_wallet_30strat_min3_manyanswers.csv')
-    eval_df = pd.read_csv('sample-data/HuaweiWallet/200909_val_huawei_wallet_10strat_min3_manyanswers.csv')
-
+    train_df = pd.read_csv('NLU/64intent_11k_sample_split_MAIN/200924v2_train_custom_nlu_60_64intents.csv')
+    test_df = pd.read_csv('NLU/64intent_11k_sample_split_MAIN/200924v2_test_custom_nlu_30_64intents.csv')
+    eval_df = pd.read_csv('NLU/64intent_11k_sample_split_MAIN/200924v2_val_custom_nlu_10_64intents.csv')
     train_df = pd.concat([train_df, eval_df])
 
     num_samples = 50000
-    # start_time = time.time()
-    # sbert_model = 'distiluse-base-multilingual-cased'
-    # sbert_model2 = 'xlm-r-100langs-bert-base-nli-stsb-mean-tokens'
-    # sbert_model3 = 'distilbert-multilingual-nli-stsb-quora-ranking'
-    # sbert_encoder = SbertEncoderClient(sbert_model)
-    # sbert_encoder2 = SbertEncoderClient(sbert_model2)
-    # sbert_encoder3 = SbertEncoderClient(sbert_model3)
-    # laser_encoder = LaserEncoderClient()
-    # encoder_client = CombinedEncoderClient([laser_encoder, sbert_encoder,
-    #                                         sbert_encoder2, sbert_encoder3])
-    # encoder_client = CombinedEncoderClient([laser_encoder])
-    # train_text = train_df.text.tolist()[:num_samples]
-    # train_text_encoded = encoder_client.encode_sentences(train_text)
-    # test_text = test_df.text.tolist()[:num_samples]
-    # test_text_encoded = encoder_client.encode_sentences(test_text)
-    # np.savetxt('train-text_encoded.txt', train_text_encoded, fmt="%.8g")
-    # np.savetxt('test-text_encoded.txt', test_text_encoded, fmt="%.8g")
-    # print('Encoding time:{}'.format(time.time() - start_time))
-    # exit()
+    file_suffix = 'nlu'
+    if not os.path.isfile('train_a_encoded_{}.txt'.format(file_suffix)):
+        start_time = time.time()
+        sbert_model = 'distiluse-base-multilingual-cased'
+        sbert_model2 = 'xlm-r-100langs-bert-base-nli-stsb-mean-tokens'
+        sbert_model3 = 'distilbert-multilingual-nli-stsb-quora-ranking'
+        sbert_encoder = SbertEncoderClient(sbert_model)
+        sbert_encoder2 = SbertEncoderClient(sbert_model2)
+        sbert_encoder3 = SbertEncoderClient(sbert_model3)
+        laser_encoder = LaserEncoderClient()
+        encoder_client = CombinedEncoderClient([laser_encoder, sbert_encoder,
+                                                sbert_encoder2, sbert_encoder3])
+        train_text = train_df.text.tolist()[:num_samples]
+        train_text_encoded = encoder_client.encode_sentences(train_text)
+        test_text = test_df.text.tolist()[:num_samples]
+        test_text_encoded = encoder_client.encode_sentences(test_text)
+        np.savetxt('train-text_encoded_{}.txt'.format(file_suffix), train_text_encoded, fmt="%.8g")
+        np.savetxt('test-text_encoded_{}.txt'.format(file_suffix), test_text_encoded, fmt="%.8g")
+        print('Encoding time:{}'.format(time.time() - start_time))
 
     hparams = hparamset()
     test_labels = test_df.labels.tolist()[:num_samples]

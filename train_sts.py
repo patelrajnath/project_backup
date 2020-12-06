@@ -24,19 +24,6 @@ if __name__ == '__main__':
                                         'sentence2': 'text_b', 'score': 'labels'}).dropna()
     test_df = test_df.rename(columns={'sentence1': 'text_a',
                                       'sentence2': 'text_b', 'score': 'labels'}).dropna()
-    # wallet_train_df = pd.read_csv('sample-data/200410_train_stratshuf_english_with_sts_synthesis.csv')
-    # wallet_eval_df = pd.read_csv('sample-data/200410_test_stratshuf_chinese_200410_'
-    #                              'english_with_sts_synthesis.csv')
-    # wallet_train_df = wallet_train_df.rename(
-    #     columns={'text': 'text_a', 'intent': 'text_b', 'scores': 'labels'}).dropna()
-    # wallet_eval_df = wallet_eval_df.rename(columns={'text': 'text_a',
-    #                                                 'intent': 'text_b', 'scores': 'labels'}).dropna()
-
-    # train_df = pd.concat([wallet_train_df, train_df])
-    # train_df = pd.concat([wallet_train_df])
-    # train_df = wallet_train_df
-
-    # eval_df = pd.concat([wallet_eval_df, eval_df])
     num_samples = 50000
     file_suffix = 'sts-b'
     if not os.path.isfile('train_a_encoded_{}.txt'.format(file_suffix)):
