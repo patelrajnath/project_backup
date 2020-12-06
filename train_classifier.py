@@ -36,9 +36,13 @@ if __name__ == '__main__':
         encoder_client = CombinedEncoderClient([laser_encoder, sbert_encoder,
                                                 sbert_encoder2, sbert_encoder3])
         train_text = train_df.text.tolist()[:num_samples]
+        train_text = [str(t) for t in train_text]
         train_text_encoded = encoder_client.encode_sentences(train_text)
+
         test_text = test_df.text.tolist()[:num_samples]
+        test_text = [str(t) for t in test_text]
         test_text_encoded = encoder_client.encode_sentences(test_text)
+
         np.savetxt('train-text_encoded_{}.txt'.format(file_suffix), train_text_encoded, fmt="%.8g")
         np.savetxt('test-text_encoded_{}.txt'.format(file_suffix), test_text_encoded, fmt="%.8g")
         print('Encoding time:{}'.format(time.time() - start_time))
