@@ -103,7 +103,8 @@ if __name__ == '__main__':
                     test_predict = model(test_a_tensor, test_b_tensor)
                     valid_acc_pearson = pearson_corr(test_predict.cpu().data, score_tensor.cpu().data)
                     valid_acc_spearman = spearman_corr(test_predict.cpu().data, score_tensor.cpu().data)
-                    print("Valid Accuracy:{0}, {1}".format(valid_acc_pearson, valid_acc_spearman))
+                    print("Valid Accuracy:{0}, {1}, "
+                          "updates:{2}".format(valid_acc_pearson, valid_acc_spearman, updates))
                     if best_acc_pearson < valid_acc_pearson:
                         save_state("model_best-sts_{}.pt".format(file_suffix), model, criterion, optimizer,
                                    num_updates=updates)
