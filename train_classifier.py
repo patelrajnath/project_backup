@@ -75,8 +75,8 @@ if __name__ == '__main__':
         criterion = nn.NLLLoss()
         total_loss = 0
         updates = 1
-        max_steps = 15000
-        patience = 500
+        max_steps = hparams.max_steps
+        patience = hparams.patience
         best_accuracy = 0
         for batch in batcher:
             optimizer.zero_grad()
@@ -116,4 +116,3 @@ if __name__ == '__main__':
     start_time = time.time()
     train_model()
     print('Training time:{}'.format(time.time() - start_time))
-
