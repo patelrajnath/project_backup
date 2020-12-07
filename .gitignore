@@ -5,4 +5,6 @@ wandb
 *__pycache__
 sample-data
 model-sts*
+model_best*
+model_classifier*
 cache-encoding
