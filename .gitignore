@@ -5,3 +5,4 @@ wandb
 *__pycache__
 sample-data
 model-sts*
+cache-encoding

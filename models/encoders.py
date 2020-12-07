@@ -1,4 +1,7 @@
 import abc
+import logging
+import os
+import pickle
 import time
 
 import numpy as np
@@ -8,6 +11,7 @@ from sentence_transformers import SentenceTransformer
 
 
 batch_size_super = 128
+glog = logging.getLogger(__name__)
 
 
 class ClassificationEncoderClient(object):
@@ -126,6 +130,16 @@ def l2_normalize(encodings):
     return encodings / norms
 
 
+def encoding_cache_read():
+    with open('encoding_cache.json', '') as cache_file:
+        pass
+
+
+def encoding_cache_write():
+    with open('encoding_cache.json', '') as cache_file:
+        pass
+
+
 def encode_multiple_text_list(text_list):
     sbert_model = 'distiluse-base-multilingual-cased'
     sbert_model2 = 'xlm-r-100langs-bert-base-nli-stsb-mean-tokens'
@@ -136,11 +150,69 @@ def encode_multiple_text_list(text_list):
     laser_encoder = LaserEncoderClient()
     encoder_client = CombinedEncoderClient([laser_encoder, sbert_encoder,
                                             sbert_encoder2, sbert_encoder3])
+
+    class CachingEncoderClient(object):
+        """Wrapper around an encoder to cache the encodings on disk"""
+        def __init__(self, encoder_client, encoder_id, cache_dir):
+            """Create a new CachingEncoderClient object
+            Args:
+                encoder_client: An EncoderClient
+                encoder_id: An unique ID for the encoder
+                cache_dir: The directory where the encodings will be cached
+            """
+            if not os.path.exists(cache_dir):
+                os.makedirs(cache_dir)
+            self._encodings_dict_path = os.path.join(
+                cache_dir, encoder_id)
+            self._encoder_client = encoder_client
+            self._encodings_dict = self._load_or_create_encodings_dict()
+
+        def _load_or_create_encodings_dict(self):
+            if os.path.exists(self._encodings_dict_path):
+                with open(self._encodings_dict_path, "rb") as f:
+                    encodings_dict = pickle.load(f)
+            else:
+                encodings_dict = {}
+            return encodings_dict
+
+        def _save_encodings_dict(self):
+            with open(self._encodings_dict_path, "wb") as f:
+                pickle.dump(self._encodings_dict, f)
+
+        def encode_sentences(self, sentences):
+            """Encode a list of sentences
+
+            Args:
+                sentences: the list of sentences
+
+            Returns:
+                an (N, d) numpy matrix of sentence encodings.
+            """
+            missing_sentences = [
+                sentence for sentence in sentences
+                if sentence not in self._encodings_dict]
+            if len(sentences) != len(missing_sentences):
+                glog.info(f"{len(sentences) - len(missing_sentences)} cached "
+                          f"sentences will not be encoded")
+            if missing_sentences:
+                missing_encodings = self._encoder_client.encode_sentences(
+                    missing_sentences)
+                for sentence, encoding in zip(missing_sentences,
+                                              missing_encodings):
+                    self._encodings_dict[sentence] = encoding
+                self._save_encodings_dict()
+
+            encodings = np.array(
+                [self._encodings_dict[sentence] for sentence in sentences])
+            return encodings
+
     text_all = list()
     for t in text_list:
         text_all += t
     text_all_unique = list(set(text_all))
-    text_all_unique_encoded = encoder_client.encode_sentences(text_all_unique)
+    cached_encoder = CachingEncoderClient(encoder_client, cache_dir='cache-encoding',
+                                          encoder_id='combined_encoders')
+    text_all_unique_encoded = cached_encoder.encode_sentences(text_all_unique)
 
     text_encoding_map = dict()
     for text, encoding in zip(text_all_unique, text_all_unique_encoded):
