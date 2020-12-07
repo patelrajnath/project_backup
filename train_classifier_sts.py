@@ -31,39 +31,24 @@ if __name__ == '__main__':
 
     # train_df = pd.concat([train_df, eval_df])
     num_samples = 50000
-    file_suffix = 'stack-exchange_test'
-    if not os.path.isfile('train_a_encoded_{}.txt'.format(file_suffix)):
-        start_time = time.time()
-        train_a = train_df.text_a.tolist()[:num_samples]
-        train_b = train_df.text_b.tolist()[:num_samples]
-        test_a = test_df.text_a.tolist()[:num_samples]
-        test_b = test_df.text_b.tolist()[:num_samples]
+    file_suffix = 'stack'
+    start_time = time.time()
+    train_a = train_df.text_a.tolist()[:num_samples]
+    train_b = train_df.text_b.tolist()[:num_samples]
+    test_a = test_df.text_a.tolist()[:num_samples]
+    test_b = test_df.text_b.tolist()[:num_samples]
 
-        # The encoding method returns list of text in the same order as given in the input
-        train_a_encoded, train_b_encoded, test_a_encoded, test_b_encoded =\
-            encode_multiple_text_list([train_a, train_b, test_a, test_b])
-
-        np.savetxt('train_a_encoded_{}.txt'.format(file_suffix), train_a_encoded, fmt="%.8g")
-        np.savetxt('train_b_encoded_{}.txt'.format(file_suffix), train_b_encoded, fmt="%.8g")
-        np.savetxt('test_a_encoded_{}.txt'.format(file_suffix), test_a_encoded, fmt="%.8g")
-        np.savetxt('test_b_encoded_{}.txt'.format(file_suffix), test_b_encoded, fmt="%.8g")
-        print('Encoding time:{}'.format(time.time() - start_time))
+    # The encoding method returns list of text in the same order as given in the input
+    train_a_encoded, train_b_encoded, test_a_encoded, test_b_encoded =\
+        encode_multiple_text_list([train_a, train_b, test_a, test_b])
+    print('Encoding time:{}'.format(time.time() - start_time))
 
     hparams = hparamset()
     test_scores = test_df.labels.tolist()[:num_samples]
     train_scores = train_df.labels.tolist()[:num_samples]
-    train_a_encoded = np.loadtxt('train_a_encoded_{}.txt'.format(file_suffix))
-    train_b_encoded = np.loadtxt('train_b_encoded_{}.txt'.format(file_suffix))
-    test_a_encoded = np.loadtxt('test_a_encoded_{}.txt'.format(file_suffix))
-    test_b_encoded = np.loadtxt('test_b_encoded_{}.txt'.format(file_suffix))
-
-    train_a_encoded = train_a_encoded.astype(np.float32)
-    train_b_encoded = train_b_encoded.astype(np.float32)
-    test_a_encoded = test_a_encoded.astype(np.float32)
-    test_b_encoded = test_b_encoded.astype(np.float32)
-
     train_scores = np.asarray(train_scores, dtype=np.float32)
     test_scores = np.asarray(test_scores, dtype=np.float32)
+
     n_samples = train_a_encoded.shape[0]
     hparams.input_size = train_a_encoded.shape[1]
 
@@ -91,6 +76,7 @@ if __name__ == '__main__':
         total_loss = 0
         updates = 1
         model.train()
+        best_acc_pearson = 0
         for batch in batcher:
             optimizer.zero_grad()
             a, b, score = batch
@@ -118,6 +104,10 @@ if __name__ == '__main__':
                     valid_acc_pearson = pearson_corr(test_predict.cpu().data, score_tensor.cpu().data)
                     valid_acc_spearman = spearman_corr(test_predict.cpu().data, score_tensor.cpu().data)
                     print("Valid Accuracy:{0}, {1}".format(valid_acc_pearson, valid_acc_spearman))
+                    if best_acc_pearson < valid_acc_pearson:
+                        save_state("model_best-sts_{}.pt".format(file_suffix), model, criterion, optimizer,
+                                   num_updates=updates)
+                        best_acc_pearson = valid_acc_pearson
 
                 # Reset the loss accumulation
                 total_loss = 0
