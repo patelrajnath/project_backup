@@ -13,23 +13,24 @@ import numpy as np
 from models.classifier import MultilingualClassifier
 from models.encoders import encode_multiple_text_list
 from models.model_utils import save_state, hparamset, set_seed
+from optims.optimization import BertAdam
 
 glog = logging.getLogger(__name__)
 
 if __name__ == '__main__':
-    # train_df = pd.read_csv('datasets/NLU/64intent_11k_sample_split_MAIN/200924v2_train_custom_nlu_60_64intents.csv')
-    # test_df = pd.read_csv('datasets/NLU/64intent_11k_sample_split_MAIN/200924v2_test_custom_nlu_30_64intents.csv')
-    # eval_df = pd.read_csv('datasets/NLU/64intent_11k_sample_split_MAIN/200924v2_val_custom_nlu_10_64intents.csv')
-    # train_df = pd.concat([train_df, eval_df])
+    train_df = pd.read_csv('datasets/NLU/64intent_11k_sample_split_MAIN/200924v2_train_custom_nlu_60_64intents.csv')
+    test_df = pd.read_csv('datasets/NLU/64intent_11k_sample_split_MAIN/200924v2_test_custom_nlu_30_64intents.csv')
+    eval_df = pd.read_csv('datasets/NLU/64intent_11k_sample_split_MAIN/200924v2_val_custom_nlu_10_64intents.csv')
+    train_df = pd.concat([train_df, eval_df])
 
-    train_df = pd.read_csv('datasets/stack-exchange/train-stackexchange.csv')
-    test_df = pd.read_csv('datasets/stack-exchange/test-stackexchange.csv')
-    train_df = train_df.rename(columns={'intentId': 'labels'}).dropna()
-    test_df = test_df.rename(columns={'intentId': 'labels'}).dropna()
+    # train_df = pd.read_csv('datasets/stack-exchange/train-stackexchange.csv')
+    # test_df = pd.read_csv('datasets/stack-exchange/test-stackexchange.csv')
+    # train_df = train_df.rename(columns={'intentId': 'labels'}).dropna()
+    # test_df = test_df.rename(columns={'intentId': 'labels'}).dropna()
 
     num_samples = 50000
     # file_suffix = 'stack-exchange-classifier'
-    file_suffix = 'stack'
+    file_suffix = 'nlu'
     start_time = time.time()
     train_text = train_df.text.tolist()[:num_samples]
     train_text = [str(t) for t in train_text]
@@ -69,8 +70,10 @@ if __name__ == '__main__':
         # optimizer = torch.optim.SGD(model.parameters(), lr=hparams.learning_rate)
         # optimizer = NoamOpt(hparams.input_size, 1, 200,
         #                     torch.optim.Adam(model.parameters(), betas=(0.9, 0.98), eps=1e-9))
-        optimizer = torch.optim.Adam(model.parameters(),
-                                     betas=(0.9, 0.98), eps=1e-9)
+        # optimizer = torch.optim.Adam(model.parameters(),
+        #                              betas=(0.9, 0.98), eps=1e-9)
+
+        optimizer = BertAdam(model, lr=0.001)
 
         criterion = nn.NLLLoss()
         total_loss = 0
